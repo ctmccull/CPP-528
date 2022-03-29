@@ -15,7 +15,7 @@ filter_cat <- function( data , search )
 # import data dictionary
 dd <- LTDB_DATA_DICTIONARY
 
-# function2
+# function 2
 search_var <- function(string)
 {
 vector <- dd$definition
@@ -24,3 +24,13 @@ dat.sub <- dd[ these, ]
 return( dat.sub )
 }
 
+# Function 3 filter by year
+
+filter_year <- function( year )
+{
+  
+  dd.year <- dd %>% dplyr::select( contains( year ))
+  
+  return( dd.year )
+  
+}
