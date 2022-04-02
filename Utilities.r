@@ -8,7 +8,7 @@ filter_cat <- function( data , search )
   
 {
   num <- grep(search, data$category, ignore.case = T) 
-  dat.cat <- data.frame(data[num,])
+  dat.cat <- data.frame(data[num,])getwd
   return( dat.cat )
 }
 
@@ -24,13 +24,15 @@ dat.sub <- dd[ these, ]
 return( dat.sub )
 }
 
-# Function 3 filter by year
+# Function 3 filter by year, revised after Lab02
 
 filter_year <- function( year )
 {
   
-  dd.year <- dd %>% dplyr::select( contains( year ))
+  dd.year <- dd %>% dplyr::select( contains( year ), ) %>%
+    filter( any( !is.na( c_across( everything() ) ) ) )
   
   return( dd.year )
   
 }
+
