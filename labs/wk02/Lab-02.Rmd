@@ -1,0 +1,110 @@
+---
+title: "Lab 02"
+author: "Ahmed Radwan"
+date: "3/29/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r, message=FALSE, warning=FALSE}
+
+library( tidyverse )
+library( here )
+library( pander )
+
+
+```
+
+
+
+```{r}
+
+# store data dictionary file path
+DD_FILEPATH <- here::here( "data/rodeo/LTDB-DATA-DICTIONARY.csv" )
+
+# import data dictionary
+dd <- read.csv( DD_FILEPATH, stringsAsFactors=F )
+
+```
+
+
+
+```{r}
+
+# Function 1 Filter by Category
+
+filter_cat <- function( data , search )
+  
+{
+  num <- grep(search, data$category, ignore.case = T) 
+  dat.cat <- data.frame(data[num,])
+  return( dat.cat )
+}
+
+```
+
+```{r}
+
+# Function 1 test
+
+filter_cat( dd, "age" )
+
+```
+
+```{r}
+# Function 2 filter by description text
+
+search_var <- function(string)
+{
+vector <- dd$definition
+
+these <- grepl( string, vector, ignore.case=T )
+
+dat.sub <- dd[ these, ]
+
+return( dat.sub )
+
+}
+
+```
+
+
+```{r}
+#Function 2 test
+
+search_var( "race")
+
+```
+
+
+
+
+```{r}
+# Function 3 filter by year
+
+filter_year <- function( year )
+{
+  
+  dd.year <- dd %>% dplyr::select( contains( year ))
+  
+  return( dd.year )
+  
+}
+
+```
+
+
+```{r}
+# Function 3 test
+
+filter_year( "1970" )
+
+```
+
+
+
+
