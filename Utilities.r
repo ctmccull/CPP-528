@@ -1,8 +1,5 @@
 
 
-
-
-
 # function 1
 filter_cat <- function( data , search )
   
