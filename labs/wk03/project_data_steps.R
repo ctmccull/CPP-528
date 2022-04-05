@@ -13,7 +13,7 @@ import::here("build_year",
              "create_final_metadata_file",
              # notice the use of here::here() that points to the .R file
              # where all these R objects are created
-             .from = here::here("labs/utilities.R"),
+             .from = here::here("labs/wk03/utilities.R"),
              .character_only = TRUE)
 
 # for each relevant file, run the build_year() function ----
