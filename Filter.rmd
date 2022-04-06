@@ -1,0 +1,42 @@
+---
+title: "Filter.rmd"
+author: "Ahmed Radwan"
+date: "3/29/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+library( tidyverse )
+library( here )
+library( pander )
+```
+
+
+
+```{r}
+
+# store data dictionary file path
+DD_FILEPATH <- here::here( "data/rodeo/LTDB-DATA-DICTIONARY.csv" )
+
+# import data dictionary
+dd <- read.csv( DD_FILEPATH, stringsAsFactors=F )
+
+
+source(here("Utilities.r"))
+
+
+
+```
+
+
+
+
+
+
+```{r}
+
+```
+
+

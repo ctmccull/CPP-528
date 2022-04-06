@@ -1,0 +1,3222 @@
+YEAR,STATEFP10,COUNTYFP10,NAME10,CNTYID,STATE_1,GlobD10,GlobG10
+2010,2,13,Aleutians East,2013,AK,,Immigrant minority
+2010,2,16,Aleutians West,2016,AK,,Immigrant minority
+2010,28,107,Panola,28107,MS,,White/Black
+2010,28,101,Newton,28101,MS,,White/Black
+2010,28,27,Coahoma,28027,MS,,White/Black
+2010,22,65,Madison,22065,LA,,White/Black
+2010,51,540,Charlottesville,51540,VA,,Immigrant minority
+2010,51,510,Alexandria,51510,VA,,Immigrant minority
+2010,51,530,Buena Vista,51530,VA,,Immigrant minority
+2010,51,600,Fairfax,51600,VA,,Immigrant minority
+2010,48,113,Dallas,48113,TX,,Immigrant minority
+2010,48,227,Howard,48227,TX,,Immigrant minority
+2010,48,155,Foard,48155,TX,,
+2010,48,153,Floyd,48153,TX,,
+2010,48,43,Brewster,48043,TX,,Immigrant minority
+2010,48,159,Franklin,48159,TX,,
+2010,48,231,Hunt,48231,TX,,Immigrant minority
+2010,48,351,Newton,48351,TX,,White/Black
+2010,48,427,Starr,48427,TX,,
+2010,48,271,Kinney,48271,TX,,Immigrant minority
+2010,48,87,Collingsworth,48087,TX,,
+2010,48,451,Tom Green,48451,TX,,Immigrant minority
+2010,48,83,Coleman,48083,TX,,Immigrant minority
+2010,48,39,Brazoria,48039,TX,,Immigrant minority
+2010,48,289,Leon,48289,TX,,
+2010,48,131,Duval,48131,TX,,
+2010,48,279,Lamb,48279,TX,,
+2010,48,343,Morris,48343,TX,,
+2010,48,423,Smith,48423,TX,,Immigrant minority
+2010,48,239,Jackson,48239,TX,,
+2010,48,325,Medina,48325,TX,,Immigrant minority
+2010,48,483,Wheeler,48483,TX,,Immigrant minority
+2010,48,111,Dallam,48111,TX,,Immigrant minority
+2010,48,59,Callahan,48059,TX,,Immigrant minority
+2010,48,277,Lamar,48277,TX,,
+2010,48,99,Coryell,48099,TX,,Immigrant minority
+2010,48,165,Gaines,48165,TX,,Immigrant minority
+2010,48,259,Kendall,48259,TX,,Immigrant minority
+2010,48,347,Nacogdoches,48347,TX,,Immigrant minority
+2010,48,331,Milam,48331,TX,,
+2010,48,209,Hays,48209,TX,,Immigrant minority
+2010,48,489,Willacy,48489,TX,,
+2010,34,17,Hudson,34017,NJ,,Immigrant minority
+2010,34,11,Cumberland,34011,NJ,,Immigrant minority
+2010,23,19,Penobscot,23019,ME,,Immigrant minority
+2010,50,9,Essex,50009,VT,,White
+2010,50,11,Franklin,50011,VT,,White
+2010,56,1,Albany,56001,WY,,Immigrant minority
+2010,56,15,Goshen,56015,WY,,Immigrant minority
+2010,56,45,Weston,56045,WY,,White
+2010,56,17,Hot Springs,56017,WY,,White
+2010,56,39,Teton,56039,WY,,Immigrant minority
+2010,56,3,Big Horn,56003,WY,,Immigrant minority
+2010,56,27,Niobrara,56027,WY,,White
+2010,56,33,Sheridan,56033,WY,,Immigrant minority
+2010,56,43,Washakie,56043,WY,,Immigrant minority
+2010,56,5,Campbell,56005,WY,,Immigrant minority
+2010,56,25,Natrona,56025,WY,,Immigrant minority
+2010,50,5,Caledonia,50005,VT,,Immigrant minority
+2010,56,31,Platte,56031,WY,,Immigrant minority
+2010,56,9,Converse,56009,WY,,Immigrant minority
+2010,56,11,Crook,56011,WY,,White
+2010,50,1,Addison,50001,VT,,Immigrant minority
+2010,56,19,Johnson,56019,WY,,Immigrant minority
+2010,56,21,Laramie,56021,WY,,Immigrant minority
+2010,50,21,Rutland,50021,VT,,White
+2010,50,25,Windham,50025,VT,,Immigrant minority
+2010,56,29,Park,56029,WY,,Immigrant minority
+2010,50,27,Windsor,50027,VT,,Immigrant minority
+2010,50,23,Washington,50023,VT,,Immigrant minority
+2010,50,13,Grand Isle,50013,VT,,White
+2010,50,15,Lamoille,50015,VT,,White
+2010,29,99,Jefferson,29099,MO,,Immigrant minority
+2010,29,79,Grundy,29079,MO,,White
+2010,29,510,St. Louis,29510,MO,,Immigrant minority
+2010,29,93,Iron,29093,MO,,White
+2010,29,185,St. Clair,29185,MO,,White
+2010,29,37,Cass,29037,MO,,Immigrant minority
+2010,29,229,Wright,29229,MO,,White
+2010,29,153,Ozark,29153,MO,,White
+2010,29,83,Henry,29083,MO,,White
+2010,17,9,Brown,17009,IL,,
+2010,17,33,Crawford,17033,IL,,White/Black
+2010,17,85,Jo Daviess,17085,IL,,White
+2010,17,65,Hamilton,17065,IL,,White
+2010,17,109,McDonough,17109,IL,,Immigrant minority
+2010,17,135,Montgomery,17135,IL,,White/Black
+2010,17,41,Douglas,17041,IL,,Immigrant minority
+2010,17,181,Union,17181,IL,,Immigrant minority
+2010,17,115,Macon,17115,IL,,Immigrant minority
+2010,17,201,Winnebago,17201,IL,,Immigrant minority
+2010,17,133,Monroe,17133,IL,,White
+2010,17,129,Menard,17129,IL,,White
+2010,17,83,Jersey,17083,IL,,White
+2010,17,171,Scott,17171,IL,,White
+2010,17,131,Mercer,17131,IL,,White
+2010,17,47,Edwards,17047,IL,,White
+2010,17,35,Cumberland,17035,IL,,White
+2010,17,197,Will,17197,IL,,Immigrant minority
+2010,6,59,Orange,6059,CA,,Immigrant minority
+2010,6,103,Tehama,6103,CA,,Immigrant minority
+2010,6,11,Colusa,6011,CA,,Immigrant minority
+2010,6,83,Santa Barbara,6083,CA,,Immigrant minority
+2010,6,51,Mono,6051,CA,,Immigrant minority
+2010,6,53,Monterey,6053,CA,,Immigrant minority
+2010,49,3,Box Elder,49003,UT,,Immigrant minority
+2010,6,61,Placer,6061,CA,,Immigrant minority
+2010,6,5,Amador,6005,CA,,Immigrant minority
+2010,6,9,Calaveras,6009,CA,,Immigrant minority
+2010,6,25,Imperial,6025,CA,,Immigrant minority
+2010,37,69,Franklin,37069,NC,,
+2010,37,31,Carteret,37031,NC,,Immigrant minority
+2010,37,57,Davidson,37057,NC,,Immigrant minority
+2010,42,21,Cambria,42021,PA,,White/Black
+2010,37,163,Sampson,37163,NC,,
+2010,37,101,Johnston,37101,NC,,
+2010,37,27,Caldwell,37027,NC,,
+2010,42,3,Allegheny,42003,PA,,Immigrant minority
+2010,37,153,Richmond,37153,NC,,Immigrant minority
+2010,37,123,Montgomery,37123,NC,,Immigrant minority
+2010,37,179,Union,37179,NC,,Immigrant minority
+2010,37,51,Cumberland,37051,NC,,Immigrant minority
+2010,42,1,Adams,42001,PA,,Immigrant minority
+2010,42,61,Huntingdon,42061,PA,,White/Black
+2010,37,23,Burke,37023,NC,,Immigrant minority
+2010,37,97,Iredell,37097,NC,,Immigrant minority
+2010,37,63,Durham,37063,NC,,Immigrant minority
+2010,42,39,Crawford,42039,PA,,White
+2010,42,45,Delaware,42045,PA,,Immigrant minority
+2010,37,79,Greene,37079,NC,,
+2010,42,35,Clinton,42035,PA,,White
+2010,37,143,Perquimans,37143,NC,,White/Black
+2010,37,83,Halifax,37083,NC,,White/Black
+2010,37,37,Chatham,37037,NC,,Immigrant minority
+2010,37,171,Surry,37171,NC,,
+2010,42,73,Lawrence,42073,PA,,White/Black
+2010,42,93,Montour,42093,PA,,Immigrant minority
+2010,37,155,Robeson,37155,NC,,
+2010,37,121,Mitchell,37121,NC,,Immigrant minority
+2010,42,117,Tioga,42117,PA,,White
+2010,42,9,Bedford,42009,PA,,White
+2010,37,13,Beaufort,37013,NC,,
+2010,42,89,Monroe,42089,PA,,Immigrant minority
+2010,42,131,Wyoming,42131,PA,,White
+2010,37,127,Nash,37127,NC,,Immigrant minority
+2010,42,83,McKean,42083,PA,,White
+2010,42,133,York,42133,PA,,Immigrant minority
+2010,42,49,Erie,42049,PA,,Immigrant minority
+2010,37,67,Forsyth,37067,NC,,Immigrant minority
+2010,42,51,Fayette,42051,PA,,White/Black
+2010,42,99,Perry,42099,PA,,White
+2010,42,85,Mercer,42085,PA,,White/Black
+2010,42,33,Clearfield,42033,PA,,White
+2010,39,49,Franklin,39049,OH,,Immigrant minority
+2010,37,107,Lenoir,37107,NC,,
+2010,42,37,Columbia,42037,PA,,Immigrant minority
+2010,42,59,Greene,42059,PA,,White/Black
+2010,42,53,Forest,42053,PA,,
+2010,37,119,Mecklenburg,37119,NC,,Immigrant minority
+2010,37,89,Henderson,37089,NC,,Immigrant minority
+2010,37,81,Guilford,37081,NC,,Immigrant minority
+2010,42,17,Bucks,42017,PA,,Immigrant minority
+2010,36,53,Madison,36053,NY,,Immigrant minority
+2010,42,11,Berks,42011,PA,,Immigrant minority
+2010,2,240,Southeast Fairbanks,2240,AK,,Immigrant minority
+2010,2,70,Dillingham,2070,AK,,Other
+2010,2,164,Lake and Peninsula,2164,AK,,Immigrant minority
+2010,2,185,North Slope,2185,AK,,Immigrant minority
+2010,2,105,Hoonah-Angoon,2105,AK,,Immigrant minority
+2010,2,150,Kodiak Island,2150,AK,,Immigrant minority
+2010,2,230,Skagway,2230,AK,,Immigrant minority
+2010,2,188,Northwest Arctic,2188,AK,,Other
+2010,2,130,Ketchikan Gateway,2130,AK,,Immigrant minority
+2010,2,270,Wade Hampton,2270,AK,,Other
+2010,28,145,Union,28145,MS,,
+2010,28,53,Humphreys,28053,MS,,White/Black
+2010,28,141,Tishomingo,28141,MS,,White/Black
+2010,28,87,Lowndes,28087,MS,,Immigrant minority
+2010,22,89,St. Charles,22089,LA,,Immigrant minority
+2010,22,73,Ouachita,22073,LA,,Immigrant minority
+2010,22,7,Assumption,22007,LA,,White/Black
+2010,22,27,Claiborne,22027,LA,,White/Black
+2010,22,19,Calcasieu,22019,LA,,Immigrant minority
+2010,22,1,Acadia,22001,LA,,White/Black
+2010,22,79,Rapides,22079,LA,,Immigrant minority
+2010,22,127,Winn,22127,LA,,White/Black
+2010,22,21,Caldwell,22021,LA,,White/Black
+2010,22,29,Concordia,22029,LA,,White/Black
+2010,51,610,Falls Church,51610,VA,,Immigrant minority
+2010,51,185,Tazewell,51185,VA,,White/Black
+2010,51,683,Manassas,51683,VA,,Immigrant minority
+2010,51,820,Waynesboro,51820,VA,,Immigrant minority
+2010,51,790,Staunton,51790,VA,,Immigrant minority
+2010,51,183,Sussex,51183,VA,,White/Black
+2010,51,171,Shenandoah,51171,VA,,Immigrant minority
+2010,51,750,Radford,51750,VA,,Immigrant minority
+2010,48,251,Johnson,48251,TX,,Immigrant minority
+2010,48,383,Reagan,48383,TX,,Immigrant minority
+2010,48,479,Webb,48479,TX,,
+2010,48,417,Shackelford,48417,TX,,Immigrant minority
+2010,48,37,Bowie,48037,TX,,Immigrant minority
+2010,48,415,Scurry,48415,TX,,
+2010,48,261,Kenedy,48261,TX,,Immigrant minority
+2010,48,425,Somervell,48425,TX,,Immigrant minority
+2010,48,359,Oldham,48359,TX,,
+2010,48,441,Taylor,48441,TX,,Immigrant minority
+2010,48,269,King,48269,TX,,Immigrant minority
+2010,48,33,Borden,48033,TX,,Immigrant minority
+2010,48,471,Walker,48471,TX,,Immigrant minority
+2010,48,429,Stephens,48429,TX,,Immigrant minority
+2010,48,117,Deaf Smith,48117,TX,,Immigrant minority
+2010,48,393,Roberts,48393,TX,,Immigrant minority
+2010,48,457,Tyler,48457,TX,,
+2010,48,465,Val Verde,48465,TX,,
+2010,48,49,Brown,48049,TX,,
+2010,48,367,Parker,48367,TX,,Immigrant minority
+2010,48,201,Harris,48201,TX,,Immigrant minority
+2010,48,505,Zapata,48505,TX,,
+2010,48,387,Red River,48387,TX,,
+2010,48,255,Karnes,48255,TX,,
+2010,48,363,Palo Pinto,48363,TX,,Immigrant minority
+2010,48,173,Glasscock,48173,TX,,Immigrant minority
+2010,48,419,Shelby,48419,TX,,
+2010,48,499,Wood,48499,TX,,
+2010,34,21,Mercer,34021,NJ,,Immigrant minority
+2010,34,7,Camden,34007,NJ,,Immigrant minority
+2010,34,31,Passaic,34031,NJ,,Immigrant minority
+2010,4,19,Pima,4019,AZ,,Immigrant minority
+2010,4,17,Navajo,4017,AZ,,Immigrant minority
+2010,4,12,La Paz,4012,AZ,,Immigrant minority
+2010,23,29,Washington,23029,ME,,White
+2010,35,21,Harding,35021,NM,,Immigrant minority
+2010,35,51,Sierra,35051,NM,,Immigrant minority
+2010,35,25,Lea,35025,NM,,
+2010,56,23,Lincoln,56023,WY,,Immigrant minority
+2010,35,19,Guadalupe,35019,NM,,Immigrant minority
+2010,56,37,Sweetwater,56037,WY,,Immigrant minority
+2010,35,57,Torrance,35057,NM,,Immigrant minority
+2010,23,3,Aroostook,23003,ME,,White
+2010,56,41,Uinta,56041,WY,,Immigrant minority
+2010,56,35,Sublette,56035,WY,,Immigrant minority
+2010,35,17,Grant,35017,NM,,Immigrant minority
+2010,35,35,Otero,35035,NM,,Immigrant minority
+2010,35,45,San Juan,35045,NM,,Immigrant minority
+2010,56,7,Carbon,56007,WY,,Immigrant minority
+2010,35,41,Roosevelt,35041,NM,,Immigrant minority
+2010,35,9,Curry,35009,NM,,Immigrant minority
+2010,35,55,Taos,35055,NM,,Immigrant minority
+2010,35,23,Hidalgo,35023,NM,,Immigrant minority
+2010,35,15,Eddy,35015,NM,,Immigrant minority
+2010,35,11,De Baca,35011,NM,,Immigrant minority
+2010,35,6,Cibola,35006,NM,,Immigrant minority
+2010,35,37,Quay,35037,NM,,Immigrant minority
+2010,35,7,Colfax,35007,NM,,Immigrant minority
+2010,35,28,Los Alamos,35028,NM,,Immigrant minority
+2010,35,1,Bernalillo,35001,NM,,Immigrant minority
+2010,23,9,Hancock,23009,ME,,Immigrant minority
+2010,56,13,Fremont,56013,WY,,Immigrant minority
+2010,29,71,Franklin,29071,MO,,White
+2010,24,29,Kent,24029,MD,,Immigrant minority
+2010,44,3,Kent,44003,RI,,Immigrant minority
+2010,24,17,Charles,24017,MD,,Immigrant minority
+2010,24,11,Caroline,24011,MD,,
+2010,29,141,Morgan,29141,MO,,White
+2010,44,9,Washington,44009,RI,,Immigrant minority
+2010,44,1,Bristol,44001,RI,,Immigrant minority
+2010,29,137,Monroe,29137,MO,,White/Black
+2010,29,215,Texas,29215,MO,,White/Black
+2010,29,95,Jackson,29095,MO,,Immigrant minority
+2010,41,49,Morrow,41049,OR,,Immigrant minority
+2010,53,77,Yakima,53077,WA,,Immigrant minority
+2010,41,7,Clatsop,41007,OR,,Immigrant minority
+2010,41,3,Benton,41003,OR,,Immigrant minority
+2010,41,27,Hood River,41027,OR,,Immigrant minority
+2010,53,7,Chelan,53007,WA,,Immigrant minority
+2010,53,35,Kitsap,53035,WA,,Immigrant minority
+2010,53,43,Lincoln,53043,WA,,White
+2010,17,143,Peoria,17143,IL,,Immigrant minority
+2010,17,195,Whiteside,17195,IL,,Immigrant minority
+2010,17,5,Bond,17005,IL,,White/Black
+2010,17,99,LaSalle,17099,IL,,Immigrant minority
+2010,17,43,DuPage,17043,IL,,Immigrant minority
+2010,17,91,Kankakee,17091,IL,,Immigrant minority
+2010,72,91,Manatí,72091,PR,,
+2010,72,49,Culebra,72049,PR,,
+2010,72,5,Aguadilla,72005,PR,,
+2010,72,43,Coamo,72043,PR,,
+2010,72,83,Las Marías,72083,PR,,
+2010,72,13,Arecibo,72013,PR,,
+2010,72,15,Arroyo,72015,PR,,
+2010,72,53,Fajardo,72053,PR,,
+2010,72,33,Cataño,72033,PR,,
+2010,72,45,Comerío,72045,PR,,
+2010,72,27,Camuy,72027,PR,,
+2010,72,59,Guayanilla,72059,PR,,
+2010,72,113,Ponce,72113,PR,,
+2010,72,77,Juncos,72077,PR,,
+2010,55,11,Buffalo,55011,WI,,White
+2010,55,51,Iron,55051,WI,,White
+2010,42,47,Elk,42047,PA,,White
+2010,55,19,Clark,55019,WI,,Immigrant minority
+2010,42,107,Schuylkill,42107,PA,,White/Black
+2010,42,57,Fulton,42057,PA,,White
+2010,42,29,Chester,42029,PA,,Immigrant minority
+2010,55,49,Iowa,55049,WI,,White
+2010,42,121,Venango,42121,PA,,White
+2010,42,113,Sullivan,42113,PA,,White
+2010,55,47,Green Lake,55047,WI,,Immigrant minority
+2010,55,55,Jefferson,55055,WI,,Immigrant minority
+2010,55,15,Calumet,55015,WI,,Immigrant minority
+2010,55,31,Douglas,55031,WI,,Immigrant minority
+2010,55,83,Oconto,55083,WI,,White
+2010,55,61,Kewaunee,55061,WI,,White
+2010,55,57,Juneau,55057,WI,,White
+2010,42,105,Potter,42105,PA,,White
+2010,55,63,La Crosse,55063,WI,,Immigrant minority
+2010,55,85,Oneida,55085,WI,,White
+2010,55,95,Polk,55095,WI,,White
+2010,55,59,Kenosha,55059,WI,,Immigrant minority
+2010,55,93,Pierce,55093,WI,,Immigrant minority
+2010,55,37,Florence,55037,WI,,White
+2010,55,23,Crawford,55023,WI,,White
+2010,42,81,Lycoming,42081,PA,,White/Black
+2010,42,15,Bradford,42015,PA,,White
+2010,42,7,Beaver,42007,PA,,White/Black
+2010,42,13,Blair,42013,PA,,White
+2010,42,77,Lehigh,42077,PA,,Immigrant minority
+2010,39,69,Henry,39069,OH,,Immigrant minority
+2010,42,25,Carbon,42025,PA,,Immigrant minority
+2010,42,87,Mifflin,42087,PA,,White
+2010,42,119,Union,42119,PA,,Immigrant minority
+2010,42,123,Warren,42123,PA,,White
+2010,42,75,Lebanon,42075,PA,,Immigrant minority
+2010,42,125,Washington,42125,PA,,White/Black
+2010,42,69,Lackawanna,42069,PA,,Immigrant minority
+2010,42,43,Dauphin,42043,PA,,Immigrant minority
+2010,42,97,Northumberland,42097,PA,,White
+2010,42,79,Luzerne,42079,PA,,Immigrant minority
+2010,42,101,Philadelphia,42101,PA,,Immigrant minority
+2010,42,91,Montgomery,42091,PA,,Immigrant minority
+2010,42,41,Cumberland,42041,PA,,Immigrant minority
+2010,42,111,Somerset,42111,PA,,White
+2010,42,23,Cameron,42023,PA,,White
+2010,42,55,Franklin,42055,PA,,Immigrant minority
+2010,42,67,Juniata,42067,PA,,White
+2010,42,27,Centre,42027,PA,,Immigrant minority
+2010,42,5,Armstrong,42005,PA,,White
+2010,39,145,Scioto,39145,OH,,White/Black
+2010,42,71,Lancaster,42071,PA,,Immigrant minority
+2010,42,127,Wayne,42127,PA,,
+2010,42,115,Susquehanna,42115,PA,,White
+2010,42,129,Westmoreland,42129,PA,,Immigrant minority
+2010,42,103,Pike,42103,PA,,Immigrant minority
+2010,42,63,Indiana,42063,PA,,Immigrant minority
+2010,42,31,Clarion,42031,PA,,White
+2010,39,103,Medina,39103,OH,,Immigrant minority
+2010,42,95,Northampton,42095,PA,,Immigrant minority
+2010,2,90,Fairbanks North Star,2090,AK,,Immigrant minority
+2010,2,110,Juneau,2110,AK,,Immigrant minority
+2010,2,180,Nome,2180,AK,,Immigrant minority
+2010,2,198,Prince of Wales-Hyder,2198,AK,,Immigrant minority
+2010,2,220,Sitka,2220,AK,,Immigrant minority
+2010,28,49,Hinds,28049,MS,,White/Black
+2010,22,85,Sabine,22085,LA,,
+2010,22,81,Red River,22081,LA,,White/Black
+2010,51,1,Accomack,51001,VA,,
+2010,51,73,Gloucester,51073,VA,,Immigrant minority
+2010,51,690,Martinsville,51690,VA,,Immigrant minority
+2010,51,193,Westmoreland,51193,VA,,
+2010,51,660,Harrisonburg,51660,VA,,Immigrant minority
+2010,48,107,Crosby,48107,TX,,
+2010,48,391,Refugio,48391,TX,,
+2010,48,53,Burnet,48053,TX,,Immigrant minority
+2010,48,431,Sterling,48431,TX,,Immigrant minority
+2010,48,339,Montgomery,48339,TX,,Immigrant minority
+2010,48,405,San Augustine,48405,TX,,
+2010,48,379,Rains,48379,TX,,Immigrant minority
+2010,48,355,Nueces,48355,TX,,Immigrant minority
+2010,48,237,Jack,48237,TX,,
+2010,48,437,Swisher,48437,TX,,
+2010,48,63,Camp,48063,TX,,
+2010,48,41,Brazos,48041,TX,,Immigrant minority
+2010,48,361,Orange,48361,TX,,Immigrant minority
+2010,48,89,Colorado,48089,TX,,
+2010,48,371,Pecos,48371,TX,,
+2010,48,79,Cochran,48079,TX,,
+2010,48,369,Parmer,48369,TX,,Immigrant minority
+2010,48,161,Freestone,48161,TX,,
+2010,48,495,Winkler,48495,TX,,Immigrant minority
+2010,48,485,Wichita,48485,TX,,Immigrant minority
+2010,48,179,Gray,48179,TX,,
+2010,48,413,Schleicher,48413,TX,,Immigrant minority
+2010,48,197,Hardeman,48197,TX,,
+2010,38,29,Emmons,38029,ND,,White
+2010,38,39,Griggs,38039,ND,,White
+2010,38,97,Traill,38097,ND,,White
+2010,34,29,Ocean,34029,NJ,,Immigrant minority
+2010,38,25,Dunn,38025,ND,,White
+2010,38,65,Oliver,38065,ND,,White
+2010,38,87,Slope,38087,ND,,White
+2010,38,35,Grand Forks,38035,ND,,Immigrant minority
+2010,38,41,Hettinger,38041,ND,,White
+2010,38,37,Grant,38037,ND,,White
+2010,38,13,Burke,38013,ND,,White
+2010,38,27,Eddy,38027,ND,,White
+2010,38,73,Ransom,38073,ND,,White
+2010,38,103,Wells,38103,ND,,White
+2010,38,67,Pembina,38067,ND,,White
+2010,38,7,Billings,38007,ND,,White
+2010,38,19,Cavalier,38019,ND,,White
+2010,38,79,Rolette,38079,ND,,White
+2010,38,71,Ramsey,38071,ND,,White
+2010,38,11,Bowman,38011,ND,,White
+2010,32,13,Humboldt,32013,NV,,Immigrant minority
+2010,4,7,Gila,4007,AZ,,Immigrant minority
+2010,4,27,Yuma,4027,AZ,,Immigrant minority
+2010,32,9,Esmeralda,32009,NV,,Immigrant minority
+2010,32,19,Lyon,32019,NV,,Immigrant minority
+2010,32,31,Washoe,32031,NV,,Immigrant minority
+2010,4,25,Yavapai,4025,AZ,,Immigrant minority
+2010,32,21,Mineral,32021,NV,,Immigrant minority
+2010,32,5,Douglas,32005,NV,,Immigrant minority
+2010,32,11,Eureka,32011,NV,,Immigrant minority
+2010,32,15,Lander,32015,NV,,Immigrant minority
+2010,4,21,Pinal,4021,AZ,,Immigrant minority
+2010,32,17,Lincoln,32017,NV,,Immigrant minority
+2010,32,33,White Pine,32033,NV,,Immigrant minority
+2010,32,3,Clark,32003,NV,,Immigrant minority
+2010,35,13,Doña Ana,35013,NM,,Immigrant minority
+2010,35,5,Chaves,35005,NM,,Immigrant minority
+2010,35,61,Valencia,35061,NM,,Immigrant minority
+2010,35,39,Rio Arriba,35039,NM,,
+2010,35,47,San Miguel,35047,NM,,Immigrant minority
+2010,35,3,Catron,35003,NM,,Immigrant minority
+2010,35,43,Sandoval,35043,NM,,Immigrant minority
+2010,35,49,Santa Fe,35049,NM,,Immigrant minority
+2010,35,53,Socorro,35053,NM,,Immigrant minority
+2010,35,27,Lincoln,35027,NM,,Immigrant minority
+2010,35,31,McKinley,35031,NM,,
+2010,35,29,Luna,35029,NM,,Immigrant minority
+2010,35,33,Mora,35033,NM,,Immigrant minority
+2010,35,59,Union,35059,NM,,Immigrant minority
+2010,24,1,Allegany,24001,MD,,Immigrant minority
+2010,24,510,Baltimore,24510,MD,,Immigrant minority
+2010,24,21,Frederick,24021,MD,,Immigrant minority
+2010,44,5,Newport,44005,RI,,Immigrant minority
+2010,44,7,Providence,44007,RI,,Immigrant minority
+2010,24,47,Worcester,24047,MD,,Immigrant minority
+2010,41,53,Polk,41053,OR,,Immigrant minority
+2010,41,39,Lane,41039,OR,,Immigrant minority
+2010,41,63,Wallowa,41063,OR,,White
+2010,41,25,Harney,41025,OR,,Immigrant minority
+2010,41,13,Crook,41013,OR,,Immigrant minority
+2010,41,71,Yamhill,41071,OR,,Immigrant minority
+2010,41,41,Lincoln,41041,OR,,Immigrant minority
+2010,41,59,Umatilla,41059,OR,,Immigrant minority
+2010,41,29,Jackson,41029,OR,,Immigrant minority
+2010,41,15,Curry,41015,OR,,Immigrant minority
+2010,41,57,Tillamook,41057,OR,,Immigrant minority
+2010,41,9,Columbia,41009,OR,,Immigrant minority
+2010,41,11,Coos,41011,OR,,Immigrant minority
+2010,41,51,Multnomah,41051,OR,,Immigrant minority
+2010,41,45,Malheur,41045,OR,,Immigrant minority
+2010,41,19,Douglas,41019,OR,,Immigrant minority
+2010,41,65,Wasco,41065,OR,,Immigrant minority
+2010,41,43,Linn,41043,OR,,Immigrant minority
+2010,41,55,Sherman,41055,OR,,Immigrant minority
+2010,41,31,Jefferson,41031,OR,,Immigrant minority
+2010,41,37,Lake,41037,OR,,Immigrant minority
+2010,41,61,Union,41061,OR,,Immigrant minority
+2010,41,21,Gilliam,41021,OR,,Immigrant minority
+2010,17,121,Marion,17121,IL,,White/Black
+2010,17,127,Massac,17127,IL,,White/Black
+2010,17,19,Champaign,17019,IL,,Immigrant minority
+2010,17,69,Hardin,17069,IL,,White
+2010,17,111,McHenry,17111,IL,,Immigrant minority
+2010,17,149,Pike,17149,IL,,White
+2010,17,49,Effingham,17049,IL,,White
+2010,72,105,Naranjito,72105,PR,,
+2010,72,145,Vega Baja,72145,PR,,
+2010,72,117,Rincón,72117,PR,,
+2010,72,129,San Lorenzo,72129,PR,,
+2010,72,97,Mayagüez,72097,PR,,
+2010,72,147,Vieques,72147,PR,,
+2010,72,39,Ciales,72039,PR,,
+2010,72,111,Peñuelas,72111,PR,,
+2010,72,7,Aguas Buenas,72007,PR,,
+2010,72,11,Añasco,72011,PR,,
+2010,72,115,Quebradillas,72115,PR,,
+2010,72,79,Lajas,72079,PR,,
+2010,72,137,Toa Baja,72137,PR,,
+2010,72,19,Barranquitas,72019,PR,,
+2010,72,133,Santa Isabel,72133,PR,,
+2010,72,123,Salinas,72123,PR,,
+2010,72,89,Luquillo,72089,PR,,
+2010,72,37,Ceiba,72037,PR,,
+2010,72,54,Florida,72054,PR,,
+2010,72,41,Cidra,72041,PR,,
+2010,72,31,Carolina,72031,PR,,
+2010,72,69,Humacao,72069,PR,,
+2010,72,3,Aguada,72003,PR,,
+2010,72,103,Naguabo,72103,PR,,
+2010,72,125,San Germán,72125,PR,,
+2010,72,135,Toa Alta,72135,PR,,
+2010,72,139,Trujillo Alto,72139,PR,,
+2010,72,87,Loíza,72087,PR,,
+2010,72,61,Guaynabo,72061,PR,,
+2010,72,47,Corozal,72047,PR,,
+2010,72,151,Yabucoa,72151,PR,,
+2010,72,57,Guayama,72057,PR,,
+2010,72,17,Barceloneta,72017,PR,,
+2010,72,149,Villalba,72149,PR,,
+2010,72,81,Lares,72081,PR,,
+2010,72,65,Hatillo,72065,PR,,
+2010,72,71,Isabela,72071,PR,,
+2010,72,29,Canóvanas,72029,PR,,
+2010,72,95,Maunabo,72095,PR,,
+2010,6,93,Siskiyou,6093,CA,,Immigrant minority
+2010,6,97,Sonoma,6097,CA,,Immigrant minority
+2010,6,85,Santa Clara,6085,CA,,Immigrant minority
+2010,13,173,Lanier,13173,GA,,Immigrant minority
+2010,13,29,Bryan,13029,GA,,Immigrant minority
+2010,13,1,Appling,13001,GA,,
+2010,13,241,Rabun,13241,GA,,Immigrant minority
+2010,13,23,Bleckley,13023,GA,,Immigrant minority
+2010,13,113,Fayette,13113,GA,,Immigrant minority
+2010,13,163,Jefferson,13163,GA,,White/Black
+2010,13,253,Seminole,13253,GA,,White/Black
+2010,13,39,Camden,13039,GA,,Immigrant minority
+2010,13,127,Glynn,13127,GA,,Immigrant minority
+2010,13,233,Polk,13233,GA,,
+2010,13,211,Morgan,13211,GA,,White/Black
+2010,13,263,Talbot,13263,GA,,White/Black
+2010,13,249,Schley,13249,GA,,
+2010,13,291,Union,13291,GA,,White
+2010,13,315,Wilcox,13315,GA,,
+2010,13,299,Ware,13299,GA,,Immigrant minority
+2010,13,59,Clarke,13059,GA,,Immigrant minority
+2010,13,169,Jones,13169,GA,,White/Black
+2010,13,45,Carroll,13045,GA,,Immigrant minority
+2010,13,247,Rockdale,13247,GA,,Immigrant minority
+2010,13,83,Dade,13083,GA,,White
+2010,13,213,Murray,13213,GA,,Immigrant minority
+2010,6,29,Kern,6029,CA,,Immigrant minority
+2010,55,1,Adams,55001,WI,,
+2010,55,121,Trempealeau,55121,WI,,Immigrant minority
+2010,55,123,Vernon,55123,WI,,White
+2010,55,141,Wood,55141,WI,,Immigrant minority
+2010,55,107,Rusk,55107,WI,,White
+2010,55,133,Waukesha,55133,WI,,Immigrant minority
+2010,55,113,Sawyer,55113,WI,,White
+2010,55,131,Washington,55131,WI,,Immigrant minority
+2010,55,33,Dunn,55033,WI,,Immigrant minority
+2010,55,125,Vilas,55125,WI,,White
+2010,55,67,Langlade,55067,WI,,White
+2010,36,7,Broome,36007,NY,,Immigrant minority
+2010,36,99,Seneca,36099,NY,,White/Black
+2010,55,39,Fond du Lac,55039,WI,,Immigrant minority
+2010,55,35,Eau Claire,55035,WI,,Immigrant minority
+2010,55,101,Racine,55101,WI,,Immigrant minority
+2010,36,93,Schenectady,36093,NY,,Immigrant minority
+2010,36,63,Niagara,36063,NY,,Immigrant minority
+2010,55,119,Taylor,55119,WI,,White
+2010,36,83,Rensselaer,36083,NY,,Immigrant minority
+2010,36,111,Ulster,36111,NY,,Immigrant minority
+2010,55,81,Monroe,55081,WI,,Immigrant minority
+2010,36,85,Richmond,36085,NY,,Immigrant minority
+2010,55,7,Bayfield,55007,WI,,White
+2010,36,75,Oswego,36075,NY,,White
+2010,55,75,Marinette,55075,WI,,White
+2010,55,17,Chippewa,55017,WI,,Immigrant minority
+2010,36,113,Warren,36113,NY,,White
+2010,55,78,Menominee,55078,WI,,
+2010,55,25,Dane,55025,WI,,Immigrant minority
+2010,36,19,Clinton,36019,NY,,Immigrant minority
+2010,55,137,Waushara,55137,WI,,Immigrant minority
+2010,55,139,Winnebago,55139,WI,,Immigrant minority
+2010,55,91,Pepin,55091,WI,,White
+2010,55,129,Washburn,55129,WI,,White
+2010,55,103,Richland,55103,WI,,White
+2010,36,13,Chautauqua,36013,NY,,
+2010,36,35,Fulton,36035,NY,,White
+2010,36,55,Monroe,36055,NY,,Immigrant minority
+2010,36,33,Franklin,36033,NY,,White/Black
+2010,36,15,Chemung,36015,NY,,Immigrant minority
+2010,55,53,Jackson,55053,WI,,White
+2010,55,135,Waupaca,55135,WI,,White
+2010,55,45,Green,55045,WI,,White
+2010,55,105,Rock,55105,WI,,Immigrant minority
+2010,55,29,Door,55029,WI,,White
+2010,55,99,Price,55099,WI,,Immigrant minority
+2010,55,13,Burnett,55013,WI,,White
+2010,55,79,Milwaukee,55079,WI,,Immigrant minority
+2010,55,3,Ashland,55003,WI,,White
+2010,55,21,Columbia,55021,WI,,White
+2010,55,111,Sauk,55111,WI,,Immigrant minority
+2010,55,5,Barron,55005,WI,,White
+2010,55,77,Marquette,55077,WI,,White
+2010,55,87,Outagamie,55087,WI,,Immigrant minority
+2010,36,9,Cattaraugus,36009,NY,,White
+2010,55,109,St. Croix,55109,WI,,Immigrant minority
+2010,55,43,Grant,55043,WI,,White
+2010,55,115,Shawano,55115,WI,,White
+2010,36,61,New York,36061,NY,,Immigrant minority
+2010,55,65,Lafayette,55065,WI,,White
+2010,55,9,Brown,55009,WI,,Immigrant minority
+2010,55,117,Sheboygan,55117,WI,,Immigrant minority
+2010,55,71,Manitowoc,55071,WI,,Immigrant minority
+2010,55,89,Ozaukee,55089,WI,,Immigrant minority
+2010,55,97,Portage,55097,WI,,Immigrant minority
+2010,36,43,Herkimer,36043,NY,,White
+2010,55,73,Marathon,55073,WI,,Immigrant minority
+2010,55,127,Walworth,55127,WI,,Immigrant minority
+2010,55,41,Forest,55041,WI,,White
+2010,55,27,Dodge,55027,WI,,
+2010,55,69,Lincoln,55069,WI,,White
+2010,28,21,Claiborne,28021,MS,,Other
+2010,28,55,Issaquena,28055,MS,,White/Black
+2010,28,23,Clarke,28023,MS,,White/Black
+2010,2,195,Petersburg,2195,AK,,Immigrant minority
+2010,2,275,Wrangell,2275,AK,,Immigrant minority
+2010,2,170,Matanuska-Susitna,2170,AK,,Immigrant minority
+2010,2,290,Yukon-Koyukuk,2290,AK,,White
+2010,2,282,Yakutat,2282,AK,,Immigrant minority
+2010,2,122,Kenai Peninsula,2122,AK,,Immigrant minority
+2010,2,261,Valdez-Cordova,2261,AK,,Immigrant minority
+2010,28,147,Walthall,28147,MS,,White/Black
+2010,28,9,Benton,28009,MS,,White/Black
+2010,22,55,Lafayette,22055,LA,,Immigrant minority
+2010,22,93,St. James,22093,LA,,White/Black
+2010,22,109,Terrebonne,22109,LA,,Immigrant minority
+2010,22,99,St. Martin,22099,LA,,Immigrant minority
+2010,51,775,Salem,51775,VA,,Immigrant minority
+2010,51,810,Virginia Beach,51810,VA,,Immigrant minority
+2010,51,179,Stafford,51179,VA,,Immigrant minority
+2010,48,453,Travis,48453,TX,,Immigrant minority
+2010,48,171,Gillespie,48171,TX,,Immigrant minority
+2010,48,501,Yoakum,48501,TX,,Immigrant minority
+2010,48,149,Fayette,48149,TX,,
+2010,48,463,Uvalde,48463,TX,,Immigrant minority
+2010,48,185,Grimes,48185,TX,,
+2010,48,467,Van Zandt,48467,TX,,
+2010,48,447,Throckmorton,48447,TX,,Immigrant minority
+2010,48,145,Falls,48145,TX,,
+2010,48,181,Grayson,48181,TX,,Immigrant minority
+2010,48,139,Ellis,48139,TX,,
+2010,48,191,Hall,48191,TX,,
+2010,48,125,Dickens,48125,TX,,
+2010,48,455,Trinity,48455,TX,,
+2010,48,389,Reeves,48389,TX,,
+2010,48,315,Marion,48315,TX,,White/Black
+2010,48,443,Terrell,48443,TX,,Immigrant minority
+2010,48,305,Lynn,48305,TX,,Immigrant minority
+2010,48,283,La Salle,48283,TX,,
+2010,48,241,Jasper,48241,TX,,
+2010,48,253,Jones,48253,TX,,
+2010,48,69,Castro,48069,TX,,Immigrant minority
+2010,48,469,Victoria,48469,TX,,Immigrant minority
+2010,48,273,Kleberg,48273,TX,,Immigrant minority
+2010,48,45,Briscoe,48045,TX,,Immigrant minority
+2010,48,77,Clay,48077,TX,,Immigrant minority
+2010,48,321,Matagorda,48321,TX,,Immigrant minority
+2010,48,47,Brooks,48047,TX,,
+2010,48,399,Runnels,48399,TX,,Immigrant minority
+2010,48,65,Carson,48065,TX,,Immigrant minority
+2010,5,107,Phillips,5107,AR,,White/Black
+2010,5,111,Poinsett,5111,AR,,White/Black
+2010,5,143,Washington,5143,AR,,Immigrant minority
+2010,5,81,Little River,5081,AR,,White/Black
+2010,5,121,Randolph,5121,AR,,White
+2010,5,5,Baxter,5005,AR,,White
+2010,5,13,Calhoun,5013,AR,,White/Black
+2010,5,105,Perry,5105,AR,,White
+2010,5,27,Columbia,5027,AR,,White/Black
+2010,5,53,Grant,5053,AR,,White
+2010,5,131,Sebastian,5131,AR,,Immigrant minority
+2010,5,85,Lonoke,5085,AR,,Immigrant minority
+2010,5,101,Newton,5101,AR,,White
+2010,5,109,Pike,5109,AR,,
+2010,5,31,Craighead,5031,AR,,Immigrant minority
+2010,5,79,Lincoln,5079,AR,,
+2010,5,123,St. Francis,5123,AR,,
+2010,5,23,Cleburne,5023,AR,,White
+2010,5,17,Chicot,5017,AR,,
+2010,5,25,Cleveland,5025,AR,,White/Black
+2010,5,15,Carroll,5015,AR,,Immigrant minority
+2010,5,21,Clay,5021,AR,,White
+2010,38,3,Barnes,38003,ND,,White
+2010,38,33,Golden Valley,38033,ND,,White
+2010,38,91,Steele,38091,ND,,White
+2010,38,99,Walsh,38099,ND,,Immigrant minority
+2010,38,51,McIntosh,38051,ND,,White
+2010,38,75,Renville,38075,ND,,White
+2010,38,1,Adams,38001,ND,,White
+2010,38,59,Morton,38059,ND,,White
+2010,38,105,Williams,38105,ND,,White
+2010,38,5,Benson,38005,ND,,White
+2010,38,17,Cass,38017,ND,,Immigrant minority
+2010,38,57,Mercer,38057,ND,,White
+2010,38,21,Dickey,38021,ND,,White
+2010,38,23,Divide,38023,ND,,White
+2010,38,63,Nelson,38063,ND,,White
+2010,38,69,Pierce,38069,ND,,White
+2010,38,47,Logan,38047,ND,,White
+2010,38,31,Foster,38031,ND,,White
+2010,38,53,McKenzie,38053,ND,,White
+2010,38,93,Stutsman,38093,ND,,White
+2010,38,55,McLean,38055,ND,,White
+2010,38,83,Sheridan,38083,ND,,White
+2010,38,85,Sioux,38085,ND,,Other
+2010,38,77,Richland,38077,ND,,White
+2010,38,89,Stark,38089,ND,,Immigrant minority
+2010,38,15,Burleigh,38015,ND,,White
+2010,38,9,Bottineau,38009,ND,,White
+2010,38,95,Towner,38095,ND,,White
+2010,38,81,Sargent,38081,ND,,White
+2010,38,101,Ward,38101,ND,,Immigrant minority
+2010,20,71,Greeley,20071,KS,,Immigrant minority
+2010,20,59,Franklin,20059,KS,,Immigrant minority
+2010,20,147,Phillips,20147,KS,,Immigrant minority
+2010,20,85,Jackson,20085,KS,,Immigrant minority
+2010,20,145,Pawnee,20145,KS,,
+2010,20,27,Clay,20027,KS,,White
+2010,20,11,Bourbon,20011,KS,,White/Black
+2010,20,157,Republic,20157,KS,,White
+2010,20,43,Doniphan,20043,KS,,White/Black
+2010,20,175,Seward,20175,KS,,Immigrant minority
+2010,20,57,Ford,20057,KS,,Immigrant minority
+2010,20,125,Montgomery,20125,KS,,
+2010,20,117,Marshall,20117,KS,,White
+2010,20,207,Woodson,20207,KS,,White
+2010,20,105,Lincoln,20105,KS,,White
+2010,20,55,Finney,20055,KS,,Immigrant minority
+2010,20,187,Stanton,20187,KS,,Immigrant minority
+2010,20,179,Sheridan,20179,KS,,Immigrant minority
+2010,20,17,Chase,20017,KS,,Immigrant minority
+2010,20,51,Ellis,20051,KS,,Immigrant minority
+2010,20,209,Wyandotte,20209,KS,,Immigrant minority
+2010,20,35,Cowley,20035,KS,,Immigrant minority
+2010,20,21,Cherokee,20021,KS,,White
+2010,20,155,Reno,20155,KS,,
+2010,20,197,Wabaunsee,20197,KS,,White
+2010,20,33,Comanche,20033,KS,,Immigrant minority
+2010,20,109,Logan,20109,KS,,White
+2010,24,41,Talbot,24041,MD,,Immigrant minority
+2010,24,23,Garrett,24023,MD,,White
+2010,24,15,Cecil,24015,MD,,Immigrant minority
+2010,24,39,Somerset,24039,MD,,
+2010,24,43,Washington,24043,MD,,Immigrant minority
+2010,24,33,Prince George's,24033,MD,,Immigrant minority
+2010,24,5,Baltimore,24005,MD,,Immigrant minority
+2010,31,21,Burt,31021,NE,,White
+2010,31,47,Dawson,31047,NE,,
+2010,31,155,Saunders,31155,NE,,White
+2010,31,171,Thomas,31171,NE,,White
+2010,31,3,Antelope,31003,NE,,White
+2010,31,71,Garfield,31071,NE,,White
+2010,31,165,Sioux,31165,NE,,Immigrant minority
+2010,31,49,Deuel,31049,NE,,Immigrant minority
+2010,41,5,Clackamas,41005,OR,,Immigrant minority
+2010,41,67,Washington,41067,OR,,Immigrant minority
+2010,41,23,Grant,41023,OR,,White
+2010,41,47,Marion,41047,OR,,Immigrant minority
+2010,31,133,Pawnee,31133,NE,,White
+2010,31,15,Boyd,31015,NE,,White
+2010,31,169,Thayer,31169,NE,,White
+2010,31,87,Hitchcock,31087,NE,,White
+2010,41,35,Klamath,41035,OR,,Immigrant minority
+2010,41,69,Wheeler,41069,OR,,Immigrant minority
+2010,31,7,Banner,31007,NE,,Immigrant minority
+2010,31,65,Furnas,31065,NE,,White
+2010,31,35,Clay,31035,NE,,Immigrant minority
+2010,31,121,Merrick,31121,NE,,Immigrant minority
+2010,31,17,Brown,31017,NE,,White
+2010,31,37,Colfax,31037,NE,,Immigrant minority
+2010,31,43,Dakota,31043,NE,,Immigrant minority
+2010,41,17,Deschutes,41017,OR,,Immigrant minority
+2010,41,1,Baker,41001,OR,,Immigrant minority
+2010,31,5,Arthur,31005,NE,,Immigrant minority
+2010,31,161,Sheridan,31161,NE,,White
+2010,31,159,Seward,31159,NE,,White
+2010,41,33,Josephine,41033,OR,,Immigrant minority
+2010,31,179,Wayne,31179,NE,,Immigrant minority
+2010,17,11,Bureau,17011,IL,,Immigrant minority
+2010,17,39,De Witt,17039,IL,,White
+2010,17,157,Randolph,17157,IL,,White/Black
+2010,17,117,Macoupin,17117,IL,,White
+2010,17,169,Schuyler,17169,IL,,White/Black
+2010,17,153,Pulaski,17153,IL,,White/Black
+2010,17,161,Rock Island,17161,IL,,Immigrant minority
+2010,17,55,Franklin,17055,IL,,White
+2010,17,23,Clark,17023,IL,,White
+2010,17,51,Fayette,17051,IL,,White/Black
+2010,17,21,Christian,17021,IL,,White
+2010,17,187,Warren,17187,IL,,Immigrant minority
+2010,17,139,Moultrie,17139,IL,,White
+2010,17,15,Carroll,17015,IL,,White
+2010,17,191,Wayne,17191,IL,,White
+2010,17,185,Wabash,17185,IL,,White
+2010,49,9,Daggett,49009,UT,,White
+2010,72,85,Las Piedras,72085,PR,,
+2010,49,7,Carbon,49007,UT,,Immigrant minority
+2010,72,1,Adjuntas,72001,PR,,
+2010,72,121,Sabana Grande,72121,PR,,
+2010,72,153,Yauco,72153,PR,,
+2010,49,1,Beaver,49001,UT,,Immigrant minority
+2010,72,119,Río Grande,72119,PR,,
+2010,72,101,Morovis,72101,PR,,
+2010,72,73,Jayuya,72073,PR,,
+2010,72,67,Hormigueros,72067,PR,,
+2010,72,23,Cabo Rojo,72023,PR,,
+2010,72,131,San Sebastián,72131,PR,,
+2010,72,143,Vega Alta,72143,PR,,
+2010,72,75,Juana Díaz,72075,PR,,
+2010,72,51,Dorado,72051,PR,,
+2010,72,35,Cayey,72035,PR,,
+2010,72,99,Moca,72099,PR,,
+2010,72,25,Caguas,72025,PR,,
+2010,72,107,Orocovis,72107,PR,,
+2010,72,55,Guánica,72055,PR,,
+2010,72,9,Aibonito,72009,PR,,
+2010,72,141,Utuado,72141,PR,,
+2010,72,63,Gurabo,72063,PR,,
+2010,72,93,Maricao,72093,PR,,
+2010,72,127,San Juan,72127,PR,,
+2010,72,21,Bayamón,72021,PR,,
+2010,72,109,Patillas,72109,PR,,
+2010,6,113,Yolo,6113,CA,,Immigrant minority
+2010,13,67,Cobb,13067,GA,,Immigrant minority
+2010,13,73,Columbia,13073,GA,,Immigrant minority
+2010,13,117,Forsyth,13117,GA,,Immigrant minority
+2010,13,9,Baldwin,13009,GA,,Immigrant minority
+2010,13,295,Walker,13295,GA,,White/Black
+2010,13,107,Emanuel,13107,GA,,
+2010,13,123,Gilmer,13123,GA,,Immigrant minority
+2010,13,301,Warren,13301,GA,,White/Black
+2010,13,105,Elbert,13105,GA,,
+2010,13,63,Clayton,13063,GA,,Immigrant minority
+2010,13,25,Brantley,13025,GA,,White/Black
+2010,13,51,Chatham,13051,GA,,Immigrant minority
+2010,13,225,Peach,13225,GA,,Immigrant minority
+2010,13,101,Echols,13101,GA,,
+2010,13,109,Evans,13109,GA,,
+2010,13,239,Quitman,13239,GA,,White/Black
+2010,13,155,Irwin,13155,GA,,White/Black
+2010,36,67,Onondaga,36067,NY,,Immigrant minority
+2010,36,1,Albany,36001,NY,,Immigrant minority
+2010,36,109,Tompkins,36109,NY,,Immigrant minority
+2010,36,45,Jefferson,36045,NY,,Immigrant minority
+2010,36,69,Ontario,36069,NY,,Immigrant minority
+2010,36,47,Kings,36047,NY,,Immigrant minority
+2010,36,27,Dutchess,36027,NY,,Immigrant minority
+2010,36,17,Chenango,36017,NY,,White
+2010,36,21,Columbia,36021,NY,,Immigrant minority
+2010,36,59,Nassau,36059,NY,,Immigrant minority
+2010,36,119,Westchester,36119,NY,,Immigrant minority
+2010,36,25,Delaware,36025,NY,,Immigrant minority
+2010,36,81,Queens,36081,NY,,Immigrant minority
+2010,36,89,St. Lawrence,36089,NY,,Immigrant minority
+2010,36,51,Livingston,36051,NY,,Immigrant minority
+2010,36,87,Rockland,36087,NY,,Immigrant minority
+2010,36,29,Erie,36029,NY,,Immigrant minority
+2010,36,121,Wyoming,36121,NY,,White/Black
+2010,36,107,Tioga,36107,NY,,Immigrant minority
+2010,36,39,Greene,36039,NY,,Immigrant minority
+2010,36,103,Suffolk,36103,NY,,Immigrant minority
+2010,36,97,Schuyler,36097,NY,,White
+2010,36,77,Otsego,36077,NY,,Immigrant minority
+2010,36,3,Allegany,36003,NY,,Immigrant minority
+2010,36,31,Essex,36031,NY,,White
+2010,36,105,Sullivan,36105,NY,,Immigrant minority
+2010,36,117,Wayne,36117,NY,,
+2010,36,73,Orleans,36073,NY,,
+2010,36,91,Saratoga,36091,NY,,Immigrant minority
+2010,28,11,Bolivar,28011,MS,,White/Black
+2010,28,13,Calhoun,28013,MS,,
+2010,28,77,Lawrence,28077,MS,,White/Black
+2010,39,165,Warren,39165,OH,,Immigrant minority
+2010,28,45,Hancock,28045,MS,,Immigrant minority
+2010,28,7,Attala,28007,MS,,White/Black
+2010,28,93,Marshall,28093,MS,,
+2010,28,43,Grenada,28043,MS,,White/Black
+2010,28,3,Alcorn,28003,MS,,White/Black
+2010,28,29,Copiah,28029,MS,,White/Black
+2010,28,25,Clay,28025,MS,,White/Black
+2010,28,39,George,28039,MS,,White/Black
+2010,28,1,Adams,28001,MS,,
+2010,28,5,Amite,28005,MS,,White/Black
+2010,22,87,St. Bernard,22087,LA,,Immigrant minority
+2010,22,123,West Carroll,22123,LA,,White/Black
+2010,22,75,Plaquemines,22075,LA,,Immigrant minority
+2010,22,103,St. Tammany,22103,LA,,Immigrant minority
+2010,22,47,Iberville,22047,LA,,White/Black
+2010,22,59,La Salle,22059,LA,,White/Black
+2010,22,95,St. John the Baptist,22095,LA,,
+2010,22,63,Livingston,22063,LA,,White/Black
+2010,48,291,Liberty,48291,TX,,
+2010,48,287,Lee,48287,TX,,
+2010,48,189,Hale,48189,TX,,
+2010,48,29,Bexar,48029,TX,,Immigrant minority
+2010,48,169,Garza,48169,TX,,
+2010,48,337,Montague,48337,TX,,Immigrant minority
+2010,48,461,Upton,48461,TX,,Immigrant minority
+2010,48,193,Hamilton,48193,TX,,Immigrant minority
+2010,48,151,Fisher,48151,TX,,
+2010,48,115,Dawson,48115,TX,,
+2010,48,127,Dimmit,48127,TX,,
+2010,48,293,Limestone,48293,TX,,
+2010,48,233,Hutchinson,48233,TX,,Immigrant minority
+2010,5,1,Arkansas,5001,AR,,White/Black
+2010,5,119,Pulaski,5119,AR,,Immigrant minority
+2010,5,61,Howard,5061,AR,,
+2010,5,139,Union,5139,AR,,
+2010,5,99,Nevada,5099,AR,,White/Black
+2010,5,35,Crittenden,5035,AR,,White/Black
+2010,5,49,Fulton,5049,AR,,White
+2010,5,115,Pope,5115,AR,,Immigrant minority
+2010,5,41,Desha,5041,AR,,
+2010,5,51,Garland,5051,AR,,Immigrant minority
+2010,38,49,McHenry,38049,ND,,White
+2010,5,91,Miller,5091,AR,,White/Black
+2010,5,145,White,5145,AR,,
+2010,5,39,Dallas,5039,AR,,White/Black
+2010,5,75,Lawrence,5075,AR,,White
+2010,5,137,Stone,5137,AR,,White
+2010,5,95,Monroe,5095,AR,,White/Black
+2010,5,87,Madison,5087,AR,,Immigrant minority
+2010,5,89,Marion,5089,AR,,White
+2010,40,119,Payne,40119,OK,,Immigrant minority
+2010,40,15,Caddo,40015,OK,,
+2010,40,41,Delaware,40041,OK,,Immigrant minority
+2010,40,95,Marshall,40095,OK,,Immigrant minority
+2010,38,43,Kidder,38043,ND,,Immigrant minority
+2010,40,55,Greer,40055,OK,,
+2010,40,29,Coal,40029,OK,,White
+2010,40,133,Seminole,40133,OK,,
+2010,40,99,Murray,40099,OK,,Immigrant minority
+2010,40,67,Jefferson,40067,OK,,Immigrant minority
+2010,40,141,Tillman,40141,OK,,
+2010,40,91,McIntosh,40091,OK,,White/Black
+2010,40,23,Choctaw,40023,OK,,White/Black
+2010,40,59,Harper,40059,OK,,Immigrant minority
+2010,38,61,Mountrail,38061,ND,,Immigrant minority
+2010,38,45,LaMoure,38045,ND,,White
+2010,40,53,Grant,40053,OK,,Immigrant minority
+2010,40,43,Dewey,40043,OK,,Immigrant minority
+2010,40,109,Oklahoma,40109,OK,,Immigrant minority
+2010,40,79,Le Flore,40079,OK,,Immigrant minority
+2010,40,105,Nowata,40105,OK,,White/Black
+2010,40,139,Texas,40139,OK,,Immigrant minority
+2010,54,61,Monongalia,54061,WV,,Immigrant minority
+2010,54,5,Boone,54005,WV,,White
+2010,54,51,Marshall,54051,WV,,White
+2010,54,1,Barbour,54001,WV,,White
+2010,32,1,Churchill,32001,NV,,Immigrant minority
+2010,54,95,Tyler,54095,WV,,White
+2010,54,49,Marion,54049,WV,,White/Black
+2010,32,510,Carson City,32510,NV,,Immigrant minority
+2010,54,105,Wirt,54105,WV,,White
+2010,54,63,Monroe,54063,WV,,White
+2010,32,23,Nye,32023,NV,,Immigrant minority
+2010,54,43,Lincoln,54043,WV,,White
+2010,54,75,Pocahontas,54075,WV,,White
+2010,32,29,Storey,32029,NV,,Immigrant minority
+2010,54,33,Harrison,54033,WV,,White
+2010,54,69,Ohio,54069,WV,,Immigrant minority
+2010,54,67,Nicholas,54067,WV,,White
+2010,54,23,Grant,54023,WV,,White
+2010,54,15,Clay,54015,WV,,White
+2010,54,59,Mingo,54059,WV,,White
+2010,54,9,Brooke,54009,WV,,White
+2010,54,29,Hancock,54029,WV,,White/Black
+2010,54,53,Mason,54053,WV,,White
+2010,54,55,Mercer,54055,WV,,White/Black
+2010,32,27,Pershing,32027,NV,,Immigrant minority
+2010,54,21,Gilmer,54021,WV,,
+2010,54,31,Hardy,54031,WV,,Immigrant minority
+2010,54,37,Jefferson,54037,WV,,Immigrant minority
+2010,54,65,Morgan,54065,WV,,White
+2010,32,7,Elko,32007,NV,,Immigrant minority
+2010,20,77,Harper,20077,KS,,Immigrant minority
+2010,20,37,Crawford,20037,KS,,Immigrant minority
+2010,20,1,Allen,20001,KS,,White
+2010,20,111,Lyon,20111,KS,,Immigrant minority
+2010,20,149,Pottawatomie,20149,KS,,Immigrant minority
+2010,20,5,Atchison,20005,KS,,White/Black
+2010,20,137,Norton,20137,KS,,
+2010,20,193,Thomas,20193,KS,,Immigrant minority
+2010,20,91,Johnson,20091,KS,,Immigrant minority
+2010,20,75,Hamilton,20075,KS,,Immigrant minority
+2010,20,141,Osborne,20141,KS,,White
+2010,20,83,Hodgeman,20083,KS,,Immigrant minority
+2010,20,195,Trego,20195,KS,,White
+2010,20,29,Cloud,20029,KS,,White
+2010,20,13,Brown,20013,KS,,White
+2010,20,87,Jefferson,20087,KS,,White
+2010,20,41,Dickinson,20041,KS,,Immigrant minority
+2010,20,101,Lane,20101,KS,,Immigrant minority
+2010,20,15,Butler,20015,KS,,Immigrant minority
+2010,20,23,Cheyenne,20023,KS,,Immigrant minority
+2010,20,199,Wallace,20199,KS,,Immigrant minority
+2010,20,19,Chautauqua,20019,KS,,White
+2010,20,97,Kiowa,20097,KS,,Immigrant minority
+2010,20,81,Haskell,20081,KS,,Immigrant minority
+2010,20,159,Rice,20159,KS,,Immigrant minority
+2010,20,129,Morton,20129,KS,,Immigrant minority
+2010,20,165,Rush,20165,KS,,White
+2010,24,45,Wicomico,24045,MD,,Immigrant minority
+2010,24,13,Carroll,24013,MD,,Immigrant minority
+2010,24,31,Montgomery,24031,MD,,Immigrant minority
+2010,24,35,Queen Anne's,24035,MD,,Immigrant minority
+2010,24,19,Dorchester,24019,MD,,Immigrant minority
+2010,24,25,Harford,24025,MD,,Immigrant minority
+2010,24,37,St. Mary's,24037,MD,,Immigrant minority
+2010,31,39,Cuming,31039,NE,,Immigrant minority
+2010,31,69,Garden,31069,NE,,Immigrant minority
+2010,31,101,Keith,31101,NE,,Immigrant minority
+2010,31,173,Thurston,31173,NE,,White
+2010,31,139,Pierce,31139,NE,,White
+2010,31,147,Richardson,31147,NE,,White
+2010,31,151,Saline,31151,NE,,Immigrant minority
+2010,31,163,Sherman,31163,NE,,White
+2010,31,57,Dundy,31057,NE,,Immigrant minority
+2010,31,167,Stanton,31167,NE,,Immigrant minority
+2010,31,33,Cheyenne,31033,NE,,Immigrant minority
+2010,31,13,Box Butte,31013,NE,,Immigrant minority
+2010,31,183,Wheeler,31183,NE,,White
+2010,31,95,Jefferson,31095,NE,,White
+2010,31,131,Otoe,31131,NE,,Immigrant minority
+2010,31,111,Lincoln,31111,NE,,Immigrant minority
+2010,31,91,Hooker,31091,NE,,White
+2010,31,145,Red Willow,31145,NE,,Immigrant minority
+2010,31,75,Grant,31075,NE,,White
+2010,31,53,Dodge,31053,NE,,Immigrant minority
+2010,31,29,Chase,31029,NE,,Immigrant minority
+2010,31,153,Sarpy,31153,NE,,Immigrant minority
+2010,31,157,Scotts Bluff,31157,NE,,Immigrant minority
+2010,31,177,Washington,31177,NE,,White
+2010,31,77,Greeley,31077,NE,,White
+2010,31,181,Webster,31181,NE,,Immigrant minority
+2010,31,55,Douglas,31055,NE,,Immigrant minority
+2010,31,25,Cass,31025,NE,,White
+2010,31,31,Cherry,31031,NE,,White
+2010,31,11,Boone,31011,NE,,White
+2010,31,97,Johnson,31097,NE,,Immigrant minority
+2010,31,45,Dawes,31045,NE,,Immigrant minority
+2010,31,63,Frontier,31063,NE,,White
+2010,31,129,Nuckolls,31129,NE,,White
+2010,31,99,Kearney,31099,NE,,Immigrant minority
+2010,31,51,Dixon,31051,NE,,Immigrant minority
+2010,31,93,Howard,31093,NE,,White
+2010,31,103,Keya Paha,31103,NE,,White
+2010,31,113,Logan,31113,NE,,White
+2010,31,27,Cedar,31027,NE,,White
+2010,31,115,Loup,31115,NE,,White
+2010,31,143,Polk,31143,NE,,White
+2010,31,9,Blaine,31009,NE,,White
+2010,31,105,Kimball,31105,NE,,Immigrant minority
+2010,31,73,Gosper,31073,NE,,White
+2010,31,83,Harlan,31083,NE,,White
+2010,31,137,Phelps,31137,NE,,Immigrant minority
+2010,31,81,Hamilton,31081,NE,,White
+2010,31,23,Butler,31023,NE,,White
+2010,17,77,Jackson,17077,IL,,Immigrant minority
+2010,17,107,Logan,17107,IL,,White/Black
+2010,17,67,Hancock,17067,IL,,White
+2010,17,37,DeKalb,17037,IL,,Immigrant minority
+2010,17,119,Madison,17119,IL,,Immigrant minority
+2010,17,137,Morgan,17137,IL,,White/Black
+2010,17,155,Putnam,17155,IL,,Immigrant minority
+2010,17,203,Woodford,17203,IL,,White
+2010,17,53,Ford,17053,IL,,White
+2010,17,45,Edgar,17045,IL,,White
+2010,17,165,Saline,17165,IL,,White/Black
+2010,17,147,Piatt,17147,IL,,White
+2010,17,95,Knox,17095,IL,,
+2010,17,189,Washington,17189,IL,,White
+2010,17,105,Livingston,17105,IL,,
+2010,17,79,Jasper,17079,IL,,White
+2010,49,35,Salt Lake,49035,UT,,Immigrant minority
+2010,49,53,Washington,49053,UT,,Immigrant minority
+2010,49,5,Cache,49005,UT,,Immigrant minority
+2010,49,23,Juab,49023,UT,,Immigrant minority
+2010,6,45,Mendocino,6045,CA,,Immigrant minority
+2010,6,67,Sacramento,6067,CA,,Immigrant minority
+2010,6,39,Madera,6039,CA,,Immigrant minority
+2010,6,115,Yuba,6115,CA,,Immigrant minority
+2010,6,107,Tulare,6107,CA,,Immigrant minority
+2010,13,33,Burke,13033,GA,,White/Black
+2010,13,151,Henry,13151,GA,,Immigrant minority
+2010,13,179,Liberty,13179,GA,,Immigrant minority
+2010,13,195,Madison,13195,GA,,
+2010,13,279,Toombs,13279,GA,,Immigrant minority
+2010,13,207,Monroe,13207,GA,,Immigrant minority
+2010,13,65,Clinch,13065,GA,,
+2010,13,219,Oconee,13219,GA,,Immigrant minority
+2010,13,19,Berrien,13019,GA,,
+2010,13,49,Charlton,13049,GA,,White/Black
+2010,13,75,Cook,13075,GA,,
+2010,13,229,Pierce,13229,GA,,
+2010,13,99,Early,13099,GA,,White/Black
+2010,13,167,Johnson,13167,GA,,White/Black
+2010,13,269,Taylor,13269,GA,,White/Black
+2010,13,93,Dooly,13093,GA,,
+2010,13,85,Dawson,13085,GA,,Immigrant minority
+2010,13,177,Lee,13177,GA,,Immigrant minority
+2010,13,15,Bartow,13015,GA,,Immigrant minority
+2010,13,317,Wilkes,13317,GA,,
+2010,13,171,Lamar,13171,GA,,White/Black
+2010,13,143,Haralson,13143,GA,,White/Black
+2010,13,69,Coffee,13069,GA,,
+2010,13,125,Glascock,13125,GA,,White/Black
+2010,13,245,Richmond,13245,GA,,Immigrant minority
+2010,13,289,Twiggs,13289,GA,,White/Black
+2010,13,311,White,13311,GA,,White
+2010,13,201,Miller,13201,GA,,White/Black
+2010,13,199,Meriwether,13199,GA,,White/Black
+2010,13,217,Newton,13217,GA,,Immigrant minority
+2010,13,205,Mitchell,13205,GA,,
+2010,13,135,Gwinnett,13135,GA,,Immigrant minority
+2010,13,133,Greene,13133,GA,,
+2010,13,261,Sumter,13261,GA,,Immigrant minority
+2010,13,243,Randolph,13243,GA,,White/Black
+2010,13,119,Franklin,13119,GA,,
+2010,13,235,Pulaski,13235,GA,,Immigrant minority
+2010,13,27,Brooks,13027,GA,,
+2010,13,55,Chattooga,13055,GA,,
+2010,36,57,Montgomery,36057,NY,,Immigrant minority
+2010,26,123,Newaygo,26123,MI,,Immigrant minority
+2010,26,157,Tuscola,26157,MI,,White
+2010,26,141,Presque Isle,26141,MI,,White
+2010,26,25,Calhoun,26025,MI,,Immigrant minority
+2010,26,111,Midland,26111,MI,,Immigrant minority
+2010,26,19,Benzie,26019,MI,,White
+2010,26,69,Iosco,26069,MI,,White
+2010,26,1,Alcona,26001,MI,,White
+2010,26,45,Eaton,26045,MI,,Immigrant minority
+2010,36,79,Putnam,36079,NY,,Immigrant minority
+2010,26,53,Gogebic,26053,MI,,White/Black
+2010,36,23,Cortland,36023,NY,,Immigrant minority
+2010,26,11,Arenac,26011,MI,,White
+2010,26,63,Huron,26063,MI,,White
+2010,26,137,Otsego,26137,MI,,White
+2010,26,153,Schoolcraft,26153,MI,,White
+2010,26,81,Kent,26081,MI,,Immigrant minority
+2010,26,51,Gladwin,26051,MI,,White
+2010,26,27,Cass,26027,MI,,White/Black
+2010,26,71,Iron,26071,MI,,White
+2010,26,33,Chippewa,26033,MI,,Immigrant minority
+2010,36,41,Hamilton,36041,NY,,White
+2010,26,23,Branch,26023,MI,,
+2010,26,103,Marquette,26103,MI,,White
+2010,26,155,Shiawassee,26155,MI,,White
+2010,26,5,Allegan,26005,MI,,Immigrant minority
+2010,26,131,Ontonagon,26131,MI,,White
+2010,26,99,Macomb,26099,MI,,Immigrant minority
+2010,26,159,Van Buren,26159,MI,,
+2010,26,147,St. Clair,26147,MI,,White/Black
+2010,26,85,Lake,26085,MI,,White/Black
+2010,26,113,Missaukee,26113,MI,,White
+2010,26,3,Alger,26003,MI,,White/Black
+2010,36,71,Orange,36071,NY,,Immigrant minority
+2010,36,5,Bronx,36005,NY,,Immigrant minority
+2010,26,73,Isabella,26073,MI,,Immigrant minority
+2010,26,9,Antrim,26009,MI,,White
+2010,36,11,Cayuga,36011,NY,,White/Black
+2010,26,47,Emmet,26047,MI,,White
+2010,26,95,Luce,26095,MI,,White/Black
+2010,26,143,Roscommon,26143,MI,,White
+2010,36,123,Yates,36123,NY,,White
+2010,26,75,Jackson,26075,MI,,Immigrant minority
+2010,26,83,Keweenaw,26083,MI,,White
+2010,26,61,Houghton,26061,MI,,Immigrant minority
+2010,26,109,Menominee,26109,MI,,White
+2010,26,41,Delta,26041,MI,,White
+2010,26,149,St. Joseph,26149,MI,,Immigrant minority
+2010,26,31,Cheboygan,26031,MI,,White
+2010,26,139,Ottawa,26139,MI,,Immigrant minority
+2010,26,91,Lenawee,26091,MI,,
+2010,36,95,Schoharie,36095,NY,,White
+2010,36,37,Genesee,36037,NY,,White/Black
+2010,26,43,Dickinson,26043,MI,,White
+2010,26,7,Alpena,26007,MI,,White
+2010,26,49,Genesee,26049,MI,,Immigrant minority
+2010,26,129,Ogemaw,26129,MI,,White
+2010,36,101,Steuben,36101,NY,,Immigrant minority
+2010,26,115,Monroe,26115,MI,,White
+2010,26,165,Wexford,26165,MI,,White
+2010,26,37,Clinton,26037,MI,,Immigrant minority
+2010,26,15,Barry,26015,MI,,White
+2010,26,119,Montmorency,26119,MI,,White
+2010,26,107,Mecosta,26107,MI,,White/Black
+2010,26,13,Baraga,26013,MI,,White/Black
+2010,26,55,Grand Traverse,26055,MI,,Immigrant minority
+2010,26,17,Bay,26017,MI,,Immigrant minority
+2010,26,151,Sanilac,26151,MI,,Immigrant minority
+2010,26,127,Oceana,26127,MI,,Immigrant minority
+2010,26,67,Ionia,26067,MI,,
+2010,26,93,Livingston,26093,MI,,Immigrant minority
+2010,26,163,Wayne,26163,MI,,Immigrant minority
+2010,36,65,Oneida,36065,NY,,Immigrant minority
+2010,26,21,Berrien,26021,MI,,Immigrant minority
+2010,36,115,Washington,36115,NY,,White/Black
+2010,26,89,Leelanau,26089,MI,,Immigrant minority
+2010,28,105,Oktibbeha,28105,MS,,Immigrant minority
+2010,28,59,Jackson,28059,MS,,Immigrant minority
+2010,28,95,Monroe,28095,MS,,White/Black
+2010,28,71,Lafayette,28071,MS,,Immigrant minority
+2010,28,79,Leake,28079,MS,,
+2010,28,69,Kemper,28069,MS,,White/Black
+2010,28,81,Lee,28081,MS,,White/Black
+2010,28,109,Pearl River,28109,MS,,White/Black
+2010,28,51,Holmes,28051,MS,,Other
+2010,22,51,Jefferson,22051,LA,,Immigrant minority
+2010,22,113,Vermilion,22113,LA,,Immigrant minority
+2010,22,83,Richland,22083,LA,,White/Black
+2010,22,97,St. Landry,22097,LA,,White/Black
+2010,48,299,Llano,48299,TX,,Immigrant minority
+2010,48,377,Presidio,48377,TX,,Immigrant minority
+2010,48,133,Eastland,48133,TX,,Immigrant minority
+2010,48,403,Sabine,48403,TX,,White/Black
+2010,48,481,Wharton,48481,TX,,
+2010,48,401,Rusk,48401,TX,,
+2010,48,439,Tarrant,48439,TX,,Immigrant minority
+2010,48,285,Lavaca,48285,TX,,
+2010,48,75,Childress,48075,TX,,
+2010,5,47,Franklin,5047,AR,,Immigrant minority
+2010,5,117,Prairie,5117,AR,,White/Black
+2010,5,57,Hempstead,5057,AR,,
+2010,5,77,Lee,5077,AR,,White/Black
+2010,5,29,Conway,5029,AR,,
+2010,5,67,Jackson,5067,AR,,White/Black
+2010,5,43,Drew,5043,AR,,White/Black
+2010,5,37,Cross,5037,AR,,White/Black
+2010,5,19,Clark,5019,AR,,
+2010,5,33,Crawford,5033,AR,,Immigrant minority
+2010,5,65,Izard,5065,AR,,White
+2010,5,127,Scott,5127,AR,,Immigrant minority
+2010,5,73,Lafayette,5073,AR,,White/Black
+2010,5,93,Mississippi,5093,AR,,
+2010,5,55,Greene,5055,AR,,White
+2010,5,45,Faulkner,5045,AR,,Immigrant minority
+2010,5,69,Jefferson,5069,AR,,White/Black
+2010,5,113,Polk,5113,AR,,Immigrant minority
+2010,5,9,Boone,5009,AR,,White
+2010,5,71,Johnson,5071,AR,,Immigrant minority
+2010,5,103,Ouachita,5103,AR,,White/Black
+2010,5,7,Benton,5007,AR,,Immigrant minority
+2010,5,125,Saline,5125,AR,,Immigrant minority
+2010,5,129,Searcy,5129,AR,,White
+2010,5,11,Bradley,5011,AR,,
+2010,5,149,Yell,5149,AR,,Immigrant minority
+2010,5,135,Sharp,5135,AR,,White
+2010,40,107,Okfuskee,40107,OK,,White/Black
+2010,40,123,Pontotoc,40123,OK,,
+2010,40,129,Roger Mills,40129,OK,,Immigrant minority
+2010,40,75,Kiowa,40075,OK,,
+2010,40,143,Tulsa,40143,OK,,Immigrant minority
+2010,40,9,Beckham,40009,OK,,Immigrant minority
+2010,40,5,Atoka,40005,OK,,White/Black
+2010,40,1,Adair,40001,OK,,Immigrant minority
+2010,40,103,Noble,40103,OK,,White
+2010,40,57,Harmon,40057,OK,,
+2010,40,93,Major,40093,OK,,Immigrant minority
+2010,40,3,Alfalfa,40003,OK,,
+2010,40,35,Craig,40035,OK,,Immigrant minority
+2010,40,85,Love,40085,OK,,Immigrant minority
+2010,40,7,Beaver,40007,OK,,Immigrant minority
+2010,40,127,Pushmataha,40127,OK,,White
+2010,40,137,Stephens,40137,OK,,Immigrant minority
+2010,40,97,Mayes,40097,OK,,White
+2010,40,13,Bryan,40013,OK,,Immigrant minority
+2010,40,71,Kay,40071,OK,,Immigrant minority
+2010,40,101,Muskogee,40101,OK,,
+2010,40,65,Jackson,40065,OK,,Immigrant minority
+2010,40,25,Cimarron,40025,OK,,Immigrant minority
+2010,40,45,Ellis,40045,OK,,Immigrant minority
+2010,40,115,Ottawa,40115,OK,,Immigrant minority
+2010,40,87,McClain,40087,OK,,Immigrant minority
+2010,54,93,Tucker,54093,WV,,White
+2010,54,11,Cabell,54011,WV,,Immigrant minority
+2010,54,57,Mineral,54057,WV,,White/Black
+2010,54,27,Hampshire,54027,WV,,White
+2010,54,39,Kanawha,54039,WV,,Immigrant minority
+2010,54,41,Lewis,54041,WV,,White
+2010,54,13,Calhoun,54013,WV,,White
+2010,54,107,Wood,54107,WV,,White
+2010,54,73,Pleasants,54073,WV,,White
+2010,54,17,Doddridge,54017,WV,,White
+2010,54,81,Raleigh,54081,WV,,Immigrant minority
+2010,54,91,Taylor,54091,WV,,White
+2010,8,69,Larimer,8069,CO,,Immigrant minority
+2010,8,71,Las Animas,8071,CO,,Immigrant minority
+2010,54,19,Fayette,54019,WV,,White/Black
+2010,54,83,Randolph,54083,WV,,White
+2010,8,43,Fremont,8043,CO,,
+2010,54,99,Wayne,54099,WV,,White
+2010,54,3,Berkeley,54003,WV,,Immigrant minority
+2010,54,45,Logan,54045,WV,,White
+2010,54,35,Jackson,54035,WV,,White
+2010,54,25,Greenbrier,54025,WV,,White/Black
+2010,8,51,Gunnison,8051,CO,,Immigrant minority
+2010,54,109,Wyoming,54109,WV,,White
+2010,54,79,Putnam,54079,WV,,Immigrant minority
+2010,8,21,Conejos,8021,CO,,Immigrant minority
+2010,54,77,Preston,54077,WV,,White
+2010,54,101,Webster,54101,WV,,White
+2010,54,71,Pendleton,54071,WV,,White
+2010,54,85,Ritchie,54085,WV,,White
+2010,54,103,Wetzel,54103,WV,,White
+2010,8,37,Eagle,8037,CO,,Immigrant minority
+2010,54,87,Roane,54087,WV,,White
+2010,54,7,Braxton,54007,WV,,White
+2010,54,97,Upshur,54097,WV,,White
+2010,54,47,McDowell,54047,WV,,White/Black
+2010,54,89,Summers,54089,WV,,White/Black
+2010,20,201,Washington,20201,KS,,White
+2010,20,131,Nemaha,20131,KS,,White
+2010,20,113,McPherson,20113,KS,,Immigrant minority
+2010,20,135,Ness,20135,KS,,Immigrant minority
+2010,20,67,Grant,20067,KS,,Immigrant minority
+2010,20,139,Osage,20139,KS,,White
+2010,20,99,Labette,20099,KS,,
+2010,20,47,Edwards,20047,KS,,Immigrant minority
+2010,20,103,Leavenworth,20103,KS,,Immigrant minority
+2010,20,107,Linn,20107,KS,,White
+2010,20,127,Morris,20127,KS,,Immigrant minority
+2010,20,163,Rooks,20163,KS,,White
+2010,20,7,Barber,20007,KS,,White
+2010,20,3,Anderson,20003,KS,,White
+2010,20,39,Decatur,20039,KS,,White
+2010,20,181,Sherman,20181,KS,,Immigrant minority
+2010,20,69,Gray,20069,KS,,Immigrant minority
+2010,20,9,Barton,20009,KS,,Immigrant minority
+2010,20,25,Clark,20025,KS,,Immigrant minority
+2010,20,169,Saline,20169,KS,,Immigrant minority
+2010,20,95,Kingman,20095,KS,,White
+2010,20,79,Harvey,20079,KS,,Immigrant minority
+2010,20,61,Geary,20061,KS,,Immigrant minority
+2010,20,171,Scott,20171,KS,,Immigrant minority
+2010,20,89,Jewell,20089,KS,,White
+2010,20,205,Wilson,20205,KS,,White
+2010,24,3,Anne Arundel,24003,MD,,Immigrant minority
+2010,31,107,Knox,31107,NE,,White
+2010,31,127,Nemaha,31127,NE,,White
+2010,31,123,Morrill,31123,NE,,Immigrant minority
+2010,31,79,Hall,31079,NE,,Immigrant minority
+2010,31,175,Valley,31175,NE,,White
+2010,31,119,Madison,31119,NE,,Immigrant minority
+2010,31,61,Franklin,31061,NE,,White
+2010,31,125,Nance,31125,NE,,White
+2010,31,85,Hayes,31085,NE,,Immigrant minority
+2010,31,67,Gage,31067,NE,,White
+2010,31,185,York,31185,NE,,Immigrant minority
+2010,31,117,McPherson,31117,NE,,White
+2010,31,135,Perkins,31135,NE,,Immigrant minority
+2010,31,149,Rock,31149,NE,,White
+2010,31,109,Lancaster,31109,NE,,Immigrant minority
+2010,31,1,Adams,31001,NE,,Immigrant minority
+2010,17,183,Vermilion,17183,IL,,
+2010,17,177,Stephenson,17177,IL,,Immigrant minority
+2010,17,159,Richland,17159,IL,,Immigrant minority
+2010,17,81,Jefferson,17081,IL,,White/Black
+2010,17,179,Tazewell,17179,IL,,Immigrant minority
+2010,17,173,Shelby,17173,IL,,White
+2010,17,87,Johnson,17087,IL,,White/Black
+2010,17,175,Stark,17175,IL,,White
+2010,17,193,White,17193,IL,,White
+2010,17,167,Sangamon,17167,IL,,Immigrant minority
+2010,17,61,Greene,17061,IL,,White
+2010,17,141,Ogle,17141,IL,,Immigrant minority
+2010,17,93,Kendall,17093,IL,,Immigrant minority
+2010,49,27,Millard,49027,UT,,Immigrant minority
+2010,49,57,Weber,49057,UT,,Immigrant minority
+2010,49,47,Uintah,49047,UT,,Immigrant minority
+2010,49,41,Sevier,49041,UT,,Immigrant minority
+2010,49,51,Wasatch,49051,UT,,Immigrant minority
+2010,49,19,Grand,49019,UT,,Immigrant minority
+2010,49,25,Kane,49025,UT,,Immigrant minority
+2010,49,21,Iron,49021,UT,,Immigrant minority
+2010,49,43,Summit,49043,UT,,Immigrant minority
+2010,49,13,Duchesne,49013,UT,,Immigrant minority
+2010,49,31,Piute,49031,UT,,Immigrant minority
+2010,49,55,Wayne,49055,UT,,Immigrant minority
+2010,49,11,Davis,49011,UT,,Immigrant minority
+2010,49,39,Sanpete,49039,UT,,Immigrant minority
+2010,49,49,Utah,49049,UT,,Immigrant minority
+2010,6,73,San Diego,6073,CA,,Immigrant minority
+2010,6,63,Plumas,6063,CA,,Immigrant minority
+2010,6,69,San Benito,6069,CA,,Immigrant minority
+2010,6,89,Shasta,6089,CA,,Immigrant minority
+2010,6,99,Stanislaus,6099,CA,,Immigrant minority
+2010,13,5,Bacon,13005,GA,,
+2010,13,287,Turner,13287,GA,,White/Black
+2010,13,185,Lowndes,13185,GA,,Immigrant minority
+2010,13,3,Atkinson,13003,GA,,
+2010,13,281,Towns,13281,GA,,White
+2010,13,251,Screven,13251,GA,,White/Black
+2010,13,285,Troup,13285,GA,,Immigrant minority
+2010,13,175,Laurens,13175,GA,,Immigrant minority
+2010,13,111,Fannin,13111,GA,,White
+2010,13,275,Thomas,13275,GA,,White/Black
+2010,13,121,Fulton,13121,GA,,Immigrant minority
+2010,13,43,Candler,13043,GA,,
+2010,13,37,Calhoun,13037,GA,,
+2010,13,7,Baker,13007,GA,,
+2010,13,181,Lincoln,13181,GA,,White/Black
+2010,13,81,Crisp,13081,GA,,Immigrant minority
+2010,13,153,Houston,13153,GA,,Immigrant minority
+2010,13,227,Pickens,13227,GA,,White
+2010,13,307,Webster,13307,GA,,
+2010,13,305,Wayne,13305,GA,,
+2010,13,103,Effingham,13103,GA,,Immigrant minority
+2010,13,139,Hall,13139,GA,,Immigrant minority
+2010,13,271,Telfair,13271,GA,,
+2010,39,159,Union,39159,OH,,Immigrant minority
+2010,39,31,Coshocton,39031,OH,,White
+2010,26,87,Lapeer,26087,MI,,Immigrant minority
+2010,26,97,Mackinac,26097,MI,,White
+2010,39,149,Shelby,39149,OH,,Immigrant minority
+2010,39,27,Clinton,39027,OH,,White/Black
+2010,39,107,Mercer,39107,OH,,White
+2010,26,65,Ingham,26065,MI,,Immigrant minority
+2010,39,75,Holmes,39075,OH,,White
+2010,39,143,Sandusky,39143,OH,,
+2010,39,105,Meigs,39105,OH,,White
+2010,39,7,Ashtabula,39007,OH,,
+2010,26,39,Crawford,26039,MI,,White
+2010,39,111,Monroe,39111,OH,,White
+2010,39,15,Brown,39015,OH,,White
+2010,39,113,Montgomery,39113,OH,,Immigrant minority
+2010,39,67,Harrison,39067,OH,,White/Black
+2010,26,77,Kalamazoo,26077,MI,,Immigrant minority
+2010,39,3,Allen,39003,OH,,Immigrant minority
+2010,39,53,Gallia,39053,OH,,White/Black
+2010,42,19,Butler,42019,PA,,Immigrant minority
+2010,39,139,Richland,39139,OH,,White/Black
+2010,39,93,Lorain,39093,OH,,Immigrant minority
+2010,39,23,Clark,39023,OH,,Immigrant minority
+2010,39,61,Hamilton,39061,OH,,Immigrant minority
+2010,39,161,Van Wert,39161,OH,,White
+2010,39,47,Fayette,39047,OH,,White/Black
+2010,39,51,Fulton,39051,OH,,Immigrant minority
+2010,39,175,Wyandot,39175,OH,,White
+2010,39,87,Lawrence,39087,OH,,White
+2010,39,39,Defiance,39039,OH,,Immigrant minority
+2010,39,85,Lake,39085,OH,,Immigrant minority
+2010,26,59,Hillsdale,26059,MI,,White
+2010,26,121,Muskegon,26121,MI,,
+2010,39,73,Hocking,39073,OH,,White
+2010,39,115,Morgan,39115,OH,,White/Black
+2010,26,125,Oakland,26125,MI,,Immigrant minority
+2010,26,57,Gratiot,26057,MI,,
+2010,39,155,Trumbull,39155,OH,,White/Black
+2010,39,13,Belmont,39013,OH,,White/Black
+2010,26,133,Osceola,26133,MI,,White
+2010,26,145,Saginaw,26145,MI,,Immigrant minority
+2010,39,125,Paulding,39125,OH,,Immigrant minority
+2010,39,91,Logan,39091,OH,,White
+2010,39,151,Stark,39151,OH,,Immigrant minority
+2010,39,77,Huron,39077,OH,,Immigrant minority
+2010,26,135,Oscoda,26135,MI,,White
+2010,26,29,Charlevoix,26029,MI,,White
+2010,26,117,Montcalm,26117,MI,,White
+2010,26,105,Mason,26105,MI,,Immigrant minority
+2010,39,29,Columbiana,39029,OH,,White
+2010,39,45,Fairfield,39045,OH,,Immigrant minority
+2010,39,117,Morrow,39117,OH,,White
+2010,26,35,Clare,26035,MI,,White
+2010,26,79,Kalkaska,26079,MI,,White
+2010,39,135,Preble,39135,OH,,White
+2010,42,109,Snyder,42109,PA,,White
+2010,26,101,Manistee,26101,MI,,White/Black
+2010,26,161,Washtenaw,26161,MI,,Immigrant minority
+2010,39,123,Ottawa,39123,OH,,Immigrant minority
+2010,2,100,Haines,2100,AK,,Immigrant minority
+2010,2,60,Bristol Bay,2060,AK,,Immigrant minority
+2010,28,83,Leflore,28083,MS,,White/Black
+2010,28,73,Lamar,28073,MS,,Immigrant minority
+2010,28,153,Wayne,28153,MS,,White/Black
+2010,28,149,Warren,28149,MS,,Immigrant minority
+2010,28,117,Prentiss,28117,MS,,White/Black
+2010,28,91,Marion,28091,MS,,White/Black
+2010,28,143,Tunica,28143,MS,,White/Black
+2010,28,31,Covington,28031,MS,,White/Black
+2010,28,61,Jasper,28061,MS,,White/Black
+2010,28,129,Smith,28129,MS,,White/Black
+2010,28,133,Sunflower,28133,MS,,White/Black
+2010,28,125,Sharkey,28125,MS,,White/Black
+2010,22,9,Avoyelles,22009,LA,,White/Black
+2010,22,53,Jefferson Davis,22053,LA,,White/Black
+2010,22,61,Lincoln,22061,LA,,Immigrant minority
+2010,22,77,Pointe Coupee,22077,LA,,White/Black
+2010,22,105,Tangipahoa,22105,LA,,
+2010,22,69,Natchitoches,22069,LA,,White/Black
+2010,51,143,Pittsylvania,51143,VA,,White/Black
+2010,51,680,Lynchburg,51680,VA,,Immigrant minority
+2010,51,5,Alleghany,51005,VA,,White/Black
+2010,51,11,Appomattox,51011,VA,,White/Black
+2010,51,169,Scott,51169,VA,,White
+2010,51,595,Emporia,51595,VA,,
+2010,51,79,Greene,51079,VA,,Immigrant minority
+2010,51,101,King William,51101,VA,,Immigrant minority
+2010,48,215,Hidalgo,48215,TX,,Immigrant minority
+2010,48,257,Kaufman,48257,TX,,Immigrant minority
+2010,48,341,Moore,48341,TX,,Immigrant minority
+2010,48,327,Menard,48327,TX,,Immigrant minority
+2010,48,137,Edwards,48137,TX,,Immigrant minority
+2010,48,409,San Patricio,48409,TX,,Immigrant minority
+2010,48,445,Terry,48445,TX,,
+2010,48,105,Crockett,48105,TX,,Immigrant minority
+2010,48,225,Houston,48225,TX,,
+2010,48,473,Waller,48473,TX,,
+2010,48,81,Coke,48081,TX,,Immigrant minority
+2010,48,475,Ward,48475,TX,,
+2010,48,449,Titus,48449,TX,,
+2010,48,281,Lampasas,48281,TX,,Immigrant minority
+2010,48,207,Haskell,48207,TX,,
+2010,48,317,Martin,48317,TX,,Immigrant minority
+2010,5,83,Logan,5083,AR,,Immigrant minority
+2010,34,1,Atlantic,34001,NJ,,Immigrant minority
+2010,10,1,Kent,10001,DE,,Immigrant minority
+2010,34,41,Warren,34041,NJ,,Immigrant minority
+2010,5,63,Independence,5063,AR,,Immigrant minority
+2010,34,33,Salem,34033,NJ,,Immigrant minority
+2010,5,147,Woodruff,5147,AR,,White/Black
+2010,42,65,Jefferson,42065,PA,,White
+2010,5,3,Ashley,5003,AR,,
+2010,10,5,Sussex,10005,DE,,Immigrant minority
+2010,5,97,Montgomery,5097,AR,,Immigrant minority
+2010,10,3,New Castle,10003,DE,,Immigrant minority
+2010,5,133,Sevier,5133,AR,,
+2010,5,141,Van Buren,5141,AR,,White
+2010,5,59,Hot Spring,5059,AR,,White/Black
+2010,40,51,Grady,40051,OK,,
+2010,30,69,Petroleum,30069,MT,,White
+2010,40,11,Blaine,40011,OK,,
+2010,30,73,Pondera,30073,MT,,White
+2010,40,121,Pittsburg,40121,OK,,
+2010,40,153,Woodward,40153,OK,,Immigrant minority
+2010,40,147,Washington,40147,OK,,Immigrant minority
+2010,40,73,Kingfisher,40073,OK,,Immigrant minority
+2010,40,31,Comanche,40031,OK,,Immigrant minority
+2010,40,33,Cotton,40033,OK,,Immigrant minority
+2010,40,39,Custer,40039,OK,,Immigrant minority
+2010,40,47,Garfield,40047,OK,,Immigrant minority
+2010,40,77,Latimer,40077,OK,,White
+2010,40,149,Washita,40149,OK,,Immigrant minority
+2010,40,37,Creek,40037,OK,,White/Black
+2010,40,63,Hughes,40063,OK,,
+2010,40,135,Sequoyah,40135,OK,,Immigrant minority
+2010,40,61,Haskell,40061,OK,,Immigrant minority
+2010,40,83,Logan,40083,OK,,
+2010,40,113,Osage,40113,OK,,White/Black
+2010,40,21,Cherokee,40021,OK,,Immigrant minority
+2010,40,145,Wagoner,40145,OK,,Immigrant minority
+2010,40,49,Garvin,40049,OK,,
+2010,40,81,Lincoln,40081,OK,,White
+2010,40,27,Cleveland,40027,OK,,Immigrant minority
+2010,40,17,Canadian,40017,OK,,Immigrant minority
+2010,40,111,Okmulgee,40111,OK,,
+2010,40,151,Woods,40151,OK,,Immigrant minority
+2010,40,19,Carter,40019,OK,,Immigrant minority
+2010,40,69,Johnston,40069,OK,,Immigrant minority
+2010,40,117,Pawnee,40117,OK,,White
+2010,40,131,Rogers,40131,OK,,Immigrant minority
+2010,40,125,Pottawatomie,40125,OK,,Immigrant minority
+2010,40,89,McCurtain,40089,OK,,
+2010,8,89,Otero,8089,CO,,Immigrant minority
+2010,8,67,La Plata,8067,CO,,Immigrant minority
+2010,8,117,Summit,8117,CO,,Immigrant minority
+2010,8,27,Custer,8027,CO,,Immigrant minority
+2010,8,97,Pitkin,8097,CO,,Immigrant minority
+2010,8,25,Crowley,8025,CO,,Immigrant minority
+2010,8,17,Cheyenne,8017,CO,,Immigrant minority
+2010,8,11,Bent,8011,CO,,Immigrant minority
+2010,8,1,Adams,8001,CO,,Immigrant minority
+2010,8,39,Elbert,8039,CO,,Immigrant minority
+2010,8,125,Yuma,8125,CO,,Immigrant minority
+2010,8,65,Lake,8065,CO,,Immigrant minority
+2010,8,29,Delta,8029,CO,,Immigrant minority
+2010,8,23,Costilla,8023,CO,,Immigrant minority
+2010,8,45,Garfield,8045,CO,,Immigrant minority
+2010,8,87,Morgan,8087,CO,,
+2010,8,99,Prowers,8099,CO,,Immigrant minority
+2010,8,83,Montezuma,8083,CO,,Immigrant minority
+2010,8,79,Mineral,8079,CO,,White
+2010,8,73,Lincoln,8073,CO,,
+2010,8,59,Jefferson,8059,CO,,Immigrant minority
+2010,8,103,Rio Blanco,8103,CO,,Immigrant minority
+2010,8,115,Sedgwick,8115,CO,,Immigrant minority
+2010,8,113,San Miguel,8113,CO,,Immigrant minority
+2010,8,3,Alamosa,8003,CO,,Immigrant minority
+2010,20,203,Wichita,20203,KS,,Immigrant minority
+2010,20,189,Stevens,20189,KS,,Immigrant minority
+2010,20,65,Graham,20065,KS,,White/Black
+2010,20,93,Kearny,20093,KS,,Immigrant minority
+2010,20,63,Gove,20063,KS,,White
+2010,20,133,Neosho,20133,KS,,Immigrant minority
+2010,20,183,Smith,20183,KS,,White
+2010,20,167,Russell,20167,KS,,White
+2010,20,153,Rawlins,20153,KS,,White
+2010,20,177,Shawnee,20177,KS,,Immigrant minority
+2010,20,161,Riley,20161,KS,,Immigrant minority
+2010,20,31,Coffey,20031,KS,,White
+2010,20,185,Stafford,20185,KS,,Immigrant minority
+2010,20,49,Elk,20049,KS,,White
+2010,20,143,Ottawa,20143,KS,,White
+2010,20,173,Sedgwick,20173,KS,,Immigrant minority
+2010,20,73,Greenwood,20073,KS,,Immigrant minority
+2010,20,119,Meade,20119,KS,,Immigrant minority
+2010,53,45,Mason,53045,WA,,Immigrant minority
+2010,53,51,Pend Oreille,53051,WA,,Immigrant minority
+2010,53,57,Skagit,53057,WA,,Immigrant minority
+2010,53,9,Clallam,53009,WA,,Immigrant minority
+2010,53,19,Ferry,53019,WA,,Immigrant minority
+2010,24,9,Calvert,24009,MD,,Immigrant minority
+2010,53,3,Asotin,53003,WA,,Immigrant minority
+2010,53,21,Franklin,53021,WA,,Immigrant minority
+2010,53,11,Clark,53011,WA,,Immigrant minority
+2010,53,37,Kittitas,53037,WA,,Immigrant minority
+2010,24,27,Howard,24027,MD,,Immigrant minority
+2010,53,39,Klickitat,53039,WA,,Immigrant minority
+2010,31,89,Holt,31089,NE,,White
+2010,31,141,Platte,31141,NE,,Immigrant minority
+2010,9,1,Fairfield,9001,CT,,Immigrant minority
+2010,31,59,Fillmore,31059,NE,,White
+2010,9,11,New London,9011,CT,,Immigrant minority
+2010,31,41,Custer,31041,NE,,White
+2010,31,19,Buffalo,31019,NE,,Immigrant minority
+2010,17,125,Mason,17125,IL,,White
+2010,17,31,Cook,17031,IL,,Immigrant minority
+2010,17,163,St. Clair,17163,IL,,Immigrant minority
+2010,17,199,Williamson,17199,IL,,Immigrant minority
+2010,49,17,Garfield,49017,UT,,Immigrant minority
+2010,49,33,Rich,49033,UT,,Immigrant minority
+2010,6,43,Mariposa,6043,CA,,Immigrant minority
+2010,6,19,Fresno,6019,CA,,Immigrant minority
+2010,6,3,Alpine,6003,CA,,Immigrant minority
+2010,6,41,Marin,6041,CA,,Immigrant minority
+2010,6,21,Glenn,6021,CA,,Immigrant minority
+2010,49,15,Emery,49015,UT,,Immigrant minority
+2010,6,35,Lassen,6035,CA,,Immigrant minority
+2010,6,15,Del Norte,6015,CA,,Immigrant minority
+2010,13,221,Oglethorpe,13221,GA,,
+2010,25,23,Plymouth,25023,MA,,Immigrant minority
+2010,25,3,Berkshire,25003,MA,,Immigrant minority
+2010,13,303,Washington,13303,GA,,White/Black
+2010,13,21,Bibb,13021,GA,,Immigrant minority
+2010,13,255,Spalding,13255,GA,,Immigrant minority
+2010,13,91,Dodge,13091,GA,,
+2010,25,1,Barnstable,25001,MA,,Immigrant minority
+2010,13,265,Taliaferro,13265,GA,,White/Black
+2010,21,217,Taylor,21217,KY,,White/Black
+2010,21,121,Knox,21121,KY,,White
+2010,13,87,Decatur,13087,GA,,
+2010,21,71,Floyd,21071,KY,,White
+2010,21,125,Laurel,21125,KY,,White
+2010,21,35,Calloway,21035,KY,,Immigrant minority
+2010,13,187,Lumpkin,13187,GA,,Immigrant minority
+2010,13,47,Catoosa,13047,GA,,Immigrant minority
+2010,25,21,Norfolk,25021,MA,,Immigrant minority
+2010,13,31,Bulloch,13031,GA,,Immigrant minority
+2010,25,5,Bristol,25005,MA,,Immigrant minority
+2010,21,107,Hopkins,21107,KY,,White/Black
+2010,21,5,Anderson,21005,KY,,White
+2010,21,97,Harrison,21097,KY,,White
+2010,21,103,Henry,21103,KY,,White/Black
+2010,13,165,Jenkins,13165,GA,,
+2010,13,141,Hancock,13141,GA,,White/Black
+2010,25,25,Suffolk,25025,MA,,Immigrant minority
+2010,13,293,Upson,13293,GA,,White/Black
+2010,13,95,Dougherty,13095,GA,,Immigrant minority
+2010,13,215,Muscogee,13215,GA,,Immigrant minority
+2010,21,13,Bell,21013,KY,,White
+2010,21,137,Lincoln,21137,KY,,White
+2010,13,61,Clay,13061,GA,,White/Black
+2010,13,197,Marion,13197,GA,,Immigrant minority
+2010,13,97,Douglas,13097,GA,,Immigrant minority
+2010,13,77,Coweta,13077,GA,,Immigrant minority
+2010,13,259,Stewart,13259,GA,,
+2010,13,149,Heard,13149,GA,,White/Black
+2010,21,111,Jefferson,21111,KY,,Immigrant minority
+2010,13,319,Wilkinson,13319,GA,,White/Black
+2010,13,309,Wheeler,13309,GA,,
+2010,25,11,Franklin,25011,MA,,Immigrant minority
+2010,25,15,Hampshire,25015,MA,,Immigrant minority
+2010,13,191,McIntosh,13191,GA,,White/Black
+2010,25,9,Essex,25009,MA,,Immigrant minority
+2010,13,321,Worth,13321,GA,,White/Black
+2010,13,35,Butts,13035,GA,,White/Black
+2010,21,117,Kenton,21117,KY,,Immigrant minority
+2010,13,159,Jasper,13159,GA,,
+2010,13,193,Macon,13193,GA,,Immigrant minority
+2010,13,145,Harris,13145,GA,,Immigrant minority
+2010,21,227,Warren,21227,KY,,Immigrant minority
+2010,21,15,Boone,21015,KY,,Immigrant minority
+2010,13,277,Tift,13277,GA,,Immigrant minority
+2010,13,161,Jeff Davis,13161,GA,,
+2010,21,101,Henderson,21101,KY,,White/Black
+2010,21,63,Elliott,21063,KY,,White/Black
+2010,21,233,Webster,21233,KY,,
+2010,21,19,Boyd,21019,KY,,White/Black
+2010,13,257,Stephens,13257,GA,,White/Black
+2010,21,73,Franklin,21073,KY,,Immigrant minority
+2010,13,71,Colquitt,13071,GA,,
+2010,21,51,Clay,21051,KY,,White/Black
+2010,21,129,Lee,21129,KY,,White
+2010,21,157,Marshall,21157,KY,,White
+2010,21,95,Harlan,21095,KY,,White
+2010,21,53,Clinton,21053,KY,,White
+2010,21,87,Green,21087,KY,,White
+2010,21,171,Monroe,21171,KY,,White
+2010,21,191,Pendleton,21191,KY,,White
+2010,21,61,Edmonson,21061,KY,,White
+2010,21,135,Lewis,21135,KY,,White
+2010,13,283,Treutlen,13283,GA,,White/Black
+2010,13,189,McDuffie,13189,GA,,White/Black
+2010,21,139,Livingston,21139,KY,,White
+2010,21,231,Wayne,21231,KY,,White
+2010,21,169,Metcalfe,21169,KY,,White
+2010,21,79,Garrard,21079,KY,,White
+2010,13,89,DeKalb,13089,GA,,Immigrant minority
+2010,21,75,Fulton,21075,KY,,White/Black
+2010,21,237,Wolfe,21237,KY,,White
+2010,21,109,Jackson,21109,KY,,White
+2010,21,205,Rowan,21205,KY,,Immigrant minority
+2010,21,127,Lawrence,21127,KY,,White
+2010,21,181,Nicholas,21181,KY,,White
+2010,21,183,Ohio,21183,KY,,Immigrant minority
+2010,21,187,Owen,21187,KY,,White
+2010,21,185,Oldham,21185,KY,,Immigrant minority
+2010,21,215,Spencer,21215,KY,,White
+2010,21,153,Magoffin,21153,KY,,White
+2010,21,7,Ballard,21007,KY,,White/Black
+2010,21,115,Johnson,21115,KY,,White
+2010,21,89,Greenup,21089,KY,,White
+2010,21,141,Logan,21141,KY,,White/Black
+2010,21,151,Madison,21151,KY,,Immigrant minority
+2010,13,115,Floyd,13115,GA,,Immigrant minority
+2010,21,123,Larue,21123,KY,,White/Black
+2010,21,143,Lyon,21143,KY,,White/Black
+2010,13,237,Putnam,13237,GA,,
+2010,13,273,Terrell,13273,GA,,White/Black
+2010,21,179,Nelson,21179,KY,,White/Black
+2010,21,85,Grayson,21085,KY,,White
+2010,21,17,Bourbon,21017,KY,,
+2010,21,93,Hardin,21093,KY,,Immigrant minority
+2010,21,57,Cumberland,21057,KY,,White/Black
+2010,21,173,Montgomery,21173,KY,,White/Black
+2010,21,161,Mason,21161,KY,,White/Black
+2010,13,267,Tattnall,13267,GA,,
+2010,21,145,McCracken,21145,KY,,Immigrant minority
+2010,21,229,Washington,21229,KY,,
+2010,13,79,Crawford,13079,GA,,White/Black
+2010,13,183,Long,13183,GA,,Immigrant minority
+2010,21,43,Carter,21043,KY,,White
+2010,21,3,Allen,21003,KY,,White
+2010,21,219,Todd,21219,KY,,
+2010,21,11,Bath,21011,KY,,White
+2010,21,49,Clark,21049,KY,,White/Black
+2010,25,13,Hampden,25013,MA,,Immigrant minority
+2010,25,7,Dukes,25007,MA,,Immigrant minority
+2010,13,147,Hart,13147,GA,,Immigrant minority
+2010,13,57,Cherokee,13057,GA,,Immigrant minority
+2010,13,53,Chattahoochee,13053,GA,,Immigrant minority
+2010,13,209,Montgomery,13209,GA,,
+2010,25,19,Nantucket,25019,MA,,Immigrant minority
+2010,25,17,Middlesex,25017,MA,,Immigrant minority
+2010,21,83,Graves,21083,KY,,
+2010,21,39,Carlisle,21039,KY,,White
+2010,21,91,Hancock,21091,KY,,White
+2010,13,297,Walton,13297,GA,,Immigrant minority
+2010,25,27,Worcester,25027,MA,,Immigrant minority
+2010,13,231,Pike,13231,GA,,White/Black
+2010,13,17,Ben Hill,13017,GA,,
+2010,13,13,Barrow,13013,GA,,Immigrant minority
+2010,13,11,Banks,13011,GA,,Immigrant minority
+2010,13,223,Paulding,13223,GA,,Immigrant minority
+2010,13,131,Grady,13131,GA,,
+2010,21,223,Trimble,21223,KY,,White
+2010,21,29,Bullitt,21029,KY,,White
+2010,21,225,Union,21225,KY,,White/Black
+2010,21,65,Estill,21065,KY,,White
+2010,13,129,Gordon,13129,GA,,Immigrant minority
+2010,21,167,Mercer,21167,KY,,White/Black
+2010,21,105,Hickman,21105,KY,,White/Black
+2010,21,133,Letcher,21133,KY,,White
+2010,13,157,Jackson,13157,GA,,Immigrant minority
+2010,21,193,Perry,21193,KY,,White
+2010,21,177,Muhlenberg,21177,KY,,White/Black
+2010,21,67,Fayette,21067,KY,,Immigrant minority
+2010,13,313,Whitfield,13313,GA,,Immigrant minority
+2010,13,137,Habersham,13137,GA,,Immigrant minority
+2010,21,199,Pulaski,21199,KY,,White
+2010,21,69,Fleming,21069,KY,,White
+2010,21,77,Gallatin,21077,KY,,Immigrant minority
+2010,39,21,Champaign,39021,OH,,White/Black
+2010,39,131,Pike,39131,OH,,White
+2010,39,81,Jefferson,39081,OH,,White/Black
+2010,12,17,Citrus,12017,FL,,Immigrant minority
+2010,39,147,Seneca,39147,OH,,
+2010,39,109,Miami,39109,OH,,Immigrant minority
+2010,12,9,Brevard,12009,FL,,Immigrant minority
+2010,12,37,Franklin,12037,FL,,
+2010,12,11,Broward,12011,FL,,Immigrant minority
+2010,39,33,Crawford,39033,OH,,White
+2010,39,169,Wayne,39169,OH,,Immigrant minority
+2010,39,141,Ross,39141,OH,,White/Black
+2010,39,43,Erie,39043,OH,,
+2010,39,157,Tuscarawas,39157,OH,,White
+2010,39,41,Delaware,39041,OH,,Immigrant minority
+2010,39,17,Butler,39017,OH,,Immigrant minority
+2010,12,47,Hamilton,12047,FL,,
+2010,12,63,Jackson,12063,FL,,
+2010,12,93,Okeechobee,12093,FL,,Immigrant minority
+2010,12,87,Monroe,12087,FL,,Immigrant minority
+2010,12,31,Duval,12031,FL,,Immigrant minority
+2010,39,9,Athens,39009,OH,,Immigrant minority
+2010,39,97,Madison,39097,OH,,White/Black
+2010,39,89,Licking,39089,OH,,Immigrant minority
+2010,12,81,Manatee,12081,FL,,Immigrant minority
+2010,39,57,Greene,39057,OH,,Immigrant minority
+2010,39,167,Washington,39167,OH,,White
+2010,12,71,Lee,12071,FL,,Immigrant minority
+2010,12,29,Dixie,12029,FL,,White/Black
+2010,39,137,Putnam,39137,OH,,Immigrant minority
+2010,12,69,Lake,12069,FL,,Immigrant minority
+2010,12,65,Jefferson,12065,FL,,
+2010,39,173,Wood,39173,OH,,Immigrant minority
+2010,39,59,Guernsey,39059,OH,,White
+2010,39,119,Muskingum,39119,OH,,White/Black
+2010,39,95,Lucas,39095,OH,,Immigrant minority
+2010,39,55,Geauga,39055,OH,,White
+2010,39,101,Marion,39101,OH,,White/Black
+2010,39,25,Clermont,39025,OH,,Immigrant minority
+2010,39,71,Highland,39071,OH,,White
+2010,39,99,Mahoning,39099,OH,,Immigrant minority
+2010,39,127,Perry,39127,OH,,White
+2010,39,121,Noble,39121,OH,,White
+2010,39,65,Hardin,39065,OH,,White
+2010,39,153,Summit,39153,OH,,Immigrant minority
+2010,39,11,Auglaize,39011,OH,,White
+2010,39,83,Knox,39083,OH,,White
+2010,39,129,Pickaway,39129,OH,,White/Black
+2010,39,171,Williams,39171,OH,,Immigrant minority
+2010,39,133,Portage,39133,OH,,Immigrant minority
+2010,39,1,Adams,39001,OH,,White
+2010,39,37,Darke,39037,OH,,White
+2010,39,19,Carroll,39019,OH,,White
+2010,39,79,Jackson,39079,OH,,White
+2010,39,5,Ashland,39005,OH,,White
+2010,39,163,Vinton,39163,OH,,White
+2010,39,63,Hancock,39063,OH,,Immigrant minority
+2010,39,35,Cuyahoga,39035,OH,,Immigrant minority
+2010,12,33,Escambia,12033,FL,,Immigrant minority
+2010,28,57,Itawamba,28057,MS,,White/Black
+2010,48,13,Atascosa,48013,TX,,Immigrant minority
+2010,28,139,Tippah,28139,MS,,
+2010,28,97,Montgomery,28097,MS,,White/Black
+2010,28,63,Jefferson,28063,MS,,Other
+2010,28,123,Scott,28123,MS,,
+2010,28,157,Wilkinson,28157,MS,,White/Black
+2010,28,111,Perry,28111,MS,,White/Black
+2010,28,119,Quitman,28119,MS,,White/Black
+2010,28,113,Pike,28113,MS,,White/Black
+2010,51,59,Fairfax,51059,VA,,Immigrant minority
+2010,28,115,Pontotoc,28115,MS,,
+2010,28,121,Rankin,28121,MS,,Immigrant minority
+2010,28,85,Lincoln,28085,MS,,White/Black
+2010,22,101,St. Mary,22101,LA,,Immigrant minority
+2010,22,117,Washington,22117,LA,,White/Black
+2010,22,111,Union,22111,LA,,
+2010,22,57,Lafourche,22057,LA,,
+2010,22,45,Iberia,22045,LA,,Immigrant minority
+2010,22,15,Bossier,22015,LA,,Immigrant minority
+2010,22,31,De Soto,22031,LA,,White/Black
+2010,11,1,District of Columbia,11001,DC,,Immigrant minority
+2010,51,620,Franklin,51620,VA,,White/Black
+2010,51,141,Patrick,51141,VA,,White/Black
+2010,51,181,Surry,51181,VA,,White/Black
+2010,51,117,Mecklenburg,51117,VA,,White/Black
+2010,51,53,Dinwiddie,51053,VA,,White/Black
+2010,51,69,Frederick,51069,VA,,Immigrant minority
+2010,51,23,Botetourt,51023,VA,,White/Black
+2010,51,27,Buchanan,51027,VA,,White
+2010,51,71,Giles,51071,VA,,White
+2010,51,570,Colonial Heights,51570,VA,,Immigrant minority
+2010,51,650,Hampton,51650,VA,,Immigrant minority
+2010,51,147,Prince Edward,51147,VA,,Immigrant minority
+2010,51,75,Goochland,51075,VA,,Immigrant minority
+2010,51,133,Northumberland,51133,VA,,White/Black
+2010,51,167,Russell,51167,VA,,White
+2010,51,520,Bristol,51520,VA,,White/Black
+2010,51,149,Prince George,51149,VA,,Immigrant minority
+2010,51,139,Page,51139,VA,,White
+2010,51,83,Halifax,51083,VA,,White/Black
+2010,51,3,Albemarle,51003,VA,,Immigrant minority
+2010,51,31,Campbell,51031,VA,,Immigrant minority
+2010,51,153,Prince William,51153,VA,,Immigrant minority
+2010,51,175,Southampton,51175,VA,,White/Black
+2010,51,127,New Kent,51127,VA,,Immigrant minority
+2010,51,111,Lunenburg,51111,VA,,
+2010,51,65,Fluvanna,51065,VA,,White/Black
+2010,51,109,Louisa,51109,VA,,White/Black
+2010,51,107,Loudoun,51107,VA,,Immigrant minority
+2010,51,155,Pulaski,51155,VA,,White/Black
+2010,51,41,Chesterfield,51041,VA,,Immigrant minority
+2010,51,99,King George,51099,VA,,Immigrant minority
+2010,51,159,Richmond,51159,VA,,
+2010,51,57,Essex,51057,VA,,Immigrant minority
+2010,51,35,Carroll,51035,VA,,White
+2010,51,161,Roanoke,51161,VA,,Immigrant minority
+2010,51,720,Norton,51720,VA,,Immigrant minority
+2010,51,43,Clarke,51043,VA,,Immigrant minority
+2010,51,630,Fredericksburg,51630,VA,,Immigrant minority
+2010,51,125,Nelson,51125,VA,,White/Black
+2010,51,67,Franklin,51067,VA,,White/Black
+2010,51,685,Manassas Park,51685,VA,,Immigrant minority
+2010,51,195,Wise,51195,VA,,White/Black
+2010,48,211,Hemphill,48211,TX,,Immigrant minority
+2010,48,205,Hartley,48205,TX,,
+2010,48,503,Young,48503,TX,,Immigrant minority
+2010,48,51,Burleson,48051,TX,,
+2010,48,199,Hardin,48199,TX,,
+2010,48,177,Gonzales,48177,TX,,
+2010,48,311,McMullen,48311,TX,,Immigrant minority
+2010,48,143,Erath,48143,TX,,Immigrant minority
+2010,48,167,Galveston,48167,TX,,Immigrant minority
+2010,48,223,Hopkins,48223,TX,,
+2010,48,309,McLennan,48309,TX,,Immigrant minority
+2010,48,313,Madison,48313,TX,,
+2010,48,307,McCulloch,48307,TX,,Immigrant minority
+2010,48,129,Donley,48129,TX,,
+2010,48,263,Kent,48263,TX,,Immigrant minority
+2010,48,385,Real,48385,TX,,Immigrant minority
+2010,48,435,Sutton,48435,TX,,Immigrant minority
+2010,48,329,Midland,48329,TX,,Immigrant minority
+2010,48,229,Hudspeth,48229,TX,,Immigrant minority
+2010,48,507,Zavala,48507,TX,,
+2010,48,203,Harrison,48203,TX,,
+2010,48,93,Comanche,48093,TX,,Immigrant minority
+2010,48,335,Mitchell,48335,TX,,
+2010,48,349,Navarro,48349,TX,,Immigrant minority
+2010,48,103,Crane,48103,TX,,
+2010,48,303,Lubbock,48303,TX,,Immigrant minority
+2010,34,13,Essex,34013,NJ,,Immigrant minority
+2010,34,35,Somerset,34035,NJ,,Immigrant minority
+2010,34,25,Monmouth,34025,NJ,,Immigrant minority
+2010,16,61,Lewis,16061,ID,,Immigrant minority
+2010,16,49,Idaho,16049,ID,,White
+2010,30,39,Granite,30039,MT,,White
+2010,16,25,Camas,16025,ID,,Immigrant minority
+2010,30,67,Park,30067,MT,,White
+2010,16,77,Power,16077,ID,,Immigrant minority
+2010,30,89,Sanders,30089,MT,,White
+2010,30,41,Hill,30041,MT,,Immigrant minority
+2010,30,35,Glacier,30035,MT,,White
+2010,16,7,Bear Lake,16007,ID,,Immigrant minority
+2010,30,15,Chouteau,30015,MT,,White
+2010,30,59,Meagher,30059,MT,,White
+2010,16,57,Latah,16057,ID,,Immigrant minority
+2010,16,87,Washington,16087,ID,,Immigrant minority
+2010,16,27,Canyon,16027,ID,,Immigrant minority
+2010,30,55,McCone,30055,MT,,White
+2010,30,111,Yellowstone,30111,MT,,Immigrant minority
+2010,30,71,Phillips,30071,MT,,White
+2010,30,11,Carter,30011,MT,,White
+2010,30,77,Powell,30077,MT,,White
+2010,16,45,Gem,16045,ID,,Immigrant minority
+2010,16,29,Caribou,16029,ID,,Immigrant minority
+2010,30,93,Silver Bow,30093,MT,,Immigrant minority
+2010,30,63,Missoula,30063,MT,,Immigrant minority
+2010,16,33,Clark,16033,ID,,Immigrant minority
+2010,30,79,Prairie,30079,MT,,Immigrant minority
+2010,30,105,Valley,30105,MT,,White
+2010,30,9,Carbon,30009,MT,,White
+2010,30,13,Cascade,30013,MT,,Immigrant minority
+2010,30,101,Toole,30101,MT,,White
+2010,30,65,Musselshell,30065,MT,,White
+2010,30,47,Lake,30047,MT,,Immigrant minority
+2010,16,59,Lemhi,16059,ID,,White
+2010,16,43,Fremont,16043,ID,,Immigrant minority
+2010,30,75,Powder River,30075,MT,,White
+2010,30,33,Garfield,30033,MT,,White
+2010,30,1,Beaverhead,30001,MT,,Immigrant minority
+2010,30,31,Gallatin,30031,MT,,Immigrant minority
+2010,30,7,Broadwater,30007,MT,,White
+2010,30,85,Roosevelt,30085,MT,,White
+2010,30,83,Richland,30083,MT,,White
+2010,30,95,Stillwater,30095,MT,,White
+2010,16,17,Bonner,16017,ID,,Immigrant minority
+2010,30,51,Liberty,30051,MT,,White
+2010,30,99,Teton,30099,MT,,White
+2010,30,49,Lewis and Clark,30049,MT,,Immigrant minority
+2010,16,83,Twin Falls,16083,ID,,Immigrant minority
+2010,30,103,Treasure,30103,MT,,Immigrant minority
+2010,30,25,Fallon,30025,MT,,Immigrant minority
+2010,30,23,Deer Lodge,30023,MT,,White
+2010,16,19,Bonneville,16019,ID,,Immigrant minority
+2010,30,91,Sheridan,30091,MT,,White
+2010,30,87,Rosebud,30087,MT,,Immigrant minority
+2010,30,3,Big Horn,30003,MT,,Immigrant minority
+2010,30,5,Blaine,30005,MT,,White
+2010,30,53,Lincoln,30053,MT,,White
+2010,30,29,Flathead,30029,MT,,Immigrant minority
+2010,30,57,Madison,30057,MT,,White
+2010,30,45,Judith Basin,30045,MT,,White
+2010,30,107,Wheatland,30107,MT,,White
+2010,30,81,Ravalli,30081,MT,,Immigrant minority
+2010,30,37,Golden Valley,30037,MT,,Immigrant minority
+2010,30,21,Dawson,30021,MT,,White
+2010,30,19,Daniels,30019,MT,,White
+2010,16,67,Minidoka,16067,ID,,Immigrant minority
+2010,30,17,Custer,30017,MT,,White
+2010,30,109,Wibaux,30109,MT,,White
+2010,30,61,Mineral,30061,MT,,Immigrant minority
+2010,16,21,Boundary,16021,ID,,Immigrant minority
+2010,30,43,Jefferson,30043,MT,,White
+2010,30,27,Fergus,30027,MT,,White
+2010,30,97,Sweet Grass,30097,MT,,Immigrant minority
+2010,16,15,Boise,16015,ID,,Immigrant minority
+2010,16,37,Custer,16037,ID,,Immigrant minority
+2010,8,95,Phillips,8095,CO,,Immigrant minority
+2010,8,91,Ouray,8091,CO,,Immigrant minority
+2010,8,77,Mesa,8077,CO,,Immigrant minority
+2010,8,109,Saguache,8109,CO,,Immigrant minority
+2010,8,35,Douglas,8035,CO,,Immigrant minority
+2010,8,33,Dolores,8033,CO,,Immigrant minority
+2010,8,105,Rio Grande,8105,CO,,Immigrant minority
+2010,8,101,Pueblo,8101,CO,,Immigrant minority
+2010,8,63,Kit Carson,8063,CO,,Immigrant minority
+2010,8,9,Baca,8009,CO,,Immigrant minority
+2010,8,49,Grand,8049,CO,,Immigrant minority
+2010,8,75,Logan,8075,CO,,
+2010,8,19,Clear Creek,8019,CO,,Immigrant minority
+2010,8,81,Moffat,8081,CO,,Immigrant minority
+2010,8,119,Teller,8119,CO,,Immigrant minority
+2010,8,13,Boulder,8013,CO,,Immigrant minority
+2010,8,61,Kiowa,8061,CO,,Immigrant minority
+2010,8,15,Chaffee,8015,CO,,Immigrant minority
+2010,8,53,Hinsdale,8053,CO,,White
+2010,8,57,Jackson,8057,CO,,Immigrant minority
+2010,29,45,Clark,29045,MO,,White
+2010,29,25,Caldwell,29025,MO,,White
+2010,29,149,Oregon,29149,MO,,White
+2010,29,115,Linn,29115,MO,,White
+2010,29,165,Platte,29165,MO,,Immigrant minority
+2010,20,121,Miami,20121,KS,,White
+2010,20,123,Mitchell,20123,KS,,White
+2010,29,7,Audrain,29007,MO,,White/Black
+2010,29,207,Stoddard,29207,MO,,White
+2010,29,87,Holt,29087,MO,,White
+2010,29,85,Hickory,29085,MO,,White
+2010,29,219,Warren,29219,MO,,White
+2010,29,13,Bates,29013,MO,,White
+2010,29,89,Howard,29089,MO,,White/Black
+2010,29,197,Schuyler,29197,MO,,White
+2010,29,133,Mississippi,29133,MO,,White/Black
+2010,29,187,St. Francois,29187,MO,,White/Black
+2010,29,179,Reynolds,29179,MO,,White
+2010,29,67,Douglas,29067,MO,,White
+2010,29,119,McDonald,29119,MO,,Immigrant minority
+2010,29,101,Johnson,29101,MO,,Immigrant minority
+2010,29,125,Maries,29125,MO,,White
+2010,29,75,Gentry,29075,MO,,White
+2010,29,33,Carroll,29033,MO,,White
+2010,20,115,Marion,20115,KS,,White
+2010,29,39,Cedar,29039,MO,,White
+2010,29,155,Pemiscot,29155,MO,,White/Black
+2010,20,53,Ellsworth,20053,KS,,
+2010,20,191,Sumner,20191,KS,,Immigrant minority
+2010,20,151,Pratt,20151,KS,,Immigrant minority
+2010,29,55,Crawford,29055,MO,,White
+2010,29,15,Benton,29015,MO,,White
+2010,29,109,Lawrence,29109,MO,,Immigrant minority
+2010,29,129,Mercer,29129,MO,,White
+2010,29,111,Lewis,29111,MO,,White/Black
+2010,29,105,Laclede,29105,MO,,White
+2010,29,17,Bollinger,29017,MO,,White
+2010,29,49,Clinton,29049,MO,,White
+2010,20,45,Douglas,20045,KS,,Immigrant minority
+2010,29,135,Moniteau,29135,MO,,
+2010,53,15,Cowlitz,53015,WA,,Immigrant minority
+2010,53,49,Pacific,53049,WA,,Immigrant minority
+2010,53,67,Thurston,53067,WA,,Immigrant minority
+2010,53,41,Lewis,53041,WA,,Immigrant minority
+2010,53,17,Douglas,53017,WA,,Immigrant minority
+2010,53,73,Whatcom,53073,WA,,Immigrant minority
+2010,53,31,Jefferson,53031,WA,,Immigrant minority
+2010,53,5,Benton,53005,WA,,Immigrant minority
+2010,53,75,Whitman,53075,WA,,Immigrant minority
+2010,53,65,Stevens,53065,WA,,Immigrant minority
+2010,9,5,Litchfield,9005,CT,,Immigrant minority
+2010,9,15,Windham,9015,CT,,Immigrant minority
+2010,9,13,Tolland,9013,CT,,Immigrant minority
+2010,9,3,Hartford,9003,CT,,Immigrant minority
+2010,6,55,Napa,6055,CA,,Immigrant minority
+2010,6,79,San Luis Obispo,6079,CA,,Immigrant minority
+2010,6,81,San Mateo,6081,CA,,Immigrant minority
+2010,6,57,Nevada,6057,CA,,Immigrant minority
+2010,6,77,San Joaquin,6077,CA,,Immigrant minority
+2010,6,71,San Bernardino,6071,CA,,Immigrant minority
+2010,45,15,Berkeley,45015,SC,,Immigrant minority
+2010,21,235,Whitley,21235,KY,,White
+2010,45,7,Anderson,45007,SC,,Immigrant minority
+2010,45,21,Cherokee,45021,SC,,
+2010,45,79,Richland,45079,SC,,Immigrant minority
+2010,45,35,Dorchester,45035,SC,,Immigrant minority
+2010,45,67,Marion,45067,SC,,White/Black
+2010,45,75,Orangeburg,45075,SC,,Immigrant minority
+2010,45,87,Union,45087,SC,,White/Black
+2010,15,3,Honolulu,15003,HI,,Immigrant minority
+2010,1,5,Barbour,1005,AL,,
+2010,1,27,Clay,1027,AL,,White/Black
+2010,1,91,Marengo,1091,AL,,White/Black
+2010,45,73,Oconee,45073,SC,,
+2010,45,55,Kershaw,45055,SC,,
+2010,45,89,Williamsburg,45089,SC,,White/Black
+2010,15,1,Hawaii,15001,HI,,Immigrant minority
+2010,45,47,Greenwood,45047,SC,,Immigrant minority
+2010,45,83,Spartanburg,45083,SC,,Immigrant minority
+2010,21,37,Campbell,21037,KY,,Immigrant minority
+2010,1,69,Houston,1069,AL,,Immigrant minority
+2010,21,201,Robertson,21201,KY,,White
+2010,21,239,Woodford,21239,KY,,
+2010,21,195,Pike,21195,KY,,White
+2010,21,55,Crittenden,21055,KY,,White
+2010,21,119,Knott,21119,KY,,White
+2010,45,27,Clarendon,45027,SC,,White/Black
+2010,15,7,Kauai,15007,HI,,Immigrant minority
+2010,15,5,Kalawao,15005,HI,,Immigrant minority
+2010,21,197,Powell,21197,KY,,White
+2010,21,165,Menifee,21165,KY,,White
+2010,1,19,Cherokee,1019,AL,,White/Black
+2010,1,3,Baldwin,1003,AL,,Immigrant minority
+2010,45,13,Beaufort,45013,SC,,Immigrant minority
+2010,21,1,Adair,21001,KY,,White/Black
+2010,1,35,Conecuh,1035,AL,,White/Black
+2010,1,29,Cleburne,1029,AL,,White/Black
+2010,1,73,Jefferson,1073,AL,,Immigrant minority
+2010,1,67,Henry,1067,AL,,White/Black
+2010,1,41,Crenshaw,1041,AL,,Immigrant minority
+2010,1,89,Madison,1089,AL,,Immigrant minority
+2010,1,83,Limestone,1083,AL,,Immigrant minority
+2010,1,47,Dallas,1047,AL,,White/Black
+2010,33,11,Hillsborough,33011,NH,,Immigrant minority
+2010,1,39,Covington,1039,AL,,White/Black
+2010,1,117,Shelby,1117,AL,,Immigrant minority
+2010,1,7,Bibb,1007,AL,,White/Black
+2010,1,13,Butler,1013,AL,,Immigrant minority
+2010,21,31,Butler,21031,KY,,White
+2010,1,87,Macon,1087,AL,,Other
+2010,1,1,Autauga,1001,AL,,Immigrant minority
+2010,1,59,Franklin,1059,AL,,
+2010,1,95,Marshall,1095,AL,,Immigrant minority
+2010,1,121,Talladega,1121,AL,,White/Black
+2010,45,61,Lee,45061,SC,,White/Black
+2010,21,45,Casey,21045,KY,,White
+2010,1,127,Walker,1127,AL,,White/Black
+2010,21,131,Leslie,21131,KY,,White
+2010,1,77,Lauderdale,1077,AL,,Immigrant minority
+2010,33,7,Coos,33007,NH,,White
+2010,1,103,Morgan,1103,AL,,
+2010,45,49,Hampton,45049,SC,,
+2010,21,9,Barren,21009,KY,,White/Black
+2010,1,107,Pickens,1107,AL,,White/Black
+2010,21,163,Meade,21163,KY,,Immigrant minority
+2010,21,25,Breathitt,21025,KY,,White
+2010,1,55,Etowah,1055,AL,,
+2010,21,207,Russell,21207,KY,,Immigrant minority
+2010,21,203,Rockcastle,21203,KY,,White
+2010,1,125,Tuscaloosa,1125,AL,,Immigrant minority
+2010,21,211,Shelby,21211,KY,,Immigrant minority
+2010,21,47,Christian,21047,KY,,Immigrant minority
+2010,21,27,Breckinridge,21027,KY,,White
+2010,45,39,Fairfield,45039,SC,,White/Black
+2010,45,53,Jasper,45053,SC,,
+2010,1,45,Dale,1045,AL,,Immigrant minority
+2010,1,123,Tallapoosa,1123,AL,,White/Black
+2010,45,11,Barnwell,45011,SC,,White/Black
+2010,45,63,Lexington,45063,SC,,Immigrant minority
+2010,21,221,Trigg,21221,KY,,White/Black
+2010,15,9,Maui,15009,HI,,Immigrant minority
+2010,21,21,Boyle,21021,KY,,Immigrant minority
+2010,21,113,Jessamine,21113,KY,,Immigrant minority
+2010,1,61,Geneva,1061,AL,,
+2010,1,97,Mobile,1097,AL,,Immigrant minority
+2010,1,131,Wilcox,1131,AL,,White/Black
+2010,45,19,Charleston,45019,SC,,Immigrant minority
+2010,21,41,Carroll,21041,KY,,Immigrant minority
+2010,1,119,Sumter,1119,AL,,White/Black
+2010,21,99,Hart,21099,KY,,White/Black
+2010,21,189,Owsley,21189,KY,,White
+2010,1,79,Lawrence,1079,AL,,White/Black
+2010,1,15,Calhoun,1015,AL,,Immigrant minority
+2010,1,71,Jackson,1071,AL,,White/Black
+2010,33,17,Strafford,33017,NH,,Immigrant minority
+2010,21,213,Simpson,21213,KY,,White/Black
+2010,1,93,Marion,1093,AL,,White/Black
+2010,1,49,DeKalb,1049,AL,,Immigrant minority
+2010,21,147,McCreary,21147,KY,,White/Black
+2010,1,109,Pike,1109,AL,,Immigrant minority
+2010,1,105,Perry,1105,AL,,White/Black
+2010,1,33,Colbert,1033,AL,,White/Black
+2010,45,69,Marlboro,45069,SC,,White/Black
+2010,21,155,Marion,21155,KY,,White/Black
+2010,1,51,Elmore,1051,AL,,Immigrant minority
+2010,45,65,McCormick,45065,SC,,White/Black
+2010,1,129,Washington,1129,AL,,White/Black
+2010,1,17,Chambers,1017,AL,,White/Black
+2010,1,25,Clarke,1025,AL,,White/Black
+2010,33,5,Cheshire,33005,NH,,Immigrant minority
+2010,21,81,Grant,21081,KY,,White
+2010,1,115,St. Clair,1115,AL,,White/Black
+2010,21,149,McLean,21149,KY,,White
+2010,21,209,Scott,21209,KY,,Immigrant minority
+2010,1,21,Chilton,1021,AL,,
+2010,1,11,Bullock,1011,AL,,
+2010,1,63,Greene,1063,AL,,Other
+2010,45,91,York,45091,SC,,Immigrant minority
+2010,45,59,Laurens,45059,SC,,
+2010,21,175,Morgan,21175,KY,,White/Black
+2010,1,9,Blount,1009,AL,,Immigrant minority
+2010,45,29,Colleton,45029,SC,,White/Black
+2010,45,77,Pickens,45077,SC,,Immigrant minority
+2010,21,23,Bracken,21023,KY,,White
+2010,1,37,Coosa,1037,AL,,White/Black
+2010,45,9,Bamberg,45009,SC,,White/Black
+2010,45,5,Allendale,45005,SC,,White/Black
+2010,45,43,Georgetown,45043,SC,,White/Black
+2010,45,37,Edgefield,45037,SC,,
+2010,45,51,Horry,45051,SC,,Immigrant minority
+2010,45,81,Saluda,45081,SC,,
+2010,21,59,Daviess,21059,KY,,Immigrant minority
+2010,1,133,Winston,1133,AL,,White
+2010,1,113,Russell,1113,AL,,Immigrant minority
+2010,1,31,Coffee,1031,AL,,Immigrant minority
+2010,45,33,Dillon,45033,SC,,White/Black
+2010,1,99,Monroe,1099,AL,,White/Black
+2010,21,159,Martin,21159,KY,,White/Black
+2010,45,25,Chesterfield,45025,SC,,
+2010,45,17,Calhoun,45017,SC,,White/Black
+2010,45,1,Abbeville,45001,SC,,White/Black
+2010,45,71,Newberry,45071,SC,,
+2010,45,23,Chester,45023,SC,,White/Black
+2010,45,57,Lancaster,45057,SC,,
+2010,45,3,Aiken,45003,SC,,Immigrant minority
+2010,45,41,Florence,45041,SC,,Immigrant minority
+2010,1,75,Lamar,1075,AL,,White/Black
+2010,1,23,Choctaw,1023,AL,,White/Black
+2010,1,43,Cullman,1043,AL,,Immigrant minority
+2010,1,101,Montgomery,1101,AL,,Immigrant minority
+2010,1,53,Escambia,1053,AL,,White/Black
+2010,21,33,Caldwell,21033,KY,,White/Black
+2010,1,111,Randolph,1111,AL,,White/Black
+2010,1,57,Fayette,1057,AL,,White/Black
+2010,45,31,Darlington,45031,SC,,White/Black
+2010,45,85,Sumter,45085,SC,,Immigrant minority
+2010,45,45,Greenville,45045,SC,,Immigrant minority
+2010,1,81,Lee,1081,AL,,Immigrant minority
+2010,1,85,Lowndes,1085,AL,,White/Black
+2010,1,65,Hale,1065,AL,,White/Black
+2010,12,45,Gulf,12045,FL,,
+2010,12,103,Pinellas,12103,FL,,Immigrant minority
+2010,12,67,Lafayette,12067,FL,,
+2010,12,23,Columbia,12023,FL,,Immigrant minority
+2010,12,129,Wakulla,12129,FL,,
+2010,12,13,Calhoun,12013,FL,,
+2010,12,86,Miami-Dade,12086,FL,,Immigrant minority
+2010,12,57,Hillsborough,12057,FL,,Immigrant minority
+2010,12,117,Seminole,12117,FL,,Immigrant minority
+2010,12,85,Martin,12085,FL,,Immigrant minority
+2010,12,83,Marion,12083,FL,,Immigrant minority
+2010,12,3,Baker,12003,FL,,White/Black
+2010,12,73,Leon,12073,FL,,Immigrant minority
+2010,12,109,St. Johns,12109,FL,,Immigrant minority
+2010,12,101,Pasco,12101,FL,,Immigrant minority
+2010,12,121,Suwannee,12121,FL,,
+2010,12,7,Bradford,12007,FL,,
+2010,12,115,Sarasota,12115,FL,,Immigrant minority
+2010,12,19,Clay,12019,FL,,Immigrant minority
+2010,12,123,Taylor,12123,FL,,
+2010,12,55,Highlands,12055,FL,,Immigrant minority
+2010,12,51,Hendry,12051,FL,,
+2010,12,39,Gadsden,12039,FL,,
+2010,12,15,Charlotte,12015,FL,,Immigrant minority
+2010,12,43,Glades,12043,FL,,
+2010,12,131,Walton,12131,FL,,Immigrant minority
+2010,12,125,Union,12125,FL,,
+2010,12,27,DeSoto,12027,FL,,
+2010,12,97,Osceola,12097,FL,,Immigrant minority
+2010,12,59,Holmes,12059,FL,,White/Black
+2010,12,41,Gilchrist,12041,FL,,
+2010,12,53,Hernando,12053,FL,,Immigrant minority
+2010,12,1,Alachua,12001,FL,,Immigrant minority
+2010,12,79,Madison,12079,FL,,
+2010,12,35,Flagler,12035,FL,,Immigrant minority
+2010,12,5,Bay,12005,FL,,Immigrant minority
+2010,12,61,Indian River,12061,FL,,Immigrant minority
+2010,12,75,Levy,12075,FL,,
+2010,12,105,Polk,12105,FL,,Immigrant minority
+2010,12,99,Palm Beach,12099,FL,,Immigrant minority
+2010,12,95,Orange,12095,FL,,Immigrant minority
+2010,12,107,Putnam,12107,FL,,
+2010,12,111,St. Lucie,12111,FL,,Immigrant minority
+2010,12,21,Collier,12021,FL,,Immigrant minority
+2010,12,119,Sumter,12119,FL,,
+2010,12,91,Okaloosa,12091,FL,,Immigrant minority
+2010,12,49,Hardee,12049,FL,,Immigrant minority
+2010,12,89,Nassau,12089,FL,,Immigrant minority
+2010,12,127,Volusia,12127,FL,,Immigrant minority
+2010,36,49,Lewis,36049,NY,,White
+2010,12,77,Liberty,12077,FL,,
+2010,12,113,Santa Rosa,12113,FL,,Immigrant minority
+2010,12,133,Washington,12133,FL,,White/Black
+2010,2,50,Bethel,2050,AK,,Immigrant minority
+2010,2,68,Denali,2068,AK,,Immigrant minority
+2010,2,20,Anchorage,2020,AK,,Immigrant minority
+2010,28,99,Neshoba,28099,MS,,White/Black
+2010,28,127,Simpson,28127,MS,,White/Black
+2010,28,103,Noxubee,28103,MS,,White/Black
+2010,28,161,Yalobusha,28161,MS,,White/Black
+2010,28,17,Chickasaw,28017,MS,,
+2010,28,33,DeSoto,28033,MS,,Immigrant minority
+2010,28,75,Lauderdale,28075,MS,,White/Black
+2010,28,131,Stone,28131,MS,,White/Black
+2010,28,67,Jones,28067,MS,,
+2010,28,135,Tallahatchie,28135,MS,,Immigrant minority
+2010,28,89,Madison,28089,MS,,Immigrant minority
+2010,28,159,Winston,28159,MS,,White/Black
+2010,28,155,Webster,28155,MS,,White/Black
+2010,28,137,Tate,28137,MS,,White/Black
+2010,22,25,Catahoula,22025,LA,,White/Black
+2010,22,125,West Feliciana,22125,LA,,White/Black
+2010,22,11,Beauregard,22011,LA,,Immigrant minority
+2010,22,37,East Feliciana,22037,LA,,White/Black
+2010,22,13,Bienville,22013,LA,,White/Black
+2010,22,119,Webster,22119,LA,,White/Black
+2010,22,107,Tensas,22107,LA,,White/Black
+2010,22,67,Morehouse,22067,LA,,White/Black
+2010,22,91,St. Helena,22091,LA,,White/Black
+2010,51,710,Norfolk,51710,VA,,Immigrant minority
+2010,51,580,Covington,51580,VA,,White/Black
+2010,51,25,Brunswick,51025,VA,,White/Black
+2010,51,47,Culpeper,51047,VA,,Immigrant minority
+2010,51,33,Caroline,51033,VA,,Immigrant minority
+2010,51,119,Middlesex,51119,VA,,White/Black
+2010,51,165,Rockingham,51165,VA,,Immigrant minority
+2010,51,730,Petersburg,51730,VA,,Immigrant minority
+2010,51,13,Arlington,51013,VA,,Immigrant minority
+2010,51,145,Powhatan,51145,VA,,White/Black
+2010,51,173,Smyth,51173,VA,,White
+2010,51,760,Richmond,51760,VA,,Immigrant minority
+2010,51,700,Newport News,51700,VA,,Immigrant minority
+2010,51,735,Poquoson,51735,VA,,Immigrant minority
+2010,51,95,James City,51095,VA,,Immigrant minority
+2010,51,678,Lexington,51678,VA,,Immigrant minority
+2010,51,37,Charlotte,51037,VA,,White/Black
+2010,51,51,Dickenson,51051,VA,,White
+2010,51,187,Warren,51187,VA,,Immigrant minority
+2010,51,45,Craig,51045,VA,,White
+2010,51,19,Bedford,51019,VA,,Immigrant minority
+2010,48,497,Wise,48497,TX,,Immigrant minority
+2010,48,477,Washington,48477,TX,,Immigrant minority
+2010,48,243,Jeff Davis,48243,TX,,Immigrant minority
+2010,48,141,El Paso,48141,TX,,Immigrant minority
+2010,48,183,Gregg,48183,TX,,Immigrant minority
+2010,48,491,Williamson,48491,TX,,Immigrant minority
+2010,34,39,Union,34039,NJ,,Immigrant minority
+2010,34,19,Hunterdon,34019,NJ,,Immigrant minority
+2010,34,15,Gloucester,34015,NJ,,Immigrant minority
+2010,46,49,Faulk,46049,SD,,White
+2010,46,73,Jerauld,46073,SD,,Immigrant minority
+2010,46,99,Minnehaha,46099,SD,,Immigrant minority
+2010,46,33,Custer,46033,SD,,White
+2010,46,129,Walworth,46129,SD,,White
+2010,46,11,Brookings,46011,SD,,Immigrant minority
+2010,46,17,Buffalo,46017,SD,,Other
+2010,16,73,Owyhee,16073,ID,,Immigrant minority
+2010,16,81,Teton,16081,ID,,Immigrant minority
+2010,16,75,Payette,16075,ID,,Immigrant minority
+2010,46,39,Deuel,46039,SD,,White
+2010,46,115,Spink,46115,SD,,White
+2010,46,127,Union,46127,SD,,Immigrant minority
+2010,16,13,Blaine,16013,ID,,Immigrant minority
+2010,16,51,Jefferson,16051,ID,,Immigrant minority
+2010,46,25,Clark,46025,SD,,White
+2010,16,69,Nez Perce,16069,ID,,Immigrant minority
+2010,46,85,Lyman,46085,SD,,White
+2010,46,135,Yankton,46135,SD,,White
+2010,46,35,Davison,46035,SD,,White
+2010,46,71,Jackson,46071,SD,,White
+2010,46,119,Sully,46119,SD,,White
+2010,16,47,Gooding,16047,ID,,Immigrant minority
+2010,46,43,Douglas,46043,SD,,White
+2010,46,109,Roberts,46109,SD,,White
+2010,46,7,Bennett,46007,SD,,White
+2010,46,111,Sanborn,46111,SD,,White
+2010,46,97,Miner,46097,SD,,White
+2010,16,53,Jerome,16053,ID,,Immigrant minority
+2010,16,3,Adams,16003,ID,,White
+2010,46,53,Gregory,46053,SD,,White
+2010,16,35,Clearwater,16035,ID,,Immigrant minority
+2010,16,39,Elmore,16039,ID,,Immigrant minority
+2010,16,71,Oneida,16071,ID,,White
+2010,16,85,Valley,16085,ID,,Immigrant minority
+2010,46,47,Fall River,46047,SD,,White
+2010,46,93,Meade,46093,SD,,Immigrant minority
+2010,16,55,Kootenai,16055,ID,,Immigrant minority
+2010,16,1,Ada,16001,ID,,Immigrant minority
+2010,16,9,Benewah,16009,ID,,White
+2010,16,63,Lincoln,16063,ID,,Immigrant minority
+2010,16,31,Cassia,16031,ID,,Immigrant minority
+2010,16,41,Franklin,16041,ID,,Immigrant minority
+2010,16,23,Butte,16023,ID,,Immigrant minority
+2010,16,65,Madison,16065,ID,,Immigrant minority
+2010,16,79,Shoshone,16079,ID,,White
+2010,16,11,Bingham,16011,ID,,Immigrant minority
+2010,46,79,Lake,46079,SD,,Immigrant minority
+2010,46,63,Harding,46063,SD,,White
+2010,16,5,Bannock,16005,ID,,Immigrant minority
+2010,46,117,Stanley,46117,SD,,White
+2010,8,123,Weld,8123,CO,,Immigrant minority
+2010,8,111,San Juan,8111,CO,,Immigrant minority
+2010,8,85,Montrose,8085,CO,,Immigrant minority
+2010,8,14,Broomfield,8014,CO,,Immigrant minority
+2010,8,121,Washington,8121,CO,,Immigrant minority
+2010,8,107,Routt,8107,CO,,Immigrant minority
+2010,8,7,Archuleta,8007,CO,,Immigrant minority
+2010,8,47,Gilpin,8047,CO,,Immigrant minority
+2010,8,31,Denver,8031,CO,,Immigrant minority
+2010,8,93,Park,8093,CO,,Immigrant minority
+2010,29,63,DeKalb,29063,MO,,White/Black
+2010,29,11,Barton,29011,MO,,White
+2010,29,35,Carter,29035,MO,,White
+2010,29,205,Shelby,29205,MO,,White
+2010,29,225,Webster,29225,MO,,White
+2010,29,163,Pike,29163,MO,,White/Black
+2010,29,21,Buchanan,29021,MO,,Immigrant minority
+2010,29,31,Cape Girardeau,29031,MO,,Immigrant minority
+2010,29,203,Shannon,29203,MO,,White
+2010,29,183,St. Charles,29183,MO,,Immigrant minority
+2010,29,169,Pulaski,29169,MO,,Immigrant minority
+2010,29,1,Adair,29001,MO,,Immigrant minority
+2010,29,173,Ralls,29173,MO,,White
+2010,29,117,Livingston,29117,MO,,White/Black
+2010,29,127,Marion,29127,MO,,White/Black
+2010,29,189,St. Louis,29189,MO,,Immigrant minority
+2010,29,69,Dunklin,29069,MO,,
+2010,29,47,Clay,29047,MO,,Immigrant minority
+2010,29,91,Howell,29091,MO,,White
+2010,29,199,Scotland,29199,MO,,White
+2010,29,177,Ray,29177,MO,,White
+2010,29,19,Boone,29019,MO,,Immigrant minority
+2010,29,121,Macon,29121,MO,,White/Black
+2010,53,33,King,53033,WA,,Immigrant minority
+2010,17,63,Grundy,17063,IL,,Immigrant minority
+2010,17,3,Alexander,17003,IL,,White/Black
+2010,17,7,Boone,17007,IL,,Immigrant minority
+2010,17,17,Cass,17017,IL,,
+2010,17,25,Clay,17025,IL,,White
+2010,17,73,Henry,17073,IL,,Immigrant minority
+2010,17,57,Fulton,17057,IL,,White/Black
+2010,17,75,Iroquois,17075,IL,,Immigrant minority
+2010,9,7,Middlesex,9007,CT,,Immigrant minority
+2010,17,1,Adams,17001,IL,,White/Black
+2010,17,97,Lake,17097,IL,,Immigrant minority
+2010,6,101,Sutter,6101,CA,,Immigrant minority
+2010,6,65,Riverside,6065,CA,,Immigrant minority
+2010,6,105,Trinity,6105,CA,,Immigrant minority
+2010,6,13,Contra Costa,6013,CA,,Immigrant minority
+2010,47,51,Franklin,47051,TN,,Immigrant minority
+2010,18,83,Knox,18083,IN,,White/Black
+2010,19,127,Marshall,19127,IA,,Immigrant minority
+2010,47,21,Cheatham,47021,TN,,White
+2010,18,175,Washington,18175,IN,,White
+2010,18,81,Johnson,18081,IN,,Immigrant minority
+2010,47,29,Cocke,47029,TN,,White
+2010,47,7,Bledsoe,47007,TN,,White/Black
+2010,47,155,Sevier,47155,TN,,Immigrant minority
+2010,47,45,Dyer,47045,TN,,White/Black
+2010,47,61,Grundy,47061,TN,,White
+2010,18,75,Jay,18075,IN,,White
+2010,47,23,Chester,47023,TN,,White/Black
+2010,18,39,Elkhart,18039,IN,,Immigrant minority
+2010,47,173,Union,47173,TN,,White
+2010,47,67,Hancock,47067,TN,,White
+2010,47,131,Obion,47131,TN,,White/Black
+2010,47,139,Polk,47139,TN,,White
+2010,19,11,Benton,19011,IA,,White
+2010,19,41,Clay,19041,IA,,White
+2010,19,165,Shelby,19165,IA,,White
+2010,19,43,Clayton,19043,IA,,White
+2010,47,167,Tipton,47167,TN,,Immigrant minority
+2010,18,45,Fountain,18045,IN,,White
+2010,19,97,Jackson,19097,IA,,White
+2010,19,79,Hamilton,19079,IA,,Immigrant minority
+2010,19,173,Taylor,19173,IA,,Immigrant minority
+2010,19,139,Muscatine,19139,IA,,Immigrant minority
+2010,47,91,Johnson,47091,TN,,White
+2010,47,107,McMinn,47107,TN,,Immigrant minority
+2010,47,69,Hardeman,47069,TN,,White/Black
+2010,47,81,Hickman,47081,TN,,White/Black
+2010,19,197,Wright,19197,IA,,Immigrant minority
+2010,19,45,Clinton,19045,IA,,White/Black
+2010,19,95,Iowa,19095,IA,,White
+2010,19,21,Buena Vista,19021,IA,,Immigrant minority
+2010,19,193,Woodbury,19193,IA,,Immigrant minority
+2010,19,109,Kossuth,19109,IA,,White
+2010,47,111,Macon,47111,TN,,Immigrant minority
+2010,47,105,Loudon,47105,TN,,Immigrant minority
+2010,19,195,Worth,19195,IA,,White
+2010,18,137,Ripley,18137,IN,,White
+2010,47,79,Henry,47079,TN,,White/Black
+2010,19,183,Washington,19183,IA,,Immigrant minority
+2010,19,161,Sac,19161,IA,,White
+2010,47,71,Hardin,47071,TN,,White/Black
+2010,18,131,Pulaski,18131,IN,,White
+2010,47,55,Giles,47055,TN,,White/Black
+2010,47,179,Washington,47179,TN,,Immigrant minority
+2010,47,187,Williamson,47187,TN,,Immigrant minority
+2010,47,141,Putnam,47141,TN,,Immigrant minority
+2010,19,91,Humboldt,19091,IA,,Immigrant minority
+2010,47,159,Smith,47159,TN,,White
+2010,47,115,Marion,47115,TN,,White/Black
+2010,47,99,Lawrence,47099,TN,,White
+2010,18,105,Monroe,18105,IN,,Immigrant minority
+2010,47,125,Montgomery,47125,TN,,Immigrant minority
+2010,47,149,Rutherford,47149,TN,,Immigrant minority
+2010,47,165,Sumner,47165,TN,,Immigrant minority
+2010,47,5,Benton,47005,TN,,White
+2010,18,111,Newton,18111,IN,,Immigrant minority
+2010,18,67,Howard,18067,IN,,Immigrant minority
+2010,47,129,Morgan,47129,TN,,White/Black
+2010,47,185,White,47185,TN,,White
+2010,19,35,Cherokee,19035,IA,,White
+2010,47,121,Meigs,47121,TN,,White
+2010,18,51,Gibson,18051,IN,,White
+2010,47,59,Greene,47059,TN,,White
+2010,47,147,Robertson,47147,TN,,
+2010,18,13,Brown,18013,IN,,White
+2010,18,47,Franklin,18047,IN,,White
+2010,18,25,Crawford,18025,IN,,White
+2010,47,33,Crockett,47033,TN,,
+2010,47,13,Campbell,47013,TN,,White
+2010,47,39,Decatur,47039,TN,,White/Black
+2010,47,101,Lewis,47101,TN,,White
+2010,47,177,Warren,47177,TN,,
+2010,19,189,Winnebago,19189,IA,,Immigrant minority
+2010,47,53,Gibson,47053,TN,,White/Black
+2010,19,119,Lyon,19119,IA,,White
+2010,18,95,Madison,18095,IN,,White/Black
+2010,18,91,LaPorte,18091,IN,,
+2010,19,125,Marion,19125,IA,,Immigrant minority
+2010,19,107,Keokuk,19107,IA,,White
+2010,19,103,Johnson,19103,IA,,Immigrant minority
+2010,47,89,Jefferson,47089,TN,,White
+2010,18,19,Clark,18019,IN,,Immigrant minority
+2010,18,63,Hendricks,18063,IN,,Immigrant minority
+2010,18,33,DeKalb,18033,IN,,White
+2010,47,171,Unicoi,47171,TN,,Immigrant minority
+2010,18,123,Perry,18123,IN,,White
+2010,19,135,Monroe,19135,IA,,White
+2010,18,145,Shelby,18145,IN,,Immigrant minority
+2010,47,127,Moore,47127,TN,,White
+2010,47,47,Fayette,47047,TN,,White/Black
+2010,18,99,Marshall,18099,IN,,Immigrant minority
+2010,18,179,Wells,18179,IN,,White
+2010,47,137,Pickett,47137,TN,,White
+2010,47,63,Hamblen,47063,TN,,Immigrant minority
+2010,18,135,Randolph,18135,IN,,White
+2010,18,11,Boone,18011,IN,,Immigrant minority
+2010,47,93,Knox,47093,TN,,Immigrant minority
+2010,18,41,Fayette,18041,IN,,White
+2010,47,3,Bedford,47003,TN,,Immigrant minority
+2010,47,49,Fentress,47049,TN,,White
+2010,18,153,Sullivan,18153,IN,,White/Black
+2010,18,101,Martin,18101,IN,,White
+2010,18,169,Wabash,18169,IN,,White
+2010,47,163,Sullivan,47163,TN,,White
+2010,18,59,Hancock,18059,IN,,Immigrant minority
+2010,47,161,Stewart,47161,TN,,Immigrant minority
+2010,47,143,Rhea,47143,TN,,Immigrant minority
+2010,18,151,Steuben,18151,IN,,White
+2010,19,141,O'Brien,19141,IA,,Immigrant minority
+2010,47,1,Anderson,47001,TN,,Immigrant minority
+2010,19,61,Dubuque,19061,IA,,Immigrant minority
+2010,19,177,Van Buren,19177,IA,,White
+2010,19,69,Franklin,19069,IA,,Immigrant minority
+2010,19,77,Guthrie,19077,IA,,White
+2010,19,101,Jefferson,19101,IA,,Immigrant minority
+2010,19,59,Dickinson,19059,IA,,White
+2010,19,67,Floyd,19067,IA,,Immigrant minority
+2010,19,7,Appanoose,19007,IA,,White
+2010,33,1,Belknap,33001,NH,,Immigrant minority
+2010,33,15,Rockingham,33015,NH,,Immigrant minority
+2010,19,51,Davis,19051,IA,,White
+2010,19,39,Clarke,19039,IA,,Immigrant minority
+2010,19,13,Black Hawk,19013,IA,,Immigrant minority
+2010,33,13,Merrimack,33013,NH,,Immigrant minority
+2010,19,163,Scott,19163,IA,,Immigrant minority
+2010,19,149,Plymouth,19149,IA,,White
+2010,19,131,Mitchell,19131,IA,,White
+2010,19,49,Dallas,19049,IA,,Immigrant minority
+2010,19,147,Palo Alto,19147,IA,,White
+2010,19,71,Fremont,19071,IA,,White
+2010,19,159,Ringgold,19159,IA,,White
+2010,19,23,Butler,19023,IA,,White
+2010,19,137,Montgomery,19137,IA,,White
+2010,19,181,Warren,19181,IA,,White
+2010,19,53,Decatur,19053,IA,,Immigrant minority
+2010,19,187,Webster,19187,IA,,
+2010,19,25,Calhoun,19025,IA,,White
+2010,19,123,Mahaska,19123,IA,,Immigrant minority
+2010,19,15,Boone,19015,IA,,White
+2010,19,113,Linn,19113,IA,,Immigrant minority
+2010,19,99,Jasper,19099,IA,,White
+2010,19,145,Page,19145,IA,,Immigrant minority
+2010,19,93,Ida,19093,IA,,White
+2010,19,47,Crawford,19047,IA,,Immigrant minority
+2010,19,3,Adams,19003,IA,,White
+2010,19,31,Cedar,19031,IA,,White
+2010,33,9,Grafton,33009,NH,,Immigrant minority
+2010,19,27,Carroll,19027,IA,,White
+2010,19,9,Audubon,19009,IA,,White
+2010,19,55,Delaware,19055,IA,,White
+2010,19,83,Hardin,19083,IA,,Immigrant minority
+2010,19,167,Sioux,19167,IA,,Immigrant minority
+2010,33,3,Carroll,33003,NH,,White
+2010,33,19,Sullivan,33019,NH,,White
+2010,19,1,Adair,19001,IA,,White
+2010,19,175,Union,19175,IA,,White
+2010,19,129,Mills,19129,IA,,White
+2010,19,185,Wayne,19185,IA,,White
+2010,19,133,Monona,19133,IA,,White
+2010,19,85,Harrison,19085,IA,,White
+2010,19,117,Lucas,19117,IA,,White
+2010,19,63,Emmet,19063,IA,,Immigrant minority
+2010,19,153,Polk,19153,IA,,Immigrant minority
+2010,19,19,Buchanan,19019,IA,,White
+2010,19,37,Chickasaw,19037,IA,,White
+2010,19,57,Des Moines,19057,IA,,Immigrant minority
+2010,19,29,Cass,19029,IA,,White
+2010,19,5,Allamakee,19005,IA,,Immigrant minority
+2010,19,121,Madison,19121,IA,,White
+2010,19,33,Cerro Gordo,19033,IA,,Immigrant minority
+2010,19,65,Fayette,19065,IA,,White
+2010,19,17,Bremer,19017,IA,,Immigrant minority
+2010,19,171,Tama,19171,IA,,Immigrant minority
+2010,19,143,Osceola,19143,IA,,Immigrant minority
+2010,19,87,Henry,19087,IA,,Immigrant minority
+2010,19,157,Poweshiek,19157,IA,,Immigrant minority
+2010,19,81,Hancock,19081,IA,,Immigrant minority
+2010,19,191,Winneshiek,19191,IA,,Immigrant minority
+2010,19,105,Jones,19105,IA,,White
+2010,19,151,Pocahontas,19151,IA,,White
+2010,19,73,Greene,19073,IA,,White
+2010,19,115,Louisa,19115,IA,,Immigrant minority
+2010,19,179,Wapello,19179,IA,,Immigrant minority
+2010,19,111,Lee,19111,IA,,White/Black
+2010,19,169,Story,19169,IA,,Immigrant minority
+2010,19,75,Grundy,19075,IA,,White
+2010,19,155,Pottawattamie,19155,IA,,Immigrant minority
+2010,19,89,Howard,19089,IA,,White
+2010,28,163,Yazoo,28163,MS,,
+2010,28,15,Carroll,28015,MS,,White/Black
+2010,28,37,Franklin,28037,MS,,White/Black
+2010,28,41,Greene,28041,MS,,White/Black
+2010,28,19,Choctaw,28019,MS,,White/Black
+2010,28,35,Forrest,28035,MS,,
+2010,28,151,Washington,28151,MS,,White/Black
+2010,22,49,Jackson,22049,LA,,White/Black
+2010,22,3,Allen,22003,LA,,White/Black
+2010,22,43,Grant,22043,LA,,
+2010,22,41,Franklin,22041,LA,,White/Black
+2010,22,5,Ascension,22005,LA,,Immigrant minority
+2010,22,39,Evangeline,22039,LA,,White/Black
+2010,22,115,Vernon,22115,LA,,Immigrant minority
+2010,22,71,Orleans,22071,LA,,Immigrant minority
+2010,22,121,West Baton Rouge,22121,LA,,White/Black
+2010,51,770,Roanoke,51770,VA,,Immigrant minority
+2010,51,15,Augusta,51015,VA,,White/Black
+2010,51,81,Greensville,51081,VA,,White/Black
+2010,51,89,Henry,51089,VA,,
+2010,51,740,Portsmouth,51740,VA,,Immigrant minority
+2010,51,93,Isle of Wight,51093,VA,,Immigrant minority
+2010,51,515,Bedford,51515,VA,,White/Black
+2010,51,49,Cumberland,51049,VA,,White/Black
+2010,51,97,King and Queen,51097,VA,,White/Black
+2010,51,61,Fauquier,51061,VA,,Immigrant minority
+2010,51,36,Charles City,51036,VA,,White/Black
+2010,51,197,Wythe,51197,VA,,White/Black
+2010,51,103,Lancaster,51103,VA,,White/Black
+2010,51,177,Spotsylvania,51177,VA,,Immigrant minority
+2010,51,63,Floyd,51063,VA,,White
+2010,51,199,York,51199,VA,,Immigrant minority
+2010,51,840,Winchester,51840,VA,,Immigrant minority
+2010,48,295,Lipscomb,48295,TX,,Immigrant minority
+2010,48,319,Mason,48319,TX,,Immigrant minority
+2010,48,213,Henderson,48213,TX,,
+2010,48,195,Hansford,48195,TX,,Immigrant minority
+2010,48,71,Chambers,48071,TX,,Immigrant minority
+2010,48,217,Hill,48217,TX,,
+2010,48,375,Potter,48375,TX,,Immigrant minority
+2010,48,249,Jim Wells,48249,TX,,Immigrant minority
+2010,48,119,Delta,48119,TX,,
+2010,48,433,Stonewall,48433,TX,,Immigrant minority
+2010,48,135,Ector,48135,TX,,Immigrant minority
+2010,48,61,Cameron,48061,TX,,
+2010,48,323,Maverick,48323,TX,,
+2010,48,85,Collin,48085,TX,,Immigrant minority
+2010,48,23,Baylor,48023,TX,,Immigrant minority
+2010,48,365,Panola,48365,TX,,
+2010,48,187,Guadalupe,48187,TX,,Immigrant minority
+2010,34,3,Bergen,34003,NJ,,Immigrant minority
+2010,34,9,Cape May,34009,NJ,,Immigrant minority
+2010,34,37,Sussex,34037,NJ,,Immigrant minority
+2010,46,103,Pennington,46103,SD,,Immigrant minority
+2010,46,137,Ziebach,46137,SD,,White
+2010,46,91,Marshall,46091,SD,,Immigrant minority
+2010,46,95,Mellette,46095,SD,,White
+2010,46,45,Edmunds,46045,SD,,White
+2010,46,21,Campbell,46021,SD,,White
+2010,46,61,Hanson,46061,SD,,White
+2010,46,29,Codington,46029,SD,,White
+2010,46,23,Charles Mix,46023,SD,,White
+2010,46,105,Perkins,46105,SD,,White
+2010,46,75,Jones,46075,SD,,White
+2010,46,121,Todd,46121,SD,,Other
+2010,46,55,Haakon,46055,SD,,White
+2010,46,69,Hyde,46069,SD,,White
+2010,46,81,Lawrence,46081,SD,,Immigrant minority
+2010,46,67,Hutchinson,46067,SD,,White
+2010,46,15,Brule,46015,SD,,White
+2010,4,11,Greenlee,4011,AZ,,Immigrant minority
+2010,46,107,Potter,46107,SD,,White
+2010,46,65,Hughes,46065,SD,,White
+2010,46,19,Butte,46019,SD,,White
+2010,4,23,Santa Cruz,4023,AZ,,
+2010,4,5,Coconino,4005,AZ,,Immigrant minority
+2010,46,27,Clay,46027,SD,,Immigrant minority
+2010,46,9,Bon Homme,46009,SD,,White
+2010,46,89,McPherson,46089,SD,,White
+2010,46,3,Aurora,46003,SD,,Immigrant minority
+2010,46,5,Beadle,46005,SD,,Immigrant minority
+2010,46,13,Brown,46013,SD,,Immigrant minority
+2010,46,57,Hamlin,46057,SD,,White
+2010,46,51,Grant,46051,SD,,White
+2010,46,101,Moody,46101,SD,,Immigrant minority
+2010,46,31,Corson,46031,SD,,White
+2010,46,123,Tripp,46123,SD,,White
+2010,46,59,Hand,46059,SD,,White
+2010,46,87,McCook,46087,SD,,White
+2010,46,113,Shannon,46113,SD,,Other
+2010,46,83,Lincoln,46083,SD,,Immigrant minority
+2010,46,125,Turner,46125,SD,,White
+2010,46,77,Kingsbury,46077,SD,,White
+2010,46,37,Day,46037,SD,,White
+2010,46,41,Dewey,46041,SD,,White
+2010,8,41,El Paso,8041,CO,,Immigrant minority
+2010,8,5,Arapahoe,8005,CO,,Immigrant minority
+2010,8,55,Huerfano,8055,CO,,Immigrant minority
+2010,29,9,Barry,29009,MO,,Immigrant minority
+2010,29,59,Dallas,29059,MO,,White
+2010,29,223,Wayne,29223,MO,,White
+2010,29,195,Saline,29195,MO,,Immigrant minority
+2010,29,81,Harrison,29081,MO,,White
+2010,29,161,Phelps,29161,MO,,Immigrant minority
+2010,29,73,Gasconade,29073,MO,,White
+2010,29,65,Dent,29065,MO,,White
+2010,29,186,Ste. Genevieve,29186,MO,,White
+2010,29,139,Montgomery,29139,MO,,White
+2010,29,107,Lafayette,29107,MO,,White/Black
+2010,29,151,Osage,29151,MO,,White
+2010,29,217,Vernon,29217,MO,,White
+2010,29,181,Ripley,29181,MO,,White
+2010,29,213,Taney,29213,MO,,Immigrant minority
+2010,53,71,Walla Walla,53071,WA,,Immigrant minority
+2010,53,23,Garfield,53023,WA,,Immigrant minority
+2010,53,1,Adams,53001,WA,,Immigrant minority
+2010,9,9,New Haven,9009,CT,,Immigrant minority
+2010,17,89,Kane,17089,IL,,Immigrant minority
+2010,17,59,Gallatin,17059,IL,,White
+2010,17,71,Henderson,17071,IL,,White
+2010,17,29,Coles,17029,IL,,Immigrant minority
+2010,6,111,Ventura,6111,CA,,Immigrant minority
+2010,49,29,Morgan,49029,UT,,White
+2010,6,109,Tuolumne,6109,CA,,Immigrant minority
+2010,6,7,Butte,6007,CA,,Immigrant minority
+2010,49,37,San Juan,49037,UT,,Immigrant minority
+2010,49,45,Tooele,49045,UT,,Immigrant minority
+2010,6,91,Sierra,6091,CA,,Immigrant minority
+2010,6,33,Lake,6033,CA,,Immigrant minority
+2010,6,49,Modoc,6049,CA,,Immigrant minority
+2010,6,17,El Dorado,6017,CA,,Immigrant minority
+2010,6,37,Los Angeles,6037,CA,,Immigrant minority
+2010,6,1,Alameda,6001,CA,,Immigrant minority
+2010,47,35,Cumberland,47035,TN,,White
+2010,27,61,Itasca,27061,MN,,White
+2010,47,25,Claiborne,47025,TN,,White
+2010,47,153,Sequatchie,47153,TN,,Immigrant minority
+2010,18,141,St. Joseph,18141,IN,,Immigrant minority
+2010,18,79,Jennings,18079,IN,,White
+2010,47,43,Dickson,47043,TN,,White/Black
+2010,18,113,Noble,18113,IN,,Immigrant minority
+2010,18,177,Wayne,18177,IN,,Immigrant minority
+2010,18,121,Parke,18121,IN,,White
+2010,47,175,Van Buren,47175,TN,,White
+2010,27,77,Lake of the Woods,27077,MN,,Immigrant minority
+2010,27,25,Chisago,27025,MN,,Immigrant minority
+2010,27,113,Pennington,27113,MN,,White
+2010,27,85,McLeod,27085,MN,,Immigrant minority
+2010,27,33,Cottonwood,27033,MN,,Immigrant minority
+2010,27,45,Fillmore,27045,MN,,White
+2010,47,15,Cannon,47015,TN,,White
+2010,27,5,Becker,27005,MN,,White
+2010,47,87,Jackson,47087,TN,,White
+2010,18,73,Jasper,18073,IN,,Immigrant minority
+2010,27,123,Ramsey,27123,MN,,Immigrant minority
+2010,18,27,Daviess,18027,IN,,Immigrant minority
+2010,27,133,Rock,27133,MN,,Immigrant minority
+2010,18,119,Owen,18119,IN,,White
+2010,47,9,Blount,47009,TN,,Immigrant minority
+2010,27,91,Martin,27091,MN,,Immigrant minority
+2010,27,167,Wilkin,27167,MN,,White
+2010,27,151,Swift,27151,MN,,Immigrant minority
+2010,18,53,Grant,18053,IN,,
+2010,47,183,Weakley,47183,TN,,Immigrant minority
+2010,18,87,LaGrange,18087,IN,,Immigrant minority
+2010,18,21,Clay,18021,IN,,White
+2010,18,23,Clinton,18023,IN,,Immigrant minority
+2010,18,107,Montgomery,18107,IN,,Immigrant minority
+2010,18,17,Cass,18017,IN,,Immigrant minority
+2010,27,139,Scott,27139,MN,,Immigrant minority
+2010,47,11,Bradley,47011,TN,,Immigrant minority
+2010,18,171,Warren,18171,IN,,White
+2010,47,27,Clay,47027,TN,,White
+2010,47,145,Roane,47145,TN,,White/Black
+2010,47,19,Carter,47019,TN,,White
+2010,18,49,Fulton,18049,IN,,Immigrant minority
+2010,47,41,DeKalb,47041,TN,,Immigrant minority
+2010,18,165,Vermillion,18165,IN,,White
+2010,47,37,Davidson,47037,TN,,Immigrant minority
+2010,47,17,Carroll,47017,TN,,White/Black
+2010,18,29,Dearborn,18029,IN,,White
+2010,18,147,Spencer,18147,IN,,White
+2010,18,15,Carroll,18015,IN,,Immigrant minority
+2010,18,69,Huntington,18069,IN,,White
+2010,47,83,Houston,47083,TN,,White
+2010,47,135,Perry,47135,TN,,White
+2010,18,103,Miami,18103,IN,,White/Black
+2010,47,169,Trousdale,47169,TN,,White/Black
+2010,18,65,Henry,18065,IN,,White
+2010,47,95,Lake,47095,TN,,White/Black
+2010,18,57,Hamilton,18057,IN,,Immigrant minority
+2010,18,109,Morgan,18109,IN,,White
+2010,27,35,Crow Wing,27035,MN,,White
+2010,47,31,Coffee,47031,TN,,Immigrant minority
+2010,27,39,Dodge,27039,MN,,Immigrant minority
+2010,47,73,Hawkins,47073,TN,,White
+2010,18,77,Jefferson,18077,IN,,White
+2010,18,163,Vanderburgh,18163,IN,,Immigrant minority
+2010,47,119,Maury,47119,TN,,
+2010,18,37,Dubois,18037,IN,,Immigrant minority
+2010,18,161,Union,18161,IN,,White
+2010,47,151,Scott,47151,TN,,White
+2010,47,117,Marshall,47117,TN,,
+2010,47,103,Lincoln,47103,TN,,White/Black
+2010,18,157,Tippecanoe,18157,IN,,Immigrant minority
+2010,47,77,Henderson,47077,TN,,White/Black
+2010,18,31,Decatur,18031,IN,,White
+2010,27,41,Douglas,27041,MN,,White
+2010,18,155,Switzerland,18155,IN,,White
+2010,27,9,Benton,27009,MN,,Immigrant minority
+2010,18,181,White,18181,IN,,Immigrant minority
+2010,18,43,Floyd,18043,IN,,Immigrant minority
+2010,47,133,Overton,47133,TN,,White
+2010,18,93,Lawrence,18093,IN,,White
+2010,18,159,Tipton,18159,IN,,White
+2010,18,183,Whitley,18183,IN,,White
+2010,47,75,Haywood,47075,TN,,
+2010,18,89,Lake,18089,IN,,Immigrant minority
+2010,18,1,Adams,18001,IN,,Immigrant minority
+2010,18,35,Delaware,18035,IN,,Immigrant minority
+2010,18,85,Kosciusko,18085,IN,,Immigrant minority
+2010,47,85,Humphreys,47085,TN,,White
+2010,18,129,Posey,18129,IN,,White
+2010,18,117,Orange,18117,IN,,White
+2010,18,61,Harrison,18061,IN,,White
+2010,18,143,Scott,18143,IN,,White
+2010,18,173,Warrick,18173,IN,,Immigrant minority
+2010,47,57,Grainger,47057,TN,,White
+2010,47,181,Wayne,47181,TN,,White/Black
+2010,18,3,Allen,18003,IN,,Immigrant minority
+2010,47,97,Lauderdale,47097,TN,,White/Black
+2010,18,5,Bartholomew,18005,IN,,Immigrant minority
+2010,18,167,Vigo,18167,IN,,Immigrant minority
+2010,47,65,Hamilton,47065,TN,,Immigrant minority
+2010,18,125,Pike,18125,IN,,White
+2010,18,127,Porter,18127,IN,,Immigrant minority
+2010,18,7,Benton,18007,IN,,Immigrant minority
+2010,18,115,Ohio,18115,IN,,White
+2010,47,123,Monroe,47123,TN,,Immigrant minority
+2010,18,71,Jackson,18071,IN,,Immigrant minority
+2010,18,97,Marion,18097,IN,,Immigrant minority
+2010,18,55,Greene,18055,IN,,White
+2010,47,189,Wilson,47189,TN,,Immigrant minority
+2010,18,149,Starke,18149,IN,,Immigrant minority
+2010,47,109,McNairy,47109,TN,,White/Black
+2010,47,157,Shelby,47157,TN,,Immigrant minority
+2010,18,139,Rush,18139,IN,,White
+2010,18,133,Putnam,18133,IN,,Immigrant minority
+2010,18,9,Blackford,18009,IN,,White
+2010,47,113,Madison,47113,TN,,Immigrant minority
+2010,28,47,Harrison,28047,MS,,Immigrant minority
+2010,28,65,Jefferson Davis,28065,MS,,White/Black
+2010,22,33,East Baton Rouge,22033,LA,,Immigrant minority
+2010,22,23,Cameron,22023,LA,,White
+2010,22,35,East Carroll,22035,LA,,White/Black
+2010,22,17,Caddo,22017,LA,,Immigrant minority
+2010,51,91,Highland,51091,VA,,White
+2010,51,29,Buckingham,51029,VA,,White/Black
+2010,51,113,Madison,51113,VA,,White/Black
+2010,51,85,Hanover,51085,VA,,Immigrant minority
+2010,51,105,Lee,51105,VA,,White/Black
+2010,51,9,Amherst,51009,VA,,White/Black
+2010,51,135,Nottoway,51135,VA,,
+2010,51,77,Grayson,51077,VA,,White
+2010,51,87,Henrico,51087,VA,,Immigrant minority
+2010,51,7,Amelia,51007,VA,,White/Black
+2010,51,590,Danville,51590,VA,,Immigrant minority
+2010,51,157,Rappahannock,51157,VA,,White/Black
+2010,51,550,Chesapeake,51550,VA,,Immigrant minority
+2010,51,670,Hopewell,51670,VA,,Immigrant minority
+2010,51,800,Suffolk,51800,VA,,Immigrant minority
+2010,51,121,Montgomery,51121,VA,,Immigrant minority
+2010,48,21,Bastrop,48021,TX,,Immigrant minority
+2010,48,15,Austin,48015,TX,,
+2010,48,3,Andrews,48003,TX,,Immigrant minority
+2010,48,1,Anderson,48001,TX,,
+2010,48,31,Blanco,48031,TX,,Immigrant minority
+2010,51,21,Bland,51021,VA,,White/Black
+2010,51,163,Rockbridge,51163,VA,,White/Black
+2010,51,115,Mathews,51115,VA,,White/Black
+2010,48,123,DeWitt,48123,TX,,
+2010,51,131,Northampton,51131,VA,,
+2010,51,17,Bath,51017,VA,,White/Black
+2010,51,830,Williamsburg,51830,VA,,Immigrant minority
+2010,51,191,Washington,51191,VA,,White
+2010,51,137,Orange,51137,VA,,Immigrant minority
+2010,48,19,Bandera,48019,TX,,Immigrant minority
+2010,48,27,Bell,48027,TX,,Immigrant minority
+2010,48,7,Aransas,48007,TX,,Immigrant minority
+2010,48,9,Archer,48009,TX,,Immigrant minority
+2010,48,11,Armstrong,48011,TX,,Immigrant minority
+2010,48,25,Bee,48025,TX,,
+2010,48,5,Angelina,48005,TX,,Immigrant minority
+2010,51,640,Galax,51640,VA,,
+2010,48,17,Bailey,48017,TX,,Immigrant minority
+2010,48,245,Jefferson,48245,TX,,Immigrant minority
+2010,48,163,Frio,48163,TX,,Immigrant minority
+2010,48,147,Fannin,48147,TX,,
+2010,48,175,Goliad,48175,TX,,
+2010,48,301,Loving,48301,TX,,Immigrant minority
+2010,48,67,Cass,48067,TX,,
+2010,48,157,Fort Bend,48157,TX,,Immigrant minority
+2010,48,35,Bosque,48035,TX,,Immigrant minority
+2010,48,219,Hockley,48219,TX,,
+2010,48,411,San Saba,48411,TX,,
+2010,48,265,Kerr,48265,TX,,Immigrant minority
+2010,48,333,Mills,48333,TX,,Immigrant minority
+2010,48,97,Cooke,48097,TX,,
+2010,48,487,Wilbarger,48487,TX,,Immigrant minority
+2010,48,235,Irion,48235,TX,,Immigrant minority
+2010,48,55,Caldwell,48055,TX,,Immigrant minority
+2010,48,247,Jim Hogg,48247,TX,,
+2010,48,109,Culberson,48109,TX,,Immigrant minority
+2010,48,459,Upshur,48459,TX,,
+2010,48,73,Cherokee,48073,TX,,
+2010,48,121,Denton,48121,TX,,Immigrant minority
+2010,48,95,Concho,48095,TX,,Immigrant minority
+2010,48,381,Randall,48381,TX,,Immigrant minority
+2010,48,267,Kimble,48267,TX,,Immigrant minority
+2010,48,275,Knox,48275,TX,,
+2010,48,373,Polk,48373,TX,,
+2010,48,221,Hood,48221,TX,,Immigrant minority
+2010,48,407,San Jacinto,48407,TX,,
+2010,48,395,Robertson,48395,TX,,
+2010,48,493,Wilson,48493,TX,,Immigrant minority
+2010,48,353,Nolan,48353,TX,,
+2010,48,101,Cottle,48101,TX,,
+2010,48,57,Calhoun,48057,TX,,Immigrant minority
+2010,48,397,Rockwall,48397,TX,,Immigrant minority
+2010,48,297,Live Oak,48297,TX,,
+2010,48,345,Motley,48345,TX,,Immigrant minority
+2010,48,421,Sherman,48421,TX,,Immigrant minority
+2010,48,357,Ochiltree,48357,TX,,Immigrant minority
+2010,48,91,Comal,48091,TX,,Immigrant minority
+2010,34,27,Morris,34027,NJ,,Immigrant minority
+2010,34,5,Burlington,34005,NJ,,Immigrant minority
+2010,34,23,Middlesex,34023,NJ,,Immigrant minority
+2010,4,9,Graham,4009,AZ,,Immigrant minority
+2010,4,13,Maricopa,4013,AZ,,Immigrant minority
+2010,4,3,Cochise,4003,AZ,,Immigrant minority
+2010,4,15,Mohave,4015,AZ,,Immigrant minority
+2010,4,1,Apache,4001,AZ,,Immigrant minority
+2010,50,17,Orange,50017,VT,,White
+2010,23,7,Franklin,23007,ME,,White
+2010,23,25,Somerset,23025,ME,,White
+2010,23,17,Oxford,23017,ME,,White
+2010,50,3,Bennington,50003,VT,,Immigrant minority
+2010,50,19,Orleans,50019,VT,,White
+2010,23,27,Waldo,23027,ME,,White
+2010,23,15,Lincoln,23015,ME,,White
+2010,23,31,York,23031,ME,,Immigrant minority
+2010,50,7,Chittenden,50007,VT,,Immigrant minority
+2010,23,13,Knox,23013,ME,,White
+2010,23,23,Sagadahoc,23023,ME,,Immigrant minority
+2010,23,1,Androscoggin,23001,ME,,Immigrant minority
+2010,23,11,Kennebec,23011,ME,,Immigrant minority
+2010,23,5,Cumberland,23005,ME,,Immigrant minority
+2010,23,21,Piscataquis,23021,ME,,Immigrant minority
+2010,29,159,Pettis,29159,MO,,Immigrant minority
+2010,29,103,Knox,29103,MO,,White
+2010,29,145,Newton,29145,MO,,Immigrant minority
+2010,29,171,Putnam,29171,MO,,White
+2010,29,41,Chariton,29041,MO,,White
+2010,29,113,Lincoln,29113,MO,,White
+2010,29,131,Miller,29131,MO,,White
+2010,29,123,Madison,29123,MO,,White
+2010,29,5,Atchison,29005,MO,,White
+2010,29,221,Washington,29221,MO,,White
+2010,29,211,Sullivan,29211,MO,,Immigrant minority
+2010,29,23,Butler,29023,MO,,Immigrant minority
+2010,29,61,Daviess,29061,MO,,White
+2010,29,43,Christian,29043,MO,,Immigrant minority
+2010,29,167,Polk,29167,MO,,White
+2010,29,57,Dade,29057,MO,,White
+2010,29,3,Andrew,29003,MO,,White
+2010,29,201,Scott,29201,MO,,White/Black
+2010,29,147,Nodaway,29147,MO,,Immigrant minority
+2010,29,143,New Madrid,29143,MO,,White/Black
+2010,29,27,Callaway,29027,MO,,White/Black
+2010,29,157,Perry,29157,MO,,White
+2010,29,29,Camden,29029,MO,,White
+2010,29,51,Cole,29051,MO,,Immigrant minority
+2010,29,227,Worth,29227,MO,,White
+2010,29,77,Greene,29077,MO,,Immigrant minority
+2010,29,97,Jasper,29097,MO,,Immigrant minority
+2010,29,175,Randolph,29175,MO,,White/Black
+2010,29,209,Stone,29209,MO,,White
+2010,29,53,Cooper,29053,MO,,White/Black
+2010,53,55,San Juan,53055,WA,,Immigrant minority
+2010,53,61,Snohomish,53061,WA,,Immigrant minority
+2010,53,59,Skamania,53059,WA,,Immigrant minority
+2010,53,25,Grant,53025,WA,,Immigrant minority
+2010,53,29,Island,53029,WA,,Immigrant minority
+2010,53,27,Grays Harbor,53027,WA,,Immigrant minority
+2010,53,53,Pierce,53053,WA,,Immigrant minority
+2010,53,69,Wahkiakum,53069,WA,,Immigrant minority
+2010,53,13,Columbia,53013,WA,,Immigrant minority
+2010,53,63,Spokane,53063,WA,,Immigrant minority
+2010,53,47,Okanogan,53047,WA,,Immigrant minority
+2010,17,13,Calhoun,17013,IL,,White
+2010,17,151,Pope,17151,IL,,White/Black
+2010,17,101,Lawrence,17101,IL,,
+2010,17,103,Lee,17103,IL,,
+2010,17,123,Marshall,17123,IL,,White
+2010,17,27,Clinton,17027,IL,,White/Black
+2010,17,113,McLean,17113,IL,,Immigrant minority
+2010,17,145,Perry,17145,IL,,White/Black
+2010,6,27,Inyo,6027,CA,,Immigrant minority
+2010,6,75,San Francisco,6075,CA,,Immigrant minority
+2010,6,87,Santa Cruz,6087,CA,,Immigrant minority
+2010,6,31,Kings,6031,CA,,Immigrant minority
+2010,6,23,Humboldt,6023,CA,,Immigrant minority
+2010,6,95,Solano,6095,CA,,Immigrant minority
+2010,6,47,Merced,6047,CA,,Immigrant minority
+2010,37,61,Duplin,37061,NC,,
+2010,37,147,Pitt,37147,NC,,Immigrant minority
+2010,27,103,Nicollet,27103,MN,,Immigrant minority
+2010,27,119,Polk,27119,MN,,Immigrant minority
+2010,37,191,Wayne,37191,NC,,Immigrant minority
+2010,27,55,Houston,27055,MN,,White
+2010,27,105,Nobles,27105,MN,,Immigrant minority
+2010,27,141,Sherburne,27141,MN,,Immigrant minority
+2010,37,185,Warren,37185,NC,,
+2010,27,69,Kittson,27069,MN,,White
+2010,27,15,Brown,27015,MN,,Immigrant minority
+2010,37,115,Madison,37115,NC,,White
+2010,27,11,Big Stone,27011,MN,,White
+2010,27,131,Rice,27131,MN,,Immigrant minority
+2010,27,13,Blue Earth,27013,MN,,Immigrant minority
+2010,37,113,Macon,37113,NC,,Immigrant minority
+2010,37,175,Transylvania,37175,NC,,White/Black
+2010,37,181,Vance,37181,NC,,
+2010,37,59,Davie,37059,NC,,
+2010,27,67,Kandiyohi,27067,MN,,Immigrant minority
+2010,37,195,Wilson,37195,NC,,Immigrant minority
+2010,27,161,Waseca,27161,MN,,Immigrant minority
+2010,37,1,Alamance,37001,NC,,Immigrant minority
+2010,37,139,Pasquotank,37139,NC,,Immigrant minority
+2010,37,135,Orange,37135,NC,,Immigrant minority
+2010,37,131,Northampton,37131,NC,,White/Black
+2010,27,63,Jackson,27063,MN,,Immigrant minority
+2010,27,137,St. Louis,27137,MN,,Immigrant minority
+2010,27,129,Renville,27129,MN,,Immigrant minority
+2010,27,163,Washington,27163,MN,,Immigrant minority
+2010,27,147,Steele,27147,MN,,Immigrant minority
+2010,27,93,Meeker,27093,MN,,Immigrant minority
+2010,27,135,Roseau,27135,MN,,Immigrant minority
+2010,37,167,Stanly,37167,NC,,Immigrant minority
+2010,27,149,Stevens,27149,MN,,Immigrant minority
+2010,37,7,Anson,37007,NC,,Immigrant minority
+2010,37,53,Currituck,37053,NC,,Immigrant minority
+2010,27,73,Lac qui Parle,27073,MN,,White
+2010,27,155,Traverse,27155,MN,,White
+2010,27,27,Clay,27027,MN,,Immigrant minority
+2010,37,35,Catawba,37035,NC,,Immigrant minority
+2010,37,43,Clay,37043,NC,,White
+2010,27,65,Kanabec,27065,MN,,White
+2010,37,189,Watauga,37189,NC,,Immigrant minority
+2010,27,173,Yellow Medicine,27173,MN,,Immigrant minority
+2010,27,89,Marshall,27089,MN,,Immigrant minority
+2010,27,157,Wabasha,27157,MN,,White
+2010,27,107,Norman,27107,MN,,Immigrant minority
+2010,37,161,Rutherford,37161,NC,,
+2010,37,19,Brunswick,37019,NC,,
+2010,37,125,Moore,37125,NC,,Immigrant minority
+2010,37,47,Columbus,37047,NC,,
+2010,27,53,Hennepin,27053,MN,,Immigrant minority
+2010,37,5,Alleghany,37005,NC,,Immigrant minority
+2010,37,41,Chowan,37041,NC,,White/Black
+2010,27,99,Mower,27099,MN,,Immigrant minority
+2010,27,145,Stearns,27145,MN,,Immigrant minority
+2010,27,115,Pine,27115,MN,,White
+2010,37,65,Edgecombe,37065,NC,,
+2010,27,153,Todd,27153,MN,,Immigrant minority
+2010,27,31,Cook,27031,MN,,White
+2010,37,159,Rowan,37159,NC,,Immigrant minority
+2010,37,25,Cabarrus,37025,NC,,Immigrant minority
+2010,27,71,Koochiching,27071,MN,,White
+2010,37,145,Person,37145,NC,,
+2010,27,51,Grant,27051,MN,,White
+2010,37,117,Martin,37117,NC,,White/Black
+2010,37,91,Hertford,37091,NC,,White/Black
+2010,37,55,Dare,37055,NC,,Immigrant minority
+2010,37,93,Hoke,37093,NC,,Immigrant minority
+2010,37,15,Bertie,37015,NC,,White/Black
+2010,27,29,Clearwater,27029,MN,,White
+2010,27,125,Red Lake,27125,MN,,White
+2010,37,129,New Hanover,37129,NC,,Immigrant minority
+2010,37,177,Tyrrell,37177,NC,,Immigrant minority
+2010,27,95,Mille Lacs,27095,MN,,White
+2010,37,49,Craven,37049,NC,,Immigrant minority
+2010,37,169,Stokes,37169,NC,,White/Black
+2010,37,39,Cherokee,37039,NC,,White
+2010,37,173,Swain,37173,NC,,Immigrant minority
+2010,27,7,Beltrami,27007,MN,,Immigrant minority
+2010,27,143,Sibley,27143,MN,,Immigrant minority
+2010,37,95,Hyde,37095,NC,,
+2010,37,141,Pender,37141,NC,,
+2010,37,73,Gates,37073,NC,,White/Black
+2010,37,187,Washington,37187,NC,,
+2010,37,151,Randolph,37151,NC,,Immigrant minority
+2010,37,11,Avery,37011,NC,,
+2010,37,137,Pamlico,37137,NC,,White/Black
+2010,27,23,Chippewa,27023,MN,,Immigrant minority
+2010,37,9,Ashe,37009,NC,,Immigrant minority
+2010,37,197,Yadkin,37197,NC,,
+2010,27,127,Redwood,27127,MN,,Immigrant minority
+2010,27,111,Otter Tail,27111,MN,,White
+2010,27,121,Pope,27121,MN,,White
+2010,27,81,Lincoln,27081,MN,,White
+2010,27,17,Carlton,27017,MN,,White
+2010,27,1,Aitkin,27001,MN,,White
+2010,27,59,Isanti,27059,MN,,Immigrant minority
+2010,27,171,Wright,27171,MN,,Immigrant minority
+2010,37,105,Lee,37105,NC,,Immigrant minority
+2010,37,183,Wake,37183,NC,,Immigrant minority
+2010,37,85,Harnett,37085,NC,,Immigrant minority
+2010,37,29,Camden,37029,NC,,Immigrant minority
+2010,37,75,Graham,37075,NC,,White
+2010,27,109,Olmsted,27109,MN,,Immigrant minority
+2010,27,79,Le Sueur,27079,MN,,Immigrant minority
+2010,27,43,Faribault,27043,MN,,Immigrant minority
+2010,37,17,Bladen,37017,NC,,
+2010,37,87,Haywood,37087,NC,,Immigrant minority
+2010,27,165,Watonwan,27165,MN,,Immigrant minority
+2010,27,49,Goodhue,27049,MN,,Immigrant minority
+2010,37,21,Buncombe,37021,NC,,Immigrant minority
+2010,27,97,Morrison,27097,MN,,White
+2010,37,165,Scotland,37165,NC,,White/Black
+2010,37,45,Cleveland,37045,NC,,Immigrant minority
+2010,37,103,Jones,37103,NC,,
+2010,37,109,Lincoln,37109,NC,,
+2010,27,87,Mahnomen,27087,MN,,White
+2010,27,3,Anoka,27003,MN,,Immigrant minority
+2010,27,75,Lake,27075,MN,,White
+2010,27,117,Pipestone,27117,MN,,Immigrant minority
+2010,27,159,Wadena,27159,MN,,White
+2010,37,71,Gaston,37071,NC,,Immigrant minority
+2010,37,199,Yancey,37199,NC,,Immigrant minority
+2010,37,99,Jackson,37099,NC,,Immigrant minority
+2010,37,149,Polk,37149,NC,,
+2010,27,101,Murray,27101,MN,,Immigrant minority
+2010,37,133,Onslow,37133,NC,,Immigrant minority
+2010,37,33,Caswell,37033,NC,,White/Black
+2010,27,83,Lyon,27083,MN,,Immigrant minority
+2010,27,47,Freeborn,27047,MN,,Immigrant minority
+2010,37,3,Alexander,37003,NC,,Immigrant minority
+2010,37,157,Rockingham,37157,NC,,
+2010,27,37,Dakota,27037,MN,,Immigrant minority
+2010,27,19,Carver,27019,MN,,Immigrant minority
+2010,37,193,Wilkes,37193,NC,,
+2010,37,77,Granville,37077,NC,,
+2010,37,111,McDowell,37111,NC,,
+2010,27,21,Cass,27021,MN,,White
+2010,27,57,Hubbard,27057,MN,,White
+2010,27,169,Winona,27169,MN,,Immigrant minority
