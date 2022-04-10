@@ -1,7 +1,7 @@
 ---
-title: "CPP 528 Lab 03"
+title: "Lab-03"
 author: "Mohamed Said"
-date: "4/5/2022"
+date: '2022-04-05'
 output: html_document
 ---
 
@@ -11,30 +11,45 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r, include=FALSE}
 library( dplyr )
-library( ggplot2 )
 library( here )
 library( knitr )
 library( pander )
 library( stargazer )
 library( scales )
+
+# set stargazer type to text for 
+# previewing in RMD docs but
+# convert to type HTML when knitting
+# (next code chunk)
+
+library( tidycensus )
+library( ggthemes )
+library( shinyjs )
+library(import)
 library( geojsonio )  # read geoJSON map files from GitHub
 library( sp )         # spatial data class sp for shapefiles
 library( cartogram )  # spatial maps w/ tract size bias reduction
 library( tmap )       # thematic maps
 library( maptools )   # spatial object manipulation 
 library( sf )         # 'simple features' flavor of shapefiles
-library( tidycensus )
-library( ggthemes )
-library( shinyjs )
-library(import)
-key <- "261375b38ea51d6415f1a1f086c16aa52d9f6d4e"
+library( ggplot2 )     # graphing 
+library( ggthemes )    # nice formats for ggplots
+library( dplyr )       # data wrangling 
+library( pander )      # formatting RMD tables
+
+
+key <- "f2839493bf1c94e411da4713432bc0ee88e0ed4b"
 census_api_key( key )
 # change to s.type <- "html" before knitting
 s.type <- "html"  
 ```
 
 
-## Part 1
+
+**Part 1**
+
+**Change in Home Values**
+
 
 ```{r}
 import::here("clean_d",
@@ -70,6 +85,7 @@ d <- merge( d, md, by="tractid" )
 nrow( d )
 ```
 
+**Filter Rural Districts**
 
 ```{r}
 #urban districts only
@@ -79,7 +95,7 @@ table( d$urban )
 ```{r}
 d <- filter( d, urban == "urban" )
 ```
-
+**Identify Common Variables**
 
 ```{r}
 # find common variables in both files
@@ -119,13 +135,13 @@ vars <- compare_dfs( df1=d1, df2=d2 )
 head( vars )
 ```
 
-Create dataset for analysis
+**Create data set for analysis**
 
 ```{r}
 d.full <- d  # keep a copy so don't have to reload 
 ```
 
-1990-2000 variables
+**1990-2000 variables**
 
 ```{r}
 d <- d.full  # store original in case you need to reset anything
@@ -157,10 +173,10 @@ stargazer( d,
            summary.stat = c( "min", "p25", "median", "mean", "p75", "max" ) )
 ```
 
-#### Exploration of median home value
+**Exploration of median home value**
 
 
-calculate inflation 1990 to 2000, $1 in 1990 was worth $1.32 in 2000 (from https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator)
+*calculate inflation 1990 to 2000, $1 in 1990 was worth $1.32 in 2000 (from https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator)*
 
 ```{r, results='asis'}
 # 1990-2000 inflation
@@ -179,8 +195,9 @@ stargazer( df,
 
 
 
+
+**Histogram of MHV**
 ```{r}
-# Histogram of MHV
 hist( mhv.change/1000, breaks=500, 
       xlim=c(-100,500), yaxt="n", xaxt="n",
       xlab="Thousand of US Dollars (adjusted to 2000)", cex.lab=1.5,
@@ -267,10 +284,9 @@ axis( side=2, at=seq( from=0, to=1000, by=200 ),
       labels=paste0( "$", seq( from=0, to=1000, by=200 ), "k" ) )
 ```
 
-
+**Change in MHV 1990-2000**
 
 ```{r}
-## Change in MHV 1990-2000
 # quick filter to remove all of the problematic obs
 # but need to go back and see which cases are problematic
 mhv.90[ mhv.90 < 10000 ] <- NA
@@ -340,17 +356,15 @@ d %>%
   pander()
 ```
 
-### Part 1 answer:
-#### From 1990-2000 the median home value increased from $113,446 to $119,900, while the mean value decreased from $147,601 to $144,738 during the same period. The 2000-2010 period saw an increase from $119,000 to 193,200 as well as a dramatic mean increase from $144,738 to $246,570.
+*Part one solution;*
+*From 1990-2000 the median home value increased from $113,446 to $119,900, while the mean value decreased from $147,601 to $144,738 during the same period. The 2000-2010 period saw an increase from $119,000 to 193,200 as well as a dramatic mean increase from $144,738 to $246,570*
 
 
-<br>
-<br>
-<br>
 
-## Part 02
 
-Measuring gentrification
+**Part 02**
+
+**Measuring gentrification**
 
 ```{r}
 # adjust 1990 home values for inflation 
@@ -375,6 +389,7 @@ d.full$mhv.change <- mhv.change
 d.full$pct.change <- pct.change
 ```
 
+**Select Gentrification Variables**
 
 
 ```{r}
@@ -456,9 +471,8 @@ d3 <-
           mhv.change = mhv.00 - mhv.90 )
 ```
 
-
+**Descriptive Statistics of Change Variables**
 ```{r}
-# Descriptive Statistics of Change Variables
 d3 <-           
   d3 %>%
   select( c( "tractid", "cbsa", "cbsaname",
@@ -484,19 +498,10 @@ stargazer( d3,
 ```
 
 
+**Operationalizing Gentrification;**
 
 
-Operationalizing Gentrification
-
-Based on proposal by Sarah J. to be used by group:
-
- - Low home values
- - Low rents
- - High rate of vacant units
- - High proportion of racial/ethnic minority residents
- - High rate of unemployment
- - Low % with college degree or more education
- - High poverty rate
+*Based on proposal by Sarah J. to be used by group, the following factor will predict the tract gentrification  (- Low home values, - Low rents,- High rate of vacant units,  - High proportion of racial/ethnic minority residents, - High rate of unemployment, - Low % with college degree or more education and - High poverty rate)*
 
 
 ```{r}
@@ -530,7 +535,7 @@ gent.candidate <- sum( lowhomeval.1990 & vacant.1990  & lowrent.1990 &
                          highpoverty.1990, na.rm = T )
 gent.candidate
 ```
-Using all of the criteria listed, only 418 tracts were eligible for gentrification
+**Using all of the criteria listed, only 418 tracts were eligible for gentrification**
 
 ```{r}
 gent.candidate2 <- sum(( lowhomeval.1990 | vacant.1990 | lowrent.1990 ) & 
@@ -538,10 +543,7 @@ gent.candidate2 <- sum(( lowhomeval.1990 | vacant.1990 | lowrent.1990 ) &
                           lowed.1990, na.rm = T )
 gent.candidate2
 ```
-By combining the three property criteria (so a tract can be selected if it has low
-home values and/or high vacancies and/or low rent), and combining the two income 
-factors ( unemployment and/or high poverty rate ), the number of tracts eligible
-for gentrification increased 7315.
+**By combining the three property criteria (so a tract can be selected if it has low home values and/or high vacancies and/or low rent), and combining the two income factors ( unemployment and/or high poverty rate ), the number of tracts eligible for gentrification increased 7315.**
 
 
 ```{r}
@@ -568,7 +570,7 @@ pct.gentrified <- num.gentrified / gent.candidate2
 pct.gentrified
 ```
 
-Using this approach, only 1.85% of eligible tracts became gentrified from 1990 to 2000.
+**Using this approach, only 1.85% of eligible tracts became gentrified from 1990 to 2000.**
 
 
 
@@ -585,14 +587,9 @@ summary( pct.change )
 
 
 
+**Part 03**
 
-<br>
-<br>
-<br>
-
-## Part 03
-
-Spatial Patterns
+*Spatial Patterns*
 
 
 ```{r}
@@ -661,25 +658,25 @@ tm_shape( mke_dorling ) +
   tm_polygons( col="mhv.90", n=10, style="quantile", palette="Spectral" ) +
   tm_layout( "Dorling Cartogram", title.position=c("right","top") )
 ```
-<br>
+
 **Home Values**
-**Describe the distribution of home values in 1990 - where are high and low-value tracts located in the city/cities?**
-In 1990, high-value tracts were concentrated north of downtown along the lakefront
+*Describe the distribution of home values in 1990 - where are high and low-value tracts located in the city/cities?*
+
+*In 1990, high-value tracts were concentrated north of downtown along the lakefront
 (the far right edge of the map) and scattered through the northern and western
 suburbs. Low-value tracts are located in the central city, southern city and suburbs, and
-northwest areas of the city.
+northwest areas of the city*.
 
 ```{r}
 tm_shape( mke_dorling) + 
   tm_polygons( col="mhv.change", n=10, style="quantile", palette="Spectral" ) +
   tm_layout( "Dorling Cartogram", title.position=c("right","top") )
 ```
-<br>
-**Compare values in 2000 to changes in values from 1990-2000. Do the largest gains**
-**occur in tracts with above or below-average home prices in 2000?**
-The most striking areas with gains from 1990-2000 were lower-value but adjacent
-to high-value areas in 1990. There is a cluster with gains downtown and just west
-of the lakefront, while areas along the lake downtown had losses during this period.
+
+
+**Compare values in 2000 to changes in values from 1990-2000. Do the largest gains occur in tracts with above or below-average home prices in 2000?**
+
+*The most striking areas with gains from 1990-2000 were lower-value but adjacent to high-value areas in 1990. There is a cluster with gains downtown and just west of the lakefront, while areas along the lake downtown had losses during this period.*
 
 ```{r}
 tm_shape( mke_dorling ) + 
@@ -700,9 +697,6 @@ tm_shape( mke_dorling ) +
   tm_layout( "Dorling Cartogram", title.position=c("right","top") )
 ```
 
-These maps along with the map above showing percent change in median home
-value change from 1990 to 2000 help show the areas where in 1990 there was very high
-poverty and between 1990 and 2000 property values rose at
-the same time that the racial mix of residents stayed fairly stable or became more
-white. It does appear that the area just west of the lakefront in the downtown 
-area experienced gentrification during this time period.
+*These maps along with the map above showing percent change in median home value change from 1990 to 2000 help show the areas where in 1990 there was very high poverty and between 1990 and 2000 property values rose at the same time that the racial mix of residents stayed fairly stable or became more white. It does appear that the area just west of the lakefront in the downtown area experienced gentrification during this time period.*
+
+
