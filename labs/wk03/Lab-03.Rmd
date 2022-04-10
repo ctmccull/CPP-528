@@ -159,7 +159,7 @@ stargazer( d,
            summary.stat = c( "min", "p25", "median", "mean", "p75", "max" ) )
 ```
 
-#### Exploration of median home value
+### Exploration of median home value
 
 
 calculate inflation 1990 to 2000, $1 in 1990 was worth $1.32 in 2000 (from https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator)
@@ -345,7 +345,7 @@ d %>%
 ```
 
 ### Part 1 answer:
-#### From 1990-2000 the median home value increased from $113,446 to $119,900, while the mean value decreased from $147,601 to $144,738 during the same period. The 2000-2010 period saw an increase from $119,000 to 193,200 as well as a dramatic mean increase from $144,738 to $246,570.
+From 1990-2000 the median home value increased from $113,446 to $119,900, while the mean value decreased from $147,601 to $144,738 during the same period. The 2000-2010 period saw an increase from $119,000 to 193,200 as well as a dramatic mean increase from $144,738 to $246,570.
 
 
 <br>
@@ -544,8 +544,8 @@ gent.candidate2
 ```
 By combining the three property criteria (so a tract can be selected if it has low
 home values and/or high vacancies and/or low rent), and combining the two income 
-factors ( unemployment and/or high poverty rate ), the number of tracts eligible
-for gentrification increased 7315.
+factors (unemployment and/or high poverty rate), the number of tracts eligible
+for gentrification increased to 7315.
 
 
 ```{r}
@@ -596,8 +596,10 @@ summary( pct.change )
 
 ## Part 03
 
-Spatial Patterns
+### Spatial Patterns
 
+For this analysis we use the Milwaukee, Wisconsin metropolitan area,
+comprising the four metro counties: Milwaukee, Waukesha, Ozaukee, and Washington.
 
 ```{r}
 crosswalk <- read.csv( "https://raw.githubusercontent.com/DS4PS/cpp-529-master/master/data/cbsatocountycrosswalk.csv",  stringsAsFactors=F, colClasses="character" )
@@ -620,9 +622,15 @@ get_acs( geography = "tract", variables = "B01003_001",
          rename( POP=estimate )
 ```
 
+### Milwaukee metro area census tracts with population shown
 
 ```{r}
-plot( MKE)
+# trying to re-do maps 4/10/22
+library( mapview )
+
+mapview( MKE, zcol = "POP" )
+
+
 ```
 
 
