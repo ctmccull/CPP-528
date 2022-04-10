@@ -1,7 +1,7 @@
 ---
-title: "Lab-03"
+title: "CPP 528 Lab 03"
 author: "Mohamed Said"
-date: '2022-04-05'
+date: "4/5/2022"
 output: html_document
 ---
 
@@ -9,47 +9,34 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-
 ```{r, include=FALSE}
 library( dplyr )
+library( ggplot2 )
 library( here )
 library( knitr )
 library( pander )
 library( stargazer )
 library( scales )
-
-# set stargazer type to text for 
-# previewing in RMD docs but
-# convert to type HTML when knitting
-# (next code chunk)
-
-library( tidycensus )
-library( ggthemes )
-library( shinyjs )
-library(import)
 library( geojsonio )  # read geoJSON map files from GitHub
 library( sp )         # spatial data class sp for shapefiles
 library( cartogram )  # spatial maps w/ tract size bias reduction
 library( tmap )       # thematic maps
 library( maptools )   # spatial object manipulation 
 library( sf )         # 'simple features' flavor of shapefiles
-library( ggplot2 )     # graphing 
-library( ggthemes )    # nice formats for ggplots
-library( dplyr )       # data wrangling 
-library( pander )      # formatting RMD tables
-
-
-key <- "f2839493bf1c94e411da4713432bc0ee88e0ed4b"
+library( tidycensus )
+library( ggthemes )
+library( shinyjs )
+library(import)
+key <- "261375b38ea51d6415f1a1f086c16aa52d9f6d4e"
 census_api_key( key )
 # change to s.type <- "html" before knitting
 s.type <- "html"  
 ```
 
-#Part 01 - Change in Home Values
+
+## Part 1
 
 ```{r}
-# import specific functions
-# note: all of these are R objects that will be used throughout this .rmd file
 import::here("clean_d",
              "tidy_up_data",
              "build_year",
@@ -63,19 +50,18 @@ import::here("clean_d",
 ```
 
 
+
 ```{r}
 # note: please do not use static file paths
 # note: notice down below the use of here::here()
-d1 <- readRDS( here::here( "data/rodeo/LTDB-2000.rds" ) )
-d2 <- readRDS( here::here( "data/rodeo/LTDB-2010.rds" ) )
+d1 <- readRDS( here::here( "data/rodeo/LTDB-1990.rds" ) )
+d2 <- readRDS( here::here( "data/rodeo/LTDB-2000.rds" ) )
 md <- readRDS( here::here( "data/rodeo/LTDB-META-DATA.rds" ) )
-
 # check to make sure we are not losing 
 # or gaining observations in the merge
-nrow( d1 )
+nrow( d1 ) 
 ```
 
-```{r}
 ```{r}
 d1 <- select( d1, - year )
 d2 <- select( d2, - year )
@@ -85,16 +71,18 @@ nrow( d )
 ```
 
 
-# Filter Rural Districts
 ```{r}
+#urban districts only
 table( d$urban )
-
-d <- filter( d, urban == "urban" 
 ```
-#Identify Common Variables
 
 ```{r}
-find variables that are in both files
+d <- filter( d, urban == "urban" )
+```
+
+
+```{r}
+# find common variables in both files
 compare_dfs <- function( df1, df2 )
 {
   # use regular expressions to remove numeric suffixes 
@@ -122,29 +110,25 @@ compare_dfs <- function( df1, df2 )
   
   return( dd )
 }
-
 vars <- compare_dfs( df1=d1, df2=d2 )
 ```
 
 
+
 ```{r}
 head( vars )
-
 ```
 
-# Create Dataset for Analysis
-
-
-```{r}
+Create dataset for analysis
 
 ```{r}
 d.full <- d  # keep a copy so don't have to reload 
 ```
 
-# 1990-2000 variables
+1990-2000 variables
 
 ```{r}
-d <- d.full  # story original in case you need to reset anything
+d <- d.full  # store original in case you need to reset anything
 d <- select( d, tractid, mhmval90, mhmval00, hinc90, hinc00, 
              hu90, own90, rent90,  
              empclf90, clf90, unemp90, prof90,  
@@ -166,19 +150,17 @@ d <-
 ```
 
 
-```{r}
+```{r, results='asis'}
 stargazer( d,
            type = s.type,
            digits = 0, 
            summary.stat = c( "min", "p25", "median", "mean", "p75", "max" ) )
 ```
 
+#### Exploration of median home value
 
-#Exploration of median home value
 
-
-#calculate inflation 1990 to 2000, $1 in 1990 was worth $1.32 in 2000 (from https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator)
-
+calculate inflation 1990 to 2000, $1 in 1990 was worth $1.32 in 2000 (from https://www.minneapolisfed.org/about-us/monetary-policy/inflation-calculator)
 
 ```{r, results='asis'}
 # 1990-2000 inflation
@@ -194,9 +176,11 @@ stargazer( df,
            digits=0, 
            summary.stat = c("min", "p25","median","mean","p75","max") )
 ```
-# Histogram of MHV
+
+
 
 ```{r}
+# Histogram of MHV
 hist( mhv.change/1000, breaks=500, 
       xlim=c(-100,500), yaxt="n", xaxt="n",
       xlab="Thousand of US Dollars (adjusted to 2000)", cex.lab=1.5,
@@ -284,9 +268,9 @@ axis( side=2, at=seq( from=0, to=1000, by=200 ),
 ```
 
 
-# Change in MHV 1990-2000
 
 ```{r}
+## Change in MHV 1990-2000
 # quick filter to remove all of the problematic obs
 # but need to go back and see which cases are problematic
 mhv.90[ mhv.90 < 10000 ] <- NA
@@ -312,8 +296,9 @@ d %>%
 ```
 
 
-# Plot the percent change variable
+
 ```{r}
+# Plot the percent change variable
 hg <-
 hist( pct.change, breaks=2000, 
       xlim=c(-1,2), yaxt="n", xaxt="n",
@@ -336,9 +321,9 @@ text( x=1, y=(0.6*ymax),
       col="dodgerblue", cex=1.8, pos=4 )
 ```
 
-# group growth rates by metro area
 
 ```{r}
+# group growth rates by metro area
 d$mhv.change <- mhv.change 
 d$pct.change <- pct.change
 d$mhv.00 <- mhv.00
@@ -355,14 +340,17 @@ d %>%
   pander()
 ```
 
-
-# Part one solution:
-# From 1990-2000 the median home value increased from $113,446 to $119,900, while the mean value decreased from $147,601 to $144,738 during the same period. The 2000-2010 period saw an increase from $119,000 to 193,200 as well as a dramatic mean increase from $144,738 to $246,570.
-
+### Part 1 answer:
+#### From 1990-2000 the median home value increased from $113,446 to $119,900, while the mean value decreased from $147,601 to $144,738 during the same period. The 2000-2010 period saw an increase from $119,000 to 193,200 as well as a dramatic mean increase from $144,738 to $246,570.
 
 
+<br>
+<br>
+<br>
 
-# Part 02 - Measuring Gentrification
+## Part 02
+
+Measuring gentrification
 
 ```{r}
 # adjust 1990 home values for inflation 
@@ -388,14 +376,13 @@ d.full$pct.change <- pct.change
 ```
 
 
-# Select Gentrification Variables
 
 ```{r}
 head( vars )
 ```
 
+
 ```{r}
-``{r}
 d3 <- select( d.full, 
              
              tractid, cbsa, cbsaname,            # ids / units of analysis
@@ -469,9 +456,9 @@ d3 <-
           mhv.change = mhv.00 - mhv.90 )
 ```
 
-# Descriptive Statistics of Change Variables
 
 ```{r}
+# Descriptive Statistics of Change Variables
 d3 <-           
   d3 %>%
   select( c( "tractid", "cbsa", "cbsaname",
@@ -486,6 +473,8 @@ d3 <-
           "metro.race.rank.90") ) 
 ```
 
+
+
 ```{r, results='asis'}
 d3 <- data.frame(d3)
 stargazer( d3, 
@@ -494,7 +483,22 @@ stargazer( d3,
            summary.stat = c("min", "p25","median","mean","p75","max") )
 ```
 
-# Operationalizing Gentrification; Based on proposal by Sarah J. to be used by group, the following factor will pridct the tract gentrificaion  (- Low home values, - Low rents,- High rate of vacant units,  - High proportion of racial/ethnic minority residents, - High rate of unemployment, - Low % with college degree or more education and - High poverty rate)
+
+
+
+Operationalizing Gentrification
+
+Based on proposal by Sarah J. to be used by group:
+
+ - Low home values
+ - Low rents
+ - High rate of vacant units
+ - High proportion of racial/ethnic minority residents
+ - High rate of unemployment
+ - Low % with college degree or more education
+ - High poverty rate
+
+
 ```{r}
 ## Predicted factors that make a tract eligible for gentrification
 # home value in lower than average home in a metro in 1990
@@ -526,7 +530,7 @@ gent.candidate <- sum( lowhomeval.1990 & vacant.1990  & lowrent.1990 &
                          highpoverty.1990, na.rm = T )
 gent.candidate
 ```
-# Using all of the criteria listed, only 418 tracts were eligible for gentrification
+Using all of the criteria listed, only 418 tracts were eligible for gentrification
 
 ```{r}
 gent.candidate2 <- sum(( lowhomeval.1990 | vacant.1990 | lowrent.1990 ) & 
@@ -534,13 +538,13 @@ gent.candidate2 <- sum(( lowhomeval.1990 | vacant.1990 | lowrent.1990 ) &
                           lowed.1990, na.rm = T )
 gent.candidate2
 ```
-
-# By combining the three property criteria (so a tract can be selected if it has low home values and/or high vacancies and/or low rent), and combining the two income factors ( unemployment and/or high poverty rate ), the number of tracts eligible for gentrification increased 7315.
-
+By combining the three property criteria (so a tract can be selected if it has low
+home values and/or high vacancies and/or low rent), and combining the two income 
+factors ( unemployment and/or high poverty rate ), the number of tracts eligible
+for gentrification increased 7315.
 
 
 ```{r}
-``{r}
 # home values increased more than overall city gains 
 # change in percentile rank within the metro
 mhv.pct.increase <- d3$metro.mhv.pct.change > 0
@@ -564,7 +568,9 @@ pct.gentrified <- num.gentrified / gent.candidate2
 pct.gentrified
 ```
 
-#Using this approach, only 1.85% of eligible tracts became gentrified from 1990 to 2000.
+Using this approach, only 1.85% of eligible tracts became gentrified from 1990 to 2000.
+
+
 
 ```{r}
 # small initial values are skewing percentages
@@ -577,7 +583,17 @@ summary( pct.change )
 ```
 
 
-# Part 03 - Spatial Patterns
+
+
+
+<br>
+<br>
+<br>
+
+## Part 03
+
+Spatial Patterns
+
 
 ```{r}
 crosswalk <- read.csv( "https://raw.githubusercontent.com/DS4PS/cpp-529-master/master/data/cbsatocountycrosswalk.csv",  stringsAsFactors=F, colClasses="character" )
@@ -604,6 +620,7 @@ get_acs( geography = "tract", variables = "B01003_001",
 ```{r}
 plot( MKE)
 ```
+
 
 
 ```{r}
@@ -644,22 +661,25 @@ tm_shape( mke_dorling ) +
   tm_polygons( col="mhv.90", n=10, style="quantile", palette="Spectral" ) +
   tm_layout( "Dorling Cartogram", title.position=c("right","top") )
 ```
-
-
-### Home Values
-
+<br>
+**Home Values**
 **Describe the distribution of home values in 1990 - where are high and low-value tracts located in the city/cities?**
-
-#In 1990, high-value tracts were concentrated north of downtown along the lakefront (the far right edge of the map) and scattered through the northern and western suburbs. Low-value tracts are located in the central city, southern city and suburbs, and northwest areas of the city.
+In 1990, high-value tracts were concentrated north of downtown along the lakefront
+(the far right edge of the map) and scattered through the northern and western
+suburbs. Low-value tracts are located in the central city, southern city and suburbs, and
+northwest areas of the city.
 
 ```{r}
 tm_shape( mke_dorling) + 
   tm_polygons( col="mhv.change", n=10, style="quantile", palette="Spectral" ) +
   tm_layout( "Dorling Cartogram", title.position=c("right","top") )
 ```
+<br>
 **Compare values in 2000 to changes in values from 1990-2000. Do the largest gains**
 **occur in tracts with above or below-average home prices in 2000?**
-# The most striking areas with gains from 1990-2000 were lower-value but adjacent to high-value areas in 1990. There is a cluster with gains downtown and just west of the lakefront, while areas along the lake downtown had losses during this period.
+The most striking areas with gains from 1990-2000 were lower-value but adjacent
+to high-value areas in 1990. There is a cluster with gains downtown and just west
+of the lakefront, while areas along the lake downtown had losses during this period.
 
 ```{r}
 tm_shape( mke_dorling ) + 
@@ -680,6 +700,9 @@ tm_shape( mke_dorling ) +
   tm_layout( "Dorling Cartogram", title.position=c("right","top") )
 ```
 
-#These maps along with the map above showing percent change in median home value change from 1990 to 2000 help show the areas where in 1990 there was very high poverty and between 1990 and 2000 property values rose at the same time that the racial mix of residents stayed fairly stable or became more white. It does appear that the area just west of the lakefront in the downtown area experienced gentrification during this time period. 
-
-
+These maps along with the map above showing percent change in median home
+value change from 1990 to 2000 help show the areas where in 1990 there was very high
+poverty and between 1990 and 2000 property values rose at
+the same time that the racial mix of residents stayed fairly stable or became more
+white. It does appear that the area just west of the lakefront in the downtown 
+area experienced gentrification during this time period.
