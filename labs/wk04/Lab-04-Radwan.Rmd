@@ -1,0 +1,610 @@
+---
+title: "Lab-04-Radwan"
+author: "Ahmed Radwan"
+date: "4/12/2022"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+
+```{r}
+# load necessary packages ----
+
+library( dplyr )
+library( here )
+library( knitr )
+library( pander )
+library( stargazer )
+library( scales )
+
+# set randomization seed ----
+
+set.seed( 1234 )
+
+# load necessary functions and objects ----
+# note: all of these are R objects that will be used throughout this .rmd file
+
+
+import::here("S_TYPE",
+             "panel.cor",
+             "panel.smooth",
+             "jplot",
+             "d",
+             "df",
+             "cbsa_stats_df",
+             .from = here::here("labs/wk04/lab_04_source.R"),
+             .character_only = TRUE)
+
+```
+
+
+
+#Part 1: DATA
+
+```{r}
+
+
+import::here("clean_d",
+             "tidy_up_data",
+             "build_year",
+             "RELEVANT_FILES",
+             "obtain_crosswalk",
+             "create_final_metadata_file",
+             # notice the use of here::here() that points to the .R file
+             # where all these R objects are created
+             .from = here::here("labs/wk03/utilities-2.R"),
+             .character_only = TRUE)
+
+```
+
+
+
+
+
+
+```{r}
+
+d1 <- readRDS( here::here( "data/rodeo/LTDB-2000.rds" ) )
+d2 <- readRDS( here::here( "data/rodeo/LTDB-2010.rds" ) )
+md <- readRDS( here::here( "data/rodeo/LTDB-META-DATA.rds" ) )
+
+
+```
+
+
+
+
+```{r}
+
+d1 <- select( d1, - year )
+
+d2 <- select( d2, - year )
+
+d <- merge( d1, d2, by="tractid" )
+
+d <- merge( d, md, by="tractid" )
+
+
+```
+
+###Filter to just urban tracts
+
+
+```{r}
+
+
+table( d$urban )
+d <- filter( d, urban == "urban" )
+
+```
+
+
+
+
+
+```{r}
+
+
+# find variables that are in both files
+compare_dfs <- function( df1, df2 )
+{
+  # use regular expressions to remove numeric suffixes 
+  var.names.1 <- names( df1 )
+  var.names.1 <- gsub( "[.][xy]$", "", var.names.1 )
+  var.names.1 <- gsub( "[0-9]{2}$", "", var.names.1 )
+  
+  var.names.2 <- names( df2 )
+  var.names.2 <- gsub( "[.][xy]$", "", var.names.2 )
+  var.names.2 <- gsub( "[0-9]{2}$", "", var.names.2 )
+  
+  shared <- intersect( var.names.1, var.names.2 ) %>% sort()
+  print( "SHARED VARIABLES:")
+  print( shared )
+  
+  not.shared <- c( setdiff( var.names.1, var.names.2 ),
+                   setdiff( var.names.2, var.names.1 ) ) %>% sort()
+  
+  print( "NOT SHARED:" )
+  print( not.shared )
+  
+  d.vars1 <- data.frame( type="shared", variables=shared, stringsAsFactors=F )
+  d.vars2 <- data.frame( type="not shared", variables=not.shared, stringsAsFactors=F )
+  dd <- rbind( d.vars1, d.vars2 )
+  
+  return( dd )
+}
+vars <- compare_dfs( df1=d1, df2=d2 )
+
+
+```
+
+
+
+
+
+```{r}
+
+
+d.full <- d
+
+
+```
+
+
+###2000-2010 Variables
+
+
+```{r}
+
+
+d <- d.full  
+
+d <- select( d, tractid, mhmval00, mhmval12, hinc00, 
+             hu00, own00, rent00,  
+             empclf00, clf00, unemp00, prof00,  
+             dpov00, npov00,
+             ag25up00, hs00, col00, 
+             pop00.x, nhwht00, nhblk00, hisp00, asian00,
+             cbsa, cbsaname )
+
+d <- 
+  d %>%
+  mutate( p.white = 100 * nhwht00 / pop00.x,
+          p.black = 100 * nhblk00 / pop00.x,
+          p.hisp = 100 * hisp00 / pop00.x, 
+          p.asian = 100 * asian00 / pop00.x,
+          p.hs = 100 * (hs00+col00) / ag25up00,
+          p.col = 100 * col00 / ag25up00,
+          p.prof = 100 * prof00 / empclf00,
+          p.unemp = 100 * unemp00 / clf00,
+          pov.rate = 100 * npov00 / dpov00 )
+
+
+```
+
+
+
+
+
+```{r, results='asis'}
+
+# adjust 2000 home values for inflation 
+mhv.00 <- d$mhmval00 * 1.28855  
+mhv.10 <- d$mhmval12
+
+mhv.change <- mhv.10 - mhv.00
+
+df <- data.frame( MedianHomeValue2000=mhv.00, 
+                  MedianHomeValue2010=mhv.10, 
+                  Change.00.to.10=mhv.change )
+
+stargazer( df, 
+           type="html", 
+           digits=0, 
+           summary.stat = c("min", "p25","median","mean","p75","max") )
+
+```
+
+
+
+###Change in MHV 2000-2010
+
+
+```{r}
+
+
+#filter out properties valued under $10,000 in 2000
+
+mhv.00[ mhv.00 < 10000 ] <- NA
+pct.change <- mhv.change / mhv.00
+summary( pct.change )
+         
+         
+```
+
+
+###Group growth rate by metro area
+
+
+```{r}
+
+
+d$mhv.change <- mhv.change 
+d$pct.change <- pct.change
+d$mhv.10 <- mhv.10
+d$mhv.00 <- mhv.00
+
+
+  
+         
+```
+
+
+###Select gentrification variables
+
+
+```{r}
+
+
+
+d.full$mhv.00 <- mhv.00
+d.full$mhv.10 <- mhv.10
+d.full$mhv.change <- mhv.change
+d.full$pct.change <- pct.change
+  
+         
+```
+
+
+
+
+
+```{r}
+
+
+
+d3 <- select( d.full, 
+             
+             tractid, cbsa, cbsaname,            # ids / units of analysis
+             
+             mhv.00, mhv.10, mhv.change, pct.change,    # home value 
+             
+             hinc00, hu00, own00, rent00,        # ses
+             hinc12, hu10, own10, rent10,
+             
+             empclf00, clf00, unemp00, prof00,   # employment 
+             empclf12, clf12, unemp12, prof12,
+             
+             dpov00, npov00,                     # poverty
+             dpov12, npov12,
+             
+             ag25up00, hs00, col00,              # education 
+             ag25up12, hs12, col12,
+             
+             pop00.x, nhwht00, nhblk00, hisp00, asian00,   # race
+             pop10, nhwht10, nhblk10, hisp10, asian10
+             
+          ) # end select
+d3 <- 
+  d3 %>%
+  mutate( 
+          # 2000 variables
+          p.white.00 = 100 * nhwht00 / pop00.x,
+          p.black.00 = 100 * nhblk00 / pop00.x,
+          p.hisp.00 = 100 * hisp00 / pop00.x, 
+          p.asian.00 = 100 * asian00 / pop00.x,
+          p.hs.edu.00 = 100 * (hs00+col00) / ag25up00,
+          p.col.edu.00 = 100 * col00 / ag25up00,
+          p.prof.00 = 100 * prof00 / empclf00,
+          p.unemp.00 = 100 * unemp00 / clf00,
+          pov.rate.00 = 100 * npov00 / dpov00,
+          
+          # 2010 variables
+          p.white.10 = 100 * nhwht10 / pop10,
+          p.black.10 = 100 * nhblk10 / pop10,
+          p.hisp.10 = 100 * hisp10 / pop10, 
+          p.asian.10 = 100 * asian10 / pop10,
+          p.hs.edu.10 = 100 * (hs12+col12) / ag25up12,
+          p.col.edu.10 = 100 * col12 / ag25up12,
+          p.prof.10 = 100 * prof12 / empclf12,
+          p.unemp.10 = 100 * unemp12 / clf12,
+          pov.rate.10 = 100 * npov12 / dpov12 )
+
+
+  
+         
+```
+
+
+
+
+
+```{r}
+
+
+d3 <-
+  d3 %>%
+  group_by( cbsaname ) %>%
+  mutate( metro.mhv.pct.00 = ntile( mhv.00, 100 ),
+          metro.mhv.pct.10 = ntile( mhv.10, 100 ),
+          metro.median.pay.00 = median( hinc00, na.rm=T ),
+          metro.median.pay.10 = median( hinc12, na.rm=T ),
+          metro.race.rank.00 = ntile( (100-p.white.00), 100 ) ) %>%
+  ungroup() %>%
+  mutate( metro.mhv.pct.change = metro.mhv.pct.10 - metro.mhv.pct.00,
+          pay.change = metro.median.pay.10 - metro.median.pay.00,
+          race.change = p.white.10 - p.white.00,
+          mhv.change = mhv.10 - mhv.00 )
+
+
+  
+         
+```
+
+
+
+####Descriptive statistics of change variables
+
+
+
+```{r, results='asis'}
+
+
+d3 <-           
+  d3 %>%
+  select( c( "tractid", "cbsa", "cbsaname",
+             "mhv.00", "mhv.10", "mhv.change","pct.change",
+          "p.white.00", "p.black.00", "p.hisp.00", "p.asian.00", 
+          "p.hs.edu.00", "p.col.edu.00", "p.prof.00",  "p.unemp.00", 
+          "pov.rate.00", "p.white.10", "p.black.10", "p.hisp.10", 
+          "p.asian.10", "p.hs.edu.10", "p.col.edu.10", "p.prof.10", 
+          "p.unemp.10", "pov.rate.10", "metro.mhv.pct.00", 
+          "metro.mhv.pct.10", "metro.median.pay.00", "metro.median.pay.10", 
+          "metro.mhv.pct.change", "pay.change", "race.change",
+          "metro.race.rank.00") ) 
+  
+d3 <- data.frame(d3)
+stargazer( d3, 
+           type=S_TYPE, 
+           digits=0, 
+           summary.stat = c("min", "p25","median","mean","p75","max") )
+
+         
+```
+
+
+
+####Remove tracts where properties were worth less than $10,000 in 2000
+
+
+
+```{r}
+
+
+mhv.00[ mhv.00 < 10000 ] <- NA
+pct.change <- 100 * ( mhv.change / mhv.00 )
+summary( pct.change )
+
+
+  
+         
+```
+
+
+
+####Remove tracts with growth above 200%
+
+
+```{r}
+
+pct.change[ pct.change > 200 ] <- NA
+  
+         
+```
+
+
+
+#Part 2, Predict MHV Change
+
+
+## Select at least three census variables that you feel will be good predictors of change in MHV between 2000 and 2010. 
+
+* Percent white residents in 2000 (p.white.00)
+* Percent with 4-year college education or more (p.col.edu.00)
+* Poverty rate in 2000 (pov.rate.00)
+
+
+##Check for variable skew 
+
+```{r}
+
+hist( d3$p.white.00, breaks = 50 )
+
+hist( log( d3$p.white.00 + 1), breaks = 50 )
+
+hist( d3$p.col.edu.00, breaks = 50 )
+
+hist( log( d3$p.col.edu.00 + 1 ), breaks = 50 )
+
+hist( d3$pov.rate.00, breaks = 50 )
+
+hist( log( d3$pov.rate.00 + 1 ), breaks = 50 )  
+         
+```
+
+
+
+
+
+```{r}
+
+log.p.white.00 <- log10( d3$p.white.00 + 1 )
+log.p.col.edu.00 <- log10( d3$p.col.edu.00 + 1 )
+
+par( mfrow=c( 1, 2 ))
+
+these <- sample( 1:length( log.p.white.00), 5000 )
+
+jplot( d3$p.white.00[these], d3$p.col.edu.00[these],
+       lab1 = "Percent White", lab2 = "Percent College Educated",
+       main = "Raw Measures" )
+
+jplot( log.p.white.00[these], log.p.col.edu.00[these],
+       lab1 = "Percent White", lab2 = "Percent College Educated",
+       main = "Log Transformed" )  
+         
+```
+
+
+
+
+```{r}
+
+cor( d3$p.white.00, d3$p.col.edu.00, use = "pairwise.complete" )
+
+cor( log.p.white.00, log.p.col.edu.00, use = "pairwise.complete" )
+  
+         
+```
+
+
+
+
+```{r}
+
+hist( pct.change, breaks = 50 )
+hist( mhv.00, breaks = 50 )
+hist( log( mhv.00 + 1 ), breaks = 50 )
+hist( mhv.change, breaks = 50 )
+hist( log( mhv.change + 1 ), breaks = 50 )
+  
+         
+```
+
+
+Determined that logging improves the skew for p.white.00, p.col.edu.00, pov.rate.00,
+mhv.00, and mhv.change, but not pct.change. 
+
+
+####Check for multicollinearity  
+
+
+```{r}
+
+# Correlations of raw scores
+
+
+d4 <- select( d3, p.white.00, p.col.edu.00, pov.rate.00, mhv.00, mhv.change, pct.change )
+set.seed( 1234 )
+d4 <- sample_n( d4, 10000 ) %>% na.omit()
+pairs( d4, upper.panel=panel.cor, lower.panel=panel.smooth )  
+         
+```
+
+
+
+
+
+```{r}
+
+# Correlations of logged scores
+
+set.seed( 1234 )
+
+d4 <- select( d3, p.white.00, p.col.edu.00, pov.rate.00, mhv.change )
+
+d4$p.white.00 <- log10( d4$p.white.00 + 1 )
+d4$p.col.edu.00 <- log10( d4$p.col.edu.00 + 1 )
+d4$pov.rate.00 <- log10( d4$pov.rate.00 + 1 )
+d4$mhv.change <- log10( d4$mhv.change + 1 )
+
+d5 <- sample_n( d4, 5000 ) %>% na.omit()
+
+pairs( d5, upper.panel = panel.cor, lower.panel = panel.smooth )
+  
+         
+```
+
+
+
+##Regression models with metro-area fixed effects
+
+
+```{r}
+
+d.reg <- d
+
+d.reg$mhv.change[ d.reg$mhv.change > 200 ] <- NA
+d.reg$p.white <- log10( d.reg$p.white + 1 )
+d.reg$p.col <- log10( d.reg$p.col + 1 )
+d.reg$pov.rate <- log10( d.reg$pov.rate + 1 )
+
+# average growth in median home value for the city
+d.reg <- 
+  d.reg %>%
+  group_by( cbsaname ) %>%
+  mutate( metro.mhv.growth = 100 * median( mhv.change, na.rm=T ) ) %>%
+  ungroup()   
+         
+```
+
+
+
+
+
+####Each variable alone (with metro-area fixed effects)
+
+```{r, results='asis'}
+
+
+m1 <- lm( mhv.change ~ p.white + cbsa, data = d.reg )
+m2 <- lm( mhv.change ~ p.col + cbsa, data = d.reg )
+m3 <- lm( mhv.change ~ pov.rate + cbsa, data = d.reg )
+stargazer( m1, m2, m3,
+           type = S_TYPE, digits = 2,
+           omit.stat = c( "rsq", "f" ),
+           omit = "cbsa" )
+
+```
+
+
+
+
+
+####Regression with multiple variables
+
+```{r, results='asis'}
+
+
+m1 <- lm( mhv.change ~ p.white + p.col + cbsa, data=d.reg )
+m2 <- lm( mhv.change ~ p.white + pov.rate + cbsa, data = d.reg)
+m3 <- lm( mhv.change ~ pov.rate + p.col + cbsa, data = d.reg )
+m4 <- lm( mhv.change ~ p.white + p.col + pov.rate + cbsa, data=d.reg)
+stargazer( m1, m2, m3, m4,  
+           type= S_TYPE, digits=2,
+           omit.stat = c("rsq","f"),
+           omit="cbsa" )
+
+
+         
+```
+
+
+##Part 3: Results
+
+
+
+Based on the 3 selected variables (percent white residents, percent with college education), they could predict the change significantly in the median home values between 2000 and 2010. 
+
+The Adjusted R2 for Model 4 with all three variables included was 0.31 and
+significant at the p<0.01 level. Each of these variables had a negative correlation,
+Therefore, there is a higher percentage of white residents and a higher percentage of college graduates
+Higher education and poverty rate both indicate smaller changes in median home values.
+
+Although this relationship was expected for the high priced tracts that has white higher educated residents as they are not under the threat of gentrification, the poverty rate has also a negative correlation. Also in Model 2 where college education is not included, poverty rate has a positive
+correlation with median home value change.
