@@ -122,29 +122,29 @@ d$mhv.growth <- mhv.growth
 
 # select a few variables ----
 d <- dplyr::select( d, 
-             
-             tractid, cbsa, cbsaname,            # ids / units of analysis
-             
-             mhv.00, mhv.10, mhv.change, mhv.growth,    # home value 
-             
-             hinc00, hu00, own00, rent00,        # ses
-             hinc12, hu10, own10, rent10,
-             
-             empclf00, clf00, unemp00, prof00,   # employment 
-             empclf12, clf12, unemp12, prof12,
-             
-             dpov00, npov00,                     # poverty
-             dpov12, npov12,
-             
-             ag25up00, hs00, col00,              # education 
-             ag25up12, hs12, col12,
-             
-             pop00.x, nhwht00, nhblk00, hisp00, asian00,   # race
-             pop10, nhwht10, nhblk10, hisp10, asian10,
-             
-             num.nmtc, nmtc.total,              # tax policy data
-             num.lihtc, lihtc.total             # aggregated by census tract
-             
+                    
+                    tractid, cbsa, cbsaname,            # ids / units of analysis
+                    
+                    mhv.00, mhv.10, mhv.change, mhv.growth,    # home value 
+                    
+                    hinc00, hu00, own00, rent00,        # ses
+                    hinc12, hu10, own10, rent10,
+                    
+                    empclf00, clf00, unemp00, prof00,   # employment 
+                    empclf12, clf12, unemp12, prof12,
+                    
+                    dpov00, npov00,                     # poverty
+                    dpov12, npov12,
+                    
+                    ag25up00, hs00, col00,              # education 
+                    ag25up12, hs12, col12,
+                    
+                    pop00.x, nhwht00, nhblk00, hisp00, asian00,   # race
+                    pop10, nhwht10, nhblk10, hisp10, asian10,
+                    
+                    num.nmtc, nmtc.total,              # tax policy data
+                    num.lihtc, lihtc.total             # aggregated by census tract
+                    
 ) # end select
 
 
@@ -251,12 +251,29 @@ y1 <- log( d$mhv.00 )
 y2 <- log( d$mhv.10 )
 
 # create a variable that identifies if a tract received NMTC funding
-treat <- as.numeric( d$num.nmtc > 0 )
+treat.nmtc <- as.numeric( d$num.nmtc > 0 )
 
-# store the year 2000 data
-d1 <- data.frame( y=y1, treat=treat, post=0 )
-# store the year 2010 data
-d2 <- data.frame( y=y2, treat=treat, post=1 )
+# add model predictor variables: p.white.00, p.col.edu.00, and pov.rate.00
 
-# stack the two time periods together
+# store the year 2000 NMTC data
+d1 <- data.frame( y=y1, treat.nmtc=treat.nmtc, post=0, p.white = d$p.white.00,
+                  p.col.edu.00 = d$p.col.edu.00, pov.rate.00 = d$pov.rate.00 )
+# store the year 2010 NMTC data
+d2 <- data.frame( y=y2, treat.nmtc=treat.nmtc, post=1, p.white = d$p.white.00,
+                  p.col.edu.00 = d$p.col.edu.00, pov.rate.00 = d$pov.rate.00   )
+
+# stack the two time periods together for NMTC
 d3 <- rbind( d1, d2 )
+
+# create variable that identifies if a tract received LIHTC funding
+treat.lihtc <- as.numeric( d$num.lihtc > 0 )
+
+# Store 2000 LIHTC data
+d4 <- data.frame( y=y1, treat.lihtc=treat.lihtc, post=0,  p.white = d$p.white.00,
+                  p.col.edu.00 = d$p.col.edu.00, pov.rate.00 = d$pov.rate.00 ) 
+# Store 2010 LIHTC
+d5 <- data.frame( y=y2, treat.lihtc=treat.lihtc, post=1,  p.white = d$p.white.00,
+                  p.col.edu.00 = d$p.col.edu.00, pov.rate.00 = d$pov.rate.00 )
+
+# Stack two time periods together for LIHTC
+d6 <- rbind( d4, d5 )
