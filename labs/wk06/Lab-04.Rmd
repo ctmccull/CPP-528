@@ -1,0 +1,293 @@
+---
+title: "CPP-528 Lab 04"
+author: "Team 2"
+date: '2022-04-10'
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+```{r, echo=FALSE, include=FALSE, warning=FALSE}
+
+library( dplyr )
+library( here )
+library( kableExtra )
+library( knitr )
+library( pander )
+library( stargazer )
+library( scales )
+
+# set randomization seed ----
+set.seed( 1234 )
+
+import::here("S_TYPE",
+             "panel.cor",
+             "panel.smooth",
+             "jplot",
+             "d",
+             "df",
+             "d.full",
+             "d3",
+             "pct.change",
+             .from = here::here("labs/wk06/lab_06_source.R"),
+             .character_only = TRUE)
+
+```
+
+
+## Part 1, Data
+
+
+### Summary statistics of Median Home Value in 2000, 2010, and change
+
+```{r, results='asis'}
+
+stargazer( df, 
+           type="html", 
+           digits=0, 
+           summary.stat = c("min", "p25","median","mean","p75","max") )
+
+```
+
+
+### Change in MHV 2000-2010
+
+```{r, echo=FALSE}
+
+summary( pct.change )
+
+```
+
+
+### Descriptive statistics of change variables
+
+```{r, echo=FALSE, results='asis'}
+
+df <- data.frame(df)
+stargazer( df, 
+           type="html", 
+           digits=0, 
+           summary.stat = c("min", "p25","median","mean","p75","max") )
+
+```
+
+# Part 2, Predict MHV Change
+
+
+## Select at least three census variables that you feel will be good predictors of change in MHV between 2000 and 2010. 
+
+* Percent white residents in 2000 (p.white.00)
+* Percent with 4-year college education or more (p.col.edu.00)
+* Poverty rate in 2000 (pov.rate.00)
+
+
+## Descriptive statistics of change variables
+
+```{r, results='asis', echo=FALSE}
+
+d3 <- data.frame(d3)
+stargazer( d3, 
+           type="html", 
+           digits=0, 
+           summary.stat = c("min", "p25","median","mean","p75","max") )
+
+```
+
+
+
+## Check for variable skew
+If variables are skewed, log to establish normal distribution
+
+```{r, echo=FALSE}
+par( mfrow=c(1,2) )
+
+hist( d3$p.white.00, breaks = 50 )
+
+hist( log( d3$p.white.00 + 1), breaks = 50 )
+
+hist( d3$p.col.edu.00, breaks = 50 )
+
+hist( log( d3$p.col.edu.00 + 1 ), breaks = 50 )
+
+hist( d3$pov.rate.00, breaks = 50 )
+
+hist( log( d3$pov.rate.00 + 1 ), breaks = 50 )
+
+```
+
+
+```{r, echo=FALSE}
+
+log.p.white.00 <- log10( d3$p.white.00 + 1 )
+log.p.col.edu.00 <- log10( d3$p.col.edu.00 + 1 )
+
+par( mfrow=c( 1, 2 ))
+
+these <- sample( 1:length( log.p.white.00), 5000 )
+
+jplot( d3$p.white.00[these], d3$p.col.edu.00[these],
+       lab1 = "Percent White", lab2 = "Percent College Educated",
+       main = "Raw Measures" )
+
+jplot( log.p.white.00[these], log.p.col.edu.00[these],
+       lab1 = "Percent White", lab2 = "Percent College Educated",
+       main = "Log Transformed" )
+
+```
+
+```{r, echo=FALSE, results='hide'}
+
+cor( d3$p.white.00, d3$p.col.edu.00, use = "pairwise.complete" )
+
+cor( log.p.white.00, log.p.col.edu.00, use = "pairwise.complete" )
+
+```
+
+
+```{r, warning=FALSE, echo=FALSE}
+
+hist( pct.change, breaks = 50 )
+
+par( mfrow=c(1,2) )
+
+hist( d$mhv.00, breaks = 50 )
+
+hist( log( d$mhv.00 + 1 ), breaks = 50 )
+
+hist( d$mhv.change, breaks = 50 )
+
+hist( log( d$mhv.change + 1 ), breaks = 50 )
+
+```
+
+Determined that logging improves the skew for p.white.00, p.col.edu.00, pov.rate.00,
+mhv.00, and mhv.change, but not pct.change. 
+
+
+## Check for multicollinearity  
+
+### Correlations of raw scores
+
+```{r, echo=FALSE}
+# Correlations of raw scores
+
+d4 <- select( d3, p.white.00, p.col.edu.00, pov.rate.00, mhv.00, mhv.change, pct.change )
+
+set.seed( 1234 )
+d4 <- sample_n( d4, 10000 ) %>% na.omit()
+
+pairs( d4, upper.panel=panel.cor, lower.panel=panel.smooth )
+
+```
+
+### Correlations of logged scores
+
+```{r, warning=FALSE, echo=FALSE}
+# Correlations of logged scores
+
+set.seed( 1234 )
+
+d4 <- select( d3, p.white.00, p.col.edu.00, pov.rate.00, mhv.change )
+
+d4$p.white.00 <- log10( d4$p.white.00 + 1 )
+d4$p.col.edu.00 <- log10( d4$p.col.edu.00 + 1 )
+d4$pov.rate.00 <- log10( d4$pov.rate.00 + 1 )
+d4$mhv.change <- log10( d4$mhv.change + 1 )
+
+d5 <- sample_n( d4, 5000 ) %>% na.omit()
+
+pairs( d5, upper.panel = panel.cor, lower.panel = panel.smooth )
+
+
+```
+
+
+## Regression models with metro-area fixed effects
+
+
+```{r, echo=FALSE}
+
+d.reg <- d
+
+d.reg$mhv.change[ d.reg$mhv.change > 200 ] <- NA
+d.reg$p.white <- log10( d.reg$p.white.00 + 1 )
+d.reg$p.col <- log10( d.reg$p.col.edu.00 + 1 )
+d.reg$pov.rate <- log10( d.reg$pov.rate.00 + 1 )
+
+# average growth in median home value for the city
+d.reg <- 
+  d.reg %>%
+  group_by( cbsaname ) %>%
+  mutate( metro.mhv.growth = 100 * median( mhv.change, na.rm=T ) ) %>%
+  ungroup() 
+
+```
+
+
+### Each variable alone (with metro-area fixed effects)
+
+```{r, results='asis', echo=FALSE}
+
+m1 <- lm( mhv.change ~ p.white + cbsa, data = d.reg )
+m2 <- lm( mhv.change ~ p.col + cbsa, data = d.reg )
+m3 <- lm( mhv.change ~ pov.rate + cbsa, data = d.reg )
+
+stargazer( m1, m2, m3,
+           type = "html", digits = 2,
+           omit.stat = c( "rsq", "f" ),
+           omit = "cbsa" )
+
+```
+
+### Regression with multiple variables
+
+```{r, results='asis', echo=FALSE}
+
+
+m1 <- lm( mhv.change ~ p.white + p.col + cbsa, data=d.reg )
+m2 <- lm( mhv.change ~ p.white + pov.rate + cbsa, data = d.reg)
+m3 <- lm( mhv.change ~ pov.rate + p.col + cbsa, data = d.reg )
+m4 <- lm( mhv.change ~ p.white + p.col + pov.rate + cbsa, data=d.reg)
+
+stargazer( m1, m2, m3, m4,  
+           type= "html", digits=2,
+           omit.stat = c("rsq","f"),
+           omit="cbsa" )
+
+```
+
+
+## Part 4 Results
+
+Each of the three variables I chose (percent white residents, percent with college
+or greater education level, and poverty rate) did significantly predict change in
+median home values from 2000 to 2010. Controlling for metro area fixed effects, the 
+amount of variance accounted for was approximately equal whether looking at any 
+of these variables alone or in a model including two or three variable--each of
+these models had an Adjusted R2 of 0.29 to 0.31. This is likely because of the strong
+correlations between the variables. 
+
+Model 4 with all three variables included produced an Adjusted R2 of 0.31, 
+significant  at the p<0.01 level. Each of these variables had a negative correlation,
+thus a higher percentage of white residents, higher percentage with a college
+education, or higher poverty rate all indicate a smaller change in median home values.
+
+I expected to see these relationships for percent of white and college-educated 
+residents, since tracts with these demographics may already be high-priced and not
+eligible for gentrification (and I also expect the converse, that areas with low 
+white and college-educated populations may be ripe for gentrification). However, I
+am surprised to see that poverty rate is also a negative correlation. This may be due 
+to multicollinearity, since college education and poverty rate are closely correlated. 
+In Model 2 where college education is not included, poverty rate has a positive
+correlation with median home value change.
+
+
+
+
+
+
+
