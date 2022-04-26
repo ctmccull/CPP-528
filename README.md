@@ -6,8 +6,12 @@ This project was completed for the Arizona State University course CPP-528, Foun
 
 US Census data were used to evaluate the impact of two tax credit programs, New Market Tax Credits and Low Income Housing Tax Credits, using median home values as an indicator of improved neighborhood wellbeing. 
 
-Team Members:
+**Team Members**
+<br>
 Sarah Johaningsmeir, https://github.com/Johaning
+<br>
 Caitlyn Mccullers
+<br>
 Ahmed Radwan
+<br>
 Mohamed Said
