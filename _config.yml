@@ -1,6 +1,6 @@
 theme: jekyll-theme-architect
 
-#navigation:
-#- README.md
-#- chapters.md
-#- about.md
+navigation:
+- README.md
+- chapters.md
+- about.md
